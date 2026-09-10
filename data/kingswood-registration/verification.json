@@ -1,0 +1,278 @@
+[
+  {
+    "phase": 1,
+    "buildingCSUID": "1821934639T20050430",
+    "nameCheck": "樂湖居第一座",
+    "coordinateRangeCheck": true,
+    "nearestSameCourtTowers": [
+      {
+        "nameEN": "Locwood Court Block 2",
+        "nameTC": "樂湖居第二座",
+        "csuid": "1818534651T20050430",
+        "distanceMetres": 38.1,
+        "centroidWGS84": [
+          114.00118214983412,
+          22.45120194153105
+        ]
+      },
+      {
+        "nameEN": "Locwood Court Block 3",
+        "nameTC": "樂湖居第三座",
+        "csuid": "1814834662T20050430",
+        "distanceMetres": 75.8,
+        "centroidWGS84": [
+          114.00083245974538,
+          22.45130481378214
+        ]
+      },
+      {
+        "nameEN": "Locwood Court Block 4",
+        "nameTC": "樂湖居第四座",
+        "csuid": "1811334671T20050430",
+        "distanceMetres": 111.7,
+        "centroidWGS84": [
+          114.00049999283226,
+          22.451403018245003
+        ]
+      }
+    ],
+    "higherResolutionRmsMetres": 0.48936180386779526,
+    "windingAndCyclicOrderScoreRangeMetres": [
+      0.48893270992245197,
+      0.48945080378639416
+    ],
+    "bestRotationStillWins": true,
+    "facadeNormalAndOneMetreOffsetCheck": "passed for A–H",
+    "wgs84RoundingMaximumToleranceMetres": 0.08
+  },
+  {
+    "phase": 2,
+    "buildingCSUID": "1824634806T20050430",
+    "nameCheck": "賞湖居第一座",
+    "coordinateRangeCheck": true,
+    "nearestSameCourtTowers": [
+      {
+        "nameEN": "Sherwood Court Block 2",
+        "nameTC": "賞湖居第二座",
+        "csuid": "1825934841T20050430",
+        "distanceMetres": 37.9,
+        "centroidWGS84": [
+          114.00190118722038,
+          22.45292742082973
+        ]
+      },
+      {
+        "nameEN": "Sherwood Court Block 3",
+        "nameTC": "賞湖居第三座",
+        "csuid": "1826934876T20050430",
+        "distanceMetres": 76.4,
+        "centroidWGS84": [
+          114.00201385862627,
+          22.453259471059937
+        ]
+      },
+      {
+        "nameEN": "Sherwood Court Block 4",
+        "nameTC": "賞湖居第四座",
+        "csuid": "1828034914T20050430",
+        "distanceMetres": 115.2,
+        "centroidWGS84": [
+          114.00212401516896,
+          22.4535939218405
+        ]
+      }
+    ],
+    "higherResolutionRmsMetres": 0.37974261889609273,
+    "windingAndCyclicOrderScoreRangeMetres": [
+      0.37970109455893164,
+      0.379824071112447
+    ],
+    "bestRotationStillWins": true,
+    "facadeNormalAndOneMetreOffsetCheck": "passed for A–H",
+    "wgs84RoundingMaximumToleranceMetres": 0.08
+  },
+  {
+    "phase": 3,
+    "buildingCSUID": "1797235344T20050430",
+    "nameCheck": "翠湖居第一座",
+    "coordinateRangeCheck": true,
+    "nearestSameCourtTowers": [
+      {
+        "nameEN": "Chestwood Court Block 2",
+        "nameTC": "翠湖居第二座",
+        "csuid": "1799735365T20050430",
+        "distanceMetres": 38.2,
+        "centroidWGS84": [
+          113.99944203726557,
+          22.457642093145104
+        ]
+      },
+      {
+        "nameEN": "Chestwood Court Block 3",
+        "nameTC": "翠湖居第三座",
+        "csuid": "1803335404T20050430",
+        "distanceMetres": 80.7,
+        "centroidWGS84": [
+          113.9997136118654,
+          22.457946802505194
+        ]
+      },
+      {
+        "nameEN": "Chestwood Court Block 4",
+        "nameTC": "翠湖居第四座",
+        "csuid": "1804635432T20050430",
+        "distanceMetres": 115.6,
+        "centroidWGS84": [
+          113.99984046805424,
+          22.458271542469664
+        ]
+      }
+    ],
+    "higherResolutionRmsMetres": 0.9480441442472588,
+    "windingAndCyclicOrderScoreRangeMetres": [
+      0.9479439384167533,
+      0.9482766398470319
+    ],
+    "bestRotationStillWins": true,
+    "facadeNormalAndOneMetreOffsetCheck": "passed for A–H",
+    "wgs84RoundingMaximumToleranceMetres": 0.08
+  },
+  {
+    "phase": 5,
+    "buildingCSUID": "1849735492T20050430",
+    "nameCheck": "麗湖居第一座",
+    "coordinateRangeCheck": true,
+    "nearestSameCourtTowers": [
+      {
+        "nameEN": "Lynwood Court Block 2",
+        "nameTC": "麗湖居第二座",
+        "csuid": "1851135537T20050430",
+        "distanceMetres": 48.0,
+        "centroidWGS84": [
+          114.00436459410395,
+          22.4592388528358
+        ]
+      },
+      {
+        "nameEN": "Lynwood Court Block 3",
+        "nameTC": "麗湖居第三座",
+        "csuid": "1850935577T20050430",
+        "distanceMetres": 85.2,
+        "centroidWGS84": [
+          114.0043305908732,
+          22.45958872401186
+        ]
+      },
+      {
+        "nameEN": "Lynwood Court Block 4",
+        "nameTC": "麗湖居第四座",
+        "csuid": "1850835616T20050430",
+        "distanceMetres": 123.0,
+        "centroidWGS84": [
+          114.0042933518295,
+          22.459935182599065
+        ]
+      }
+    ],
+    "higherResolutionRmsMetres": 0.9366054888154263,
+    "windingAndCyclicOrderScoreRangeMetres": [
+      0.9365825738548088,
+      0.9368631818006125
+    ],
+    "bestRotationStillWins": true,
+    "facadeNormalAndOneMetreOffsetCheck": "passed for A–H",
+    "wgs84RoundingMaximumToleranceMetres": 0.08
+  },
+  {
+    "phase": 6,
+    "buildingCSUID": "1850535798T20050430",
+    "nameCheck": "美湖居第一座",
+    "coordinateRangeCheck": true,
+    "nearestSameCourtTowers": [
+      {
+        "nameEN": "Maywood Court Block 2",
+        "nameTC": "美湖居第二座",
+        "csuid": "1853735772T20050430",
+        "distanceMetres": 41.2,
+        "centroidWGS84": [
+          114.00465301374572,
+          22.461348810171263
+        ]
+      },
+      {
+        "nameEN": "Maywood Court Block 3",
+        "nameTC": "美湖居第三座",
+        "csuid": "1858535756T20050430",
+        "distanceMetres": 89.3,
+        "centroidWGS84": [
+          114.00511532777303,
+          22.46121400590536
+        ]
+      },
+      {
+        "nameEN": "Maywood Court Block 4",
+        "nameTC": "美湖居第四座",
+        "csuid": "1862435760T20050430",
+        "distanceMetres": 124.2,
+        "centroidWGS84": [
+          114.00549890914905,
+          22.46125462192956
+        ]
+      }
+    ],
+    "higherResolutionRmsMetres": 0.4016415738278147,
+    "windingAndCyclicOrderScoreRangeMetres": [
+      0.4016448825310797,
+      0.4017692268021747
+    ],
+    "bestRotationStillWins": true,
+    "facadeNormalAndOneMetreOffsetCheck": "passed for A–H",
+    "wgs84RoundingMaximumToleranceMetres": 0.08
+  },
+  {
+    "phase": 7,
+    "buildingCSUID": "1883935710T20050430",
+    "nameCheck": "景湖居第一座",
+    "coordinateRangeCheck": true,
+    "nearestSameCourtTowers": [
+      {
+        "nameEN": "Kenswood Court Block 2",
+        "nameTC": "景湖居第二座",
+        "csuid": "1882635665T20050430",
+        "distanceMetres": 45.2,
+        "centroidWGS84": [
+          114.00742482413699,
+          22.46039102352455
+        ]
+      },
+      {
+        "nameEN": "Kenswood Court Block 3",
+        "nameTC": "景湖居第三座",
+        "csuid": "1882935627T20050430",
+        "distanceMetres": 81.8,
+        "centroidWGS84": [
+          114.00745691271706,
+          22.46004708421853
+        ]
+      },
+      {
+        "nameEN": "Kenswood Court Block 4",
+        "nameTC": "景湖居第四座",
+        "csuid": "1883335590T20050430",
+        "distanceMetres": 120.1,
+        "centroidWGS84": [
+          114.00749151476357,
+          22.45969665014107
+        ]
+      }
+    ],
+    "higherResolutionRmsMetres": 0.9417394724322342,
+    "windingAndCyclicOrderScoreRangeMetres": [
+      0.9417372223905582,
+      0.9420925027082332
+    ],
+    "bestRotationStillWins": true,
+    "facadeNormalAndOneMetreOffsetCheck": "passed for A–H",
+    "wgs84RoundingMaximumToleranceMetres": 0.08
+  }
+]

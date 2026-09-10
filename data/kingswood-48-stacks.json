@@ -1,0 +1,2837 @@
+{
+  "scope": "6 first towers × A–H; sample floor 3; use floorModel for other covered typical floors",
+  "records": [
+    {
+      "estate": "嘉湖山莊",
+      "phase": 1,
+      "court": "樂湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "A",
+      "window": "Living-room facade proxy",
+      "lat": 22.451151,
+      "lng": 114.001635,
+      "heading": 61.4,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.451146895601912,
+          "lng": 114.00162639637803
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.5,
+        "registrationP95Metres": 1.01,
+        "nextRotationGapMetres": 0.24,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 61.4,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.0444444444444447,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230225832562_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-locwood-24068",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://338.com.hk/pdf/tp_res_lease.pdf"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.451151,114.001635,16.7,61.4,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 1,
+      "court": "樂湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "B",
+      "window": "Living-room facade proxy",
+      "lat": 22.451135,
+      "lng": 114.001645,
+      "heading": 61.4,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.451130433654093,
+          "lng": 114.00163606986224
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.5,
+        "registrationP95Metres": 1.01,
+        "nextRotationGapMetres": 0.24,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 61.4,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.0444444444444447,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230225832562_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-locwood-24068",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://338.com.hk/pdf/tp_res_lease.pdf"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.451135,114.001645,16.7,61.4,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 1,
+      "court": "樂湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "C",
+      "window": "Living-room facade proxy",
+      "lat": 22.451001,
+      "lng": 114.001599,
+      "heading": 155.6,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.451013642626275,
+          "lng": 114.00159276406703
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.5,
+        "registrationP95Metres": 1.01,
+        "nextRotationGapMetres": 0.24,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 155.6,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.0444444444444447,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230225832562_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-locwood-24068",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://338.com.hk/pdf/tp_res_lease.pdf"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.451001,114.001599,16.7,155.6,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 1,
+      "court": "樂湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "D",
+      "window": "Living-room facade proxy",
+      "lat": 22.450993,
+      "lng": 114.001581,
+      "heading": 155.6,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.45100618871118,
+          "lng": 114.0015750977031
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.5,
+        "registrationP95Metres": 1.01,
+        "nextRotationGapMetres": 0.24,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 155.6,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.0444444444444447,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230225832562_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-locwood-24068",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://338.com.hk/pdf/tp_res_lease.pdf"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.450993,114.001581,16.7,155.6,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 1,
+      "court": "樂湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "E",
+      "window": "Living-room facade proxy",
+      "lat": 22.451043,
+      "lng": 114.00143,
+      "heading": 238.7,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.45104794313008,
+          "lng": 114.00143832952755
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.5,
+        "registrationP95Metres": 1.01,
+        "nextRotationGapMetres": 0.24,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 238.7,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.0444444444444447,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230225832562_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-locwood-24068",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://338.com.hk/pdf/tp_res_lease.pdf"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.451043,114.00143,16.7,238.7,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 1,
+      "court": "樂湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "F",
+      "window": "Living-room facade proxy",
+      "lat": 22.451057,
+      "lng": 114.001421,
+      "heading": 238.7,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.451061789928385,
+          "lng": 114.00142925769667
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.5,
+        "registrationP95Metres": 1.01,
+        "nextRotationGapMetres": 0.24,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 238.7,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.0444444444444447,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230225832562_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-locwood-24068",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://338.com.hk/pdf/tp_res_lease.pdf"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.451057,114.001421,16.7,238.7,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 1,
+      "court": "樂湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "G",
+      "window": "Living-room facade proxy",
+      "lat": 22.451188,
+      "lng": 114.001466,
+      "heading": 334.7,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.45117937794361,
+          "lng": 114.00147000880696
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.5,
+        "registrationP95Metres": 1.01,
+        "nextRotationGapMetres": 0.24,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 334.7,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.0444444444444447,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230225832562_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-locwood-24068",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://338.com.hk/pdf/tp_res_lease.pdf"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.451188,114.001466,16.7,334.7,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 1,
+      "court": "樂湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "H",
+      "window": "Living-room facade proxy",
+      "lat": 22.451195,
+      "lng": 114.001482,
+      "heading": 334.7,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.45118646439704,
+          "lng": 114.00148612225975
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.5,
+        "registrationP95Metres": 1.01,
+        "nextRotationGapMetres": 0.24,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 334.7,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.0444444444444447,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230225832562_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-locwood-24068",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://338.com.hk/pdf/tp_res_lease.pdf"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.451195,114.001482,16.7,334.7,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 2,
+      "court": "賞湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "A",
+      "window": "Living-room facade proxy",
+      "lat": 22.452561,
+      "lng": 114.001686,
+      "heading": 236.6,
+      "altitude": 17.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.4525655473185,
+          "lng": 114.0016941407295
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.39,
+        "registrationP95Metres": 0.81,
+        "nextRotationGapMetres": 0.38,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 236.6,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.7,
+          "floorToFloor": 3.1457142857142855,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230327817192_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-sherwood-24069",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.am730.com.hk/article/405840"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.452561,114.001686,17.6,236.6,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 2,
+      "court": "賞湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "B",
+      "window": "Living-room facade proxy",
+      "lat": 22.452546,
+      "lng": 114.001697,
+      "heading": 236.6,
+      "altitude": 17.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.45255075002007,
+          "lng": 114.00170464044037
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.39,
+        "registrationP95Metres": 0.81,
+        "nextRotationGapMetres": 0.38,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 236.6,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.7,
+          "floorToFloor": 3.1457142857142855,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230327817192_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-sherwood-24069",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.am730.com.hk/article/405840"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.452546,114.001697,17.6,236.6,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 2,
+      "court": "賞湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "C",
+      "window": "Living-room facade proxy",
+      "lat": 22.4525,
+      "lng": 114.001843,
+      "heading": 154.1,
+      "altitude": 17.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.452512541086243,
+          "lng": 114.00183661595571
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.39,
+        "registrationP95Metres": 0.81,
+        "nextRotationGapMetres": 0.38,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 154.1,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.7,
+          "floorToFloor": 3.1457142857142855,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230327817192_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-sherwood-24069",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.am730.com.hk/article/405840"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.4525,114.001843,17.6,154.1,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 2,
+      "court": "賞湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "D",
+      "window": "Living-room facade proxy",
+      "lat": 22.452512,
+      "lng": 114.001857,
+      "heading": 154.1,
+      "altitude": 17.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.452519948801726,
+          "lng": 114.00185303755207
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.39,
+        "registrationP95Metres": 0.81,
+        "nextRotationGapMetres": 0.38,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 154.1,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.7,
+          "floorToFloor": 3.1457142857142855,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230327817192_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-sherwood-24069",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.am730.com.hk/article/405840"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.452512,114.001857,17.6,154.1,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 2,
+      "court": "賞湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "E",
+      "window": "Living-room facade proxy",
+      "lat": 22.452647,
+      "lng": 114.001902,
+      "heading": 61.6,
+      "altitude": 17.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.452643165820383,
+          "lng": 114.00189393341152
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.39,
+        "registrationP95Metres": 0.81,
+        "nextRotationGapMetres": 0.38,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 61.6,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.7,
+          "floorToFloor": 3.1457142857142855,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230327817192_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-sherwood-24069",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.am730.com.hk/article/405840"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.452647,114.001902,17.6,61.6,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 2,
+      "court": "賞湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "F",
+      "window": "Living-room facade proxy",
+      "lat": 22.452662,
+      "lng": 114.001894,
+      "heading": 61.6,
+      "altitude": 17.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.452658022624476,
+          "lng": 114.00188530786357
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.39,
+        "registrationP95Metres": 0.81,
+        "nextRotationGapMetres": 0.38,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 61.6,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.7,
+          "floorToFloor": 3.1457142857142855,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230327817192_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-sherwood-24069",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.am730.com.hk/article/405840"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.452662,114.001894,17.6,61.6,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 2,
+      "court": "賞湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "G",
+      "window": "Living-room facade proxy",
+      "lat": 22.452704,
+      "lng": 114.001751,
+      "heading": 335.3,
+      "altitude": 17.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.45269609934961,
+          "lng": 114.00175540618636
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.39,
+        "registrationP95Metres": 0.81,
+        "nextRotationGapMetres": 0.38,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 335.3,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.7,
+          "floorToFloor": 3.1457142857142855,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230327817192_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-sherwood-24069",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.am730.com.hk/article/405840"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.452704,114.001751,17.6,335.3,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 2,
+      "court": "賞湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "H",
+      "window": "Living-room facade proxy",
+      "lat": 22.452697,
+      "lng": 114.001735,
+      "heading": 335.3,
+      "altitude": 17.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.452689001474173,
+          "lng": 114.00173881359437
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.39,
+        "registrationP95Metres": 0.81,
+        "nextRotationGapMetres": 0.38,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 335.3,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.7,
+          "floorToFloor": 3.1457142857142855,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230327817192_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-sherwood-24069",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.am730.com.hk/article/405840"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.452697,114.001735,17.6,335.3,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 3,
+      "court": "翠湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "A",
+      "window": "Living-room facade proxy",
+      "lat": 22.457368,
+      "lng": 113.999092,
+      "heading": 195.2,
+      "altitude": 20.2,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.457376954551368,
+          "lng": 113.99909470083531
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 1.86,
+        "nextRotationGapMetres": 0.23,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 195.2,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 10.5,
+          "floorToFloor": 2.7176470588235295,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230158764526_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-chestwood-24070",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.house730.com/buy-property-8728561/"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.457368,113.999092,20.2,195.2,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 3,
+      "court": "翠湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "B",
+      "window": "Living-room facade proxy",
+      "lat": 22.457373,
+      "lng": 113.999073,
+      "heading": 195.2,
+      "altitude": 20.2,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.457381707293205,
+          "lng": 113.99907593663227
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 1.86,
+        "nextRotationGapMetres": 0.23,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 195.2,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 10.5,
+          "floorToFloor": 2.7176470588235295,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230158764526_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-chestwood-24070",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.house730.com/buy-property-8728561/"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.457373,113.999073,20.2,195.2,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 3,
+      "court": "翠湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "C",
+      "window": "Living-room facade proxy",
+      "lat": 22.457502,
+      "lng": 113.999001,
+      "heading": 283.2,
+      "altitude": 20.2,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.45750015138776,
+          "lng": 113.99901056185826
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 1.86,
+        "nextRotationGapMetres": 0.23,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 283.2,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 10.5,
+          "floorToFloor": 2.7176470588235295,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230158764526_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-chestwood-24070",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.house730.com/buy-property-8728561/"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.457502,113.999001,20.2,283.2,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 3,
+      "court": "翠湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "D",
+      "window": "Living-room facade proxy",
+      "lat": 22.457517,
+      "lng": 113.999005,
+      "heading": 283.2,
+      "altitude": 20.2,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.457515333256833,
+          "lng": 113.99901438705612
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 1.86,
+        "nextRotationGapMetres": 0.23,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 283.2,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 10.5,
+          "floorToFloor": 2.7176470588235295,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230158764526_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-chestwood-24070",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.house730.com/buy-property-8728561/"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.457517,113.999005,20.2,283.2,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 3,
+      "court": "翠湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "E",
+      "window": "Living-room facade proxy",
+      "lat": 22.457587,
+      "lng": 113.999145,
+      "heading": 16.9,
+      "altitude": 20.2,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.457578230393995,
+          "lng": 113.99914231817615
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 1.86,
+        "nextRotationGapMetres": 0.23,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 16.9,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 10.5,
+          "floorToFloor": 2.7176470588235295,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230158764526_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-chestwood-24070",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.house730.com/buy-property-8728561/"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.457587,113.999145,20.2,16.9,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 3,
+      "court": "翠湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "F",
+      "window": "Living-room facade proxy",
+      "lat": 22.457582,
+      "lng": 113.999162,
+      "heading": 16.9,
+      "altitude": 20.2,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.457573615509826,
+          "lng": 113.99915868236938
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 1.86,
+        "nextRotationGapMetres": 0.23,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 16.9,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 10.5,
+          "floorToFloor": 2.7176470588235295,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230158764526_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-chestwood-24070",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.house730.com/buy-property-8728561/"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.457582,113.999162,20.2,16.9,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 3,
+      "court": "翠湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "G",
+      "window": "Living-room facade proxy",
+      "lat": 22.457455,
+      "lng": 113.999235,
+      "heading": 108,
+      "altitude": 20.2,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.457457809623406,
+          "lng": 113.99922557743348
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 1.86,
+        "nextRotationGapMetres": 0.23,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 108,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 10.5,
+          "floorToFloor": 2.7176470588235295,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230158764526_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-chestwood-24070",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.house730.com/buy-property-8728561/"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.457455,113.999235,20.2,108,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 3,
+      "court": "翠湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "H",
+      "window": "Living-room facade proxy",
+      "lat": 22.457439,
+      "lng": 113.999229,
+      "heading": 108,
+      "altitude": 20.2,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.457441575922477,
+          "lng": 113.9992199016329
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 1.86,
+        "nextRotationGapMetres": 0.23,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 108,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 10.5,
+          "floorToFloor": 2.7176470588235295,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230158764526_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-chestwood-24070",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://www.house730.com/buy-property-8728561/"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.457439,113.999229,20.2,108,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 5,
+      "court": "麗湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "A",
+      "window": "Living-room facade proxy",
+      "lat": 22.458722,
+      "lng": 114.004239,
+      "heading": 173,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "low",
+        "facadeMidpoint": {
+          "lat": 22.45873129860465,
+          "lng": 114.00423830918918
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.94,
+        "registrationP95Metres": 2.46,
+        "nextRotationGapMetres": 0.2,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "low",
+        "degrees": 173,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.032258064516129,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230348928362_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-lynwood-24071",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-5期-丽湖居_THY202209R1031"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.458722,114.004239,16.7,173,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 5,
+      "court": "麗湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "B",
+      "window": "Living-room facade proxy",
+      "lat": 22.45872,
+      "lng": 114.00422,
+      "heading": 173,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "low",
+        "facadeMidpoint": {
+          "lat": 22.458729123572226,
+          "lng": 114.00421924125763
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.94,
+        "registrationP95Metres": 2.46,
+        "nextRotationGapMetres": 0.2,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "low",
+        "degrees": 173,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.032258064516129,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230348928362_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-lynwood-24071",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-5期-丽湖居_THY202209R1031"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.45872,114.00422,16.7,173,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 5,
+      "court": "麗湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "C",
+      "window": "Living-room facade proxy",
+      "lat": 22.458813,
+      "lng": 114.004105,
+      "heading": 266.2,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "low",
+        "facadeMidpoint": {
+          "lat": 22.45881310454089,
+          "lng": 114.00411457201085
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.94,
+        "registrationP95Metres": 2.46,
+        "nextRotationGapMetres": 0.2,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "low",
+        "degrees": 266.2,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.032258064516129,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230348928362_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-lynwood-24071",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-5期-丽湖居_THY202209R1031"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.458813,114.004105,16.7,266.2,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 5,
+      "court": "麗湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "D",
+      "window": "Living-room facade proxy",
+      "lat": 22.458829,
+      "lng": 114.004104,
+      "heading": 266.2,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "low",
+        "facadeMidpoint": {
+          "lat": 22.45883008884295,
+          "lng": 114.0041133705845
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.94,
+        "registrationP95Metres": 2.46,
+        "nextRotationGapMetres": 0.2,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "low",
+        "degrees": 266.2,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.032258064516129,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230348928362_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-lynwood-24071",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-5期-丽湖居_THY202209R1031"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.458829,114.004104,16.7,266.2,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 5,
+      "court": "麗湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "E",
+      "window": "Living-room facade proxy",
+      "lat": 22.458936,
+      "lng": 114.004199,
+      "heading": 355.4,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "low",
+        "facadeMidpoint": {
+          "lat": 22.458926600906068,
+          "lng": 114.00420022670204
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.94,
+        "registrationP95Metres": 2.46,
+        "nextRotationGapMetres": 0.2,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "low",
+        "degrees": 355.4,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.032258064516129,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230348928362_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-lynwood-24071",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-5期-丽湖居_THY202209R1031"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.458936,114.004199,16.7,355.4,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 5,
+      "court": "麗湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "F",
+      "window": "Living-room facade proxy",
+      "lat": 22.458937,
+      "lng": 114.004216,
+      "heading": 355.4,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "low",
+        "facadeMidpoint": {
+          "lat": 22.458927818140555,
+          "lng": 114.0042166172867
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.94,
+        "registrationP95Metres": 2.46,
+        "nextRotationGapMetres": 0.2,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "low",
+        "degrees": 355.4,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.032258064516129,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230348928362_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-lynwood-24071",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-5期-丽湖居_THY202209R1031"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.458937,114.004216,16.7,355.4,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 5,
+      "court": "麗湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "G",
+      "window": "Living-room facade proxy",
+      "lat": 22.458847,
+      "lng": 114.004332,
+      "heading": 82.7,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "low",
+        "facadeMidpoint": {
+          "lat": 22.45884580741402,
+          "lng": 114.00432208830478
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.94,
+        "registrationP95Metres": 2.46,
+        "nextRotationGapMetres": 0.2,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "low",
+        "degrees": 82.7,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.032258064516129,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230348928362_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-lynwood-24071",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-5期-丽湖居_THY202209R1031"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.458847,114.004332,16.7,82.7,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 5,
+      "court": "麗湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "H",
+      "window": "Living-room facade proxy",
+      "lat": 22.458832,
+      "lng": 114.004334,
+      "heading": 82.7,
+      "altitude": 16.7,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "low",
+        "facadeMidpoint": {
+          "lat": 22.458830388627444,
+          "lng": 114.00432421375058
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.94,
+        "registrationP95Metres": 2.46,
+        "nextRotationGapMetres": 0.2,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "low",
+        "degrees": 82.7,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 6.1,
+          "floorToFloor": 3.032258064516129,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230348928362_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-lynwood-24071",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-5期-丽湖居_THY202209R1031"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.458832,114.004334,16.7,82.7,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 6,
+      "court": "美湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "A",
+      "window": "Living-room facade proxy",
+      "lat": 22.46157,
+      "lng": 114.004235,
+      "heading": 263.9,
+      "altitude": 22.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.461570701570604,
+          "lng": 114.0042451147651
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.41,
+        "registrationP95Metres": 0.53,
+        "nextRotationGapMetres": 0.36,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 263.9,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 12.7,
+          "floorToFloor": 2.8026315789473686,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230022575259_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-maywood-24072",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-6期-美湖居_GNB202211R0514"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.46157,114.004235,22.6,263.9,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 6,
+      "court": "美湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "B",
+      "window": "Living-room facade proxy",
+      "lat": 22.461587,
+      "lng": 114.004234,
+      "heading": 263.9,
+      "altitude": 22.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.461587643502767,
+          "lng": 114.00424317613393
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.41,
+        "registrationP95Metres": 0.53,
+        "nextRotationGapMetres": 0.36,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 263.9,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 12.7,
+          "floorToFloor": 2.8026315789473686,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230022575259_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-maywood-24072",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-6期-美湖居_GNB202211R0514"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.461587,114.004234,22.6,263.9,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 6,
+      "court": "美湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "C",
+      "window": "Living-room facade proxy",
+      "lat": 22.461692,
+      "lng": 114.004333,
+      "heading": 356.3,
+      "altitude": 22.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.461683053974188,
+          "lng": 114.0043334060621
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.41,
+        "registrationP95Metres": 0.53,
+        "nextRotationGapMetres": 0.36,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 356.3,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 12.7,
+          "floorToFloor": 2.8026315789473686,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230022575259_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-maywood-24072",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-6期-美湖居_GNB202211R0514"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.461692,114.004333,22.6,356.3,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 6,
+      "court": "美湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "D",
+      "window": "Living-room facade proxy",
+      "lat": 22.461693,
+      "lng": 114.00435,
+      "heading": 356.3,
+      "altitude": 22.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.461684063601275,
+          "lng": 114.00435028892886
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.41,
+        "registrationP95Metres": 0.53,
+        "nextRotationGapMetres": 0.36,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 356.3,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 12.7,
+          "floorToFloor": 2.8026315789473686,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230022575259_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-maywood-24072",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-6期-美湖居_GNB202211R0514"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.461693,114.00435,22.6,356.3,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 6,
+      "court": "美湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "E",
+      "window": "Living-room facade proxy",
+      "lat": 22.461605,
+      "lng": 114.004462,
+      "heading": 82.6,
+      "altitude": 22.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.461603768457074,
+          "lng": 114.00445205246089
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.41,
+        "registrationP95Metres": 0.53,
+        "nextRotationGapMetres": 0.36,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 82.6,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 12.7,
+          "floorToFloor": 2.8026315789473686,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230022575259_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-maywood-24072",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-6期-美湖居_GNB202211R0514"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.461605,114.004462,22.6,82.6,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 6,
+      "court": "美湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "F",
+      "window": "Living-room facade proxy",
+      "lat": 22.46159,
+      "lng": 114.004464,
+      "heading": 82.6,
+      "altitude": 22.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.46158849479497,
+          "lng": 114.0044541747562
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.41,
+        "registrationP95Metres": 0.53,
+        "nextRotationGapMetres": 0.36,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 82.6,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 12.7,
+          "floorToFloor": 2.8026315789473686,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230022575259_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-maywood-24072",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-6期-美湖居_GNB202211R0514"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.46159,114.004464,22.6,82.6,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 6,
+      "court": "美湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "G",
+      "window": "Living-room facade proxy",
+      "lat": 22.461484,
+      "lng": 114.004368,
+      "heading": 174.8,
+      "altitude": 22.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.461492522799954,
+          "lng": 114.00436702718129
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.41,
+        "registrationP95Metres": 0.53,
+        "nextRotationGapMetres": 0.36,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 174.8,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 12.7,
+          "floorToFloor": 2.8026315789473686,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230022575259_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-maywood-24072",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-6期-美湖居_GNB202211R0514"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.461484,114.004368,22.6,174.8,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 6,
+      "court": "美湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "H",
+      "window": "Living-room facade proxy",
+      "lat": 22.461482,
+      "lng": 114.00435,
+      "heading": 174.8,
+      "altitude": 22.6,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.461490969015003,
+          "lng": 114.00434868596912
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.41,
+        "registrationP95Metres": 0.53,
+        "nextRotationGapMetres": 0.36,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 174.8,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 12.7,
+          "floorToFloor": 2.8026315789473686,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230022575259_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-maywood-24072",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-6期-美湖居_GNB202211R0514"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.461482,114.00435,22.6,174.8,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 7,
+      "court": "景湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "A",
+      "window": "Living-room facade proxy",
+      "lat": 22.460884,
+      "lng": 114.007541,
+      "heading": 354.2,
+      "altitude": 21.4,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.46087515969442,
+          "lng": 114.00754151555557
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 2.56,
+        "nextRotationGapMetres": 0.19,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 354.2,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 11.8,
+          "floorToFloor": 2.6914285714285717,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-7期-景湖居_GZB202603S0983"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.460884,114.007541,21.4,354.2,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 7,
+      "court": "景湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "B",
+      "window": "Living-room facade proxy",
+      "lat": 22.460886,
+      "lng": 114.007559,
+      "heading": 354.2,
+      "altitude": 21.4,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.460876876529554,
+          "lng": 114.00755964818617
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 2.56,
+        "nextRotationGapMetres": 0.19,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 354.2,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 11.8,
+          "floorToFloor": 2.6914285714285717,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-7期-景湖居_GZB202603S0983"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.460886,114.007559,21.4,354.2,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 7,
+      "court": "景湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "C",
+      "window": "Living-room facade proxy",
+      "lat": 22.460793,
+      "lng": 114.007675,
+      "heading": 85.1,
+      "altitude": 21.4,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.46079214601946,
+          "lng": 114.00766496333497
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 2.56,
+        "nextRotationGapMetres": 0.19,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 85.1,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 11.8,
+          "floorToFloor": 2.6914285714285717,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-7期-景湖居_GZB202603S0983"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.460793,114.007675,21.4,85.1,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 7,
+      "court": "景湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "D",
+      "window": "Living-room facade proxy",
+      "lat": 22.460777,
+      "lng": 114.007676,
+      "heading": 85.1,
+      "altitude": 21.4,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.46077600617621,
+          "lng": 114.00766646517803
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 2.56,
+        "nextRotationGapMetres": 0.19,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 85.1,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 11.8,
+          "floorToFloor": 2.6914285714285717,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-7期-景湖居_GZB202603S0983"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.460777,114.007676,21.4,85.1,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 7,
+      "court": "景湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "E",
+      "window": "Living-room facade proxy",
+      "lat": 22.46067,
+      "lng": 114.007578,
+      "heading": 173.8,
+      "altitude": 21.4,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.460678601074477,
+          "lng": 114.00757703765181
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 2.56,
+        "nextRotationGapMetres": 0.19,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 173.8,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 11.8,
+          "floorToFloor": 2.6914285714285717,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-7期-景湖居_GZB202603S0983"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.46067,114.007578,21.4,173.8,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 7,
+      "court": "景湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "F",
+      "window": "Living-room facade proxy",
+      "lat": 22.460668,
+      "lng": 114.007562,
+      "heading": 173.8,
+      "altitude": 21.4,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.46067697758905,
+          "lng": 114.00756093924616
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 2.56,
+        "nextRotationGapMetres": 0.19,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 173.8,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 11.8,
+          "floorToFloor": 2.6914285714285717,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-7期-景湖居_GZB202603S0983"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.460668,114.007562,21.4,173.8,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 7,
+      "court": "景湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "G",
+      "window": "Living-room facade proxy",
+      "lat": 22.460759,
+      "lng": 114.007447,
+      "heading": 267,
+      "altitude": 21.4,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.460759042636013,
+          "lng": 114.00745633506322
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 2.56,
+        "nextRotationGapMetres": 0.19,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 267,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 11.8,
+          "floorToFloor": 2.6914285714285717,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-7期-景湖居_GZB202603S0983"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.460759,114.007447,21.4,267,0.1,0&l=zh-HK"
+    },
+    {
+      "estate": "嘉湖山莊",
+      "phase": 7,
+      "court": "景湖居",
+      "building": 1,
+      "floor": 3,
+      "flat": "H",
+      "window": "Living-room facade proxy",
+      "lat": 22.460775,
+      "lng": 114.007446,
+      "heading": 267,
+      "altitude": 21.4,
+      "altitudeStatus": "estimated",
+      "horizontalGeometry": {
+        "status": "derived-from-plan-and-LandsD",
+        "confidence": "moderate",
+        "facadeMidpoint": {
+          "lat": 22.46077580791179,
+          "lng": 114.00745538710797
+        },
+        "cameraProxyMeters": 1,
+        "registrationRmsMetres": 0.95,
+        "registrationP95Metres": 2.56,
+        "nextRotationGapMetres": 0.19,
+        "handedness": "Uses unmirrored, explicitly named first-tower plan. Comparable mirror diagnostics retained; plan identity and independent coarse direction checks support review, not survey verification.",
+        "accuracyNote": "RMS is fit residual, not absolute position accuracy or a confidence interval. Simplified footprint, hand tracing and glazing inset remain uncertain."
+      },
+      "headingGeometry": {
+        "status": "derived-from-facade-normal",
+        "confidence": "moderate",
+        "degrees": 267,
+        "accuracyNote": "0.1-degree storage is numerical output, not angular accuracy; manually traced facade proxy."
+      },
+      "verticalGeometry": {
+        "status": "estimated",
+        "confidence": "low",
+        "verified": false,
+        "method": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction.",
+        "model": {
+          "type": "formula",
+          "referenceFloor": 0,
+          "referenceAltitude": 11.8,
+          "floorToFloor": 2.6914285714285717,
+          "verified": false,
+          "allowEstimated": true,
+          "confidence": "estimated",
+          "source": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+          "note": "Derived building-average floor elevation — not verified. Assumes G/F at BaseHeight, floor number times (TopHeight−BaseHeight)/Storeys, plus eye height. No verified floor slab, podium, roof, storey-count or vertical-datum correction."
+        }
+      },
+      "sourceUrls": [
+        "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+        "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+        "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0",
+        "https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-7期-景湖居_GZB202603S0983"
+      ],
+      "extractionMethod": "Manual trace of own first-tower plan; 72 rotation seeds, symmetric ICP and Chamfer refinement in local WGS84 ellipsoid metre frame; translation, rotation, uniform scale; no physical reflection applied. Facade midpoint + 1 m outward normal. CW/CCW and cyclic order do not define geographic orientation.",
+      "flytoUrl": "https://3d.map.gov.hk/mapviewer/app/map?flyto=22.460775,114.007446,21.4,267,0.1,0&l=zh-HK"
+    }
+  ]
+}

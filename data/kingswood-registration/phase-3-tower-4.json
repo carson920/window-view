@@ -1,0 +1,103 @@
+{
+  "phase": 3,
+  "building": 4,
+  "official": {
+    "OBJECTID": 258937,
+    "Shape_Length": 179.30243160364768,
+    "Shape_Area": 593.8855117316367,
+    "GeoRefNo": "1804635432",
+    "DateCreate": 1114819200000,
+    "BuildingBlockType": "Tower",
+    "BuildingCSUID": "1804635432T20050430",
+    "BuildingID": 1105716283,
+    "Status": "Active",
+    "BuildingNameEN": "Chestwood Court Block 4",
+    "BuildingNameTC": "\u7fe0\u6e56\u5c45\u7b2c\u56db\u5ea7",
+    "BaseHeight": 11.4,
+    "TopHeight": 102.7,
+    "Storeys": 34,
+    "StoreysInBasement": null,
+    "DateStamp": 1596844800000
+  },
+  "registration": {
+    "rotationDegrees": 161.76376835843575,
+    "scaleMetresPerCanvasPixel": 0.026365610551548853,
+    "translationMetres": [
+      11.543941285324829,
+      -25.98517896000954
+    ],
+    "reflected": false,
+    "rmsMetres": 1.0025050708040022,
+    "p95Metres": 1.834574681478394
+  },
+  "candidates": [
+    {
+      "rotationDegrees": 161.76376835843575,
+      "scaleMetresPerCanvasPixel": 0.026365610551548853,
+      "translationMetres": [
+        11.543941285324829,
+        -25.98517896000954
+      ],
+      "reflected": false,
+      "rmsMetres": 1.0025050708040022,
+      "p95Metres": 1.834574681478394
+    },
+    {
+      "rotationDegrees": 161.76376835061234,
+      "scaleMetresPerCanvasPixel": 0.02636561055269855,
+      "translationMetres": [
+        11.543941293174322,
+        -25.985178966003854
+      ],
+      "reflected": false,
+      "rmsMetres": 1.0025050708040022,
+      "p95Metres": 1.8345746708531023
+    },
+    {
+      "rotationDegrees": 70.80976496602554,
+      "scaleMetresPerCanvasPixel": 0.02634173691230862,
+      "translationMetres": [
+        -26.25823551852877,
+        -10.405365627813236
+      ],
+      "reflected": false,
+      "rmsMetres": 1.2082170096954403,
+      "p95Metres": 2.56149876784722
+    }
+  ],
+  "mirrorDiagnostic": [
+    {
+      "rotationDegrees": 71.92362278779142,
+      "scaleMetresPerCanvasPixel": 0.026330149408168007,
+      "translationMetres": [
+        -14.333245949303656,
+        25.12923717845257
+      ],
+      "reflected": true,
+      "rmsMetres": 0.990601591635164,
+      "p95Metres": 1.9189686141911175
+    },
+    {
+      "rotationDegrees": 71.92362279034398,
+      "scaleMetresPerCanvasPixel": 0.026330149406324607,
+      "translationMetres": [
+        -14.333245949325336,
+        25.129237175365503
+      ],
+      "reflected": true,
+      "rmsMetres": 0.9906015916351641,
+      "p95Metres": 1.9189686143901745
+    },
+    {
+      "rotationDegrees": 162.04198304715334,
+      "scaleMetresPerCanvasPixel": 0.026320046527254722,
+      "translationMetres": [
+        -24.602770656176936,
+        -14.105717001741983
+      ],
+      "reflected": true,
+      "rmsMetres": 1.2185950792990485,
+      "p95Metres": 2.265188667623402
+    }
+  ]
+}

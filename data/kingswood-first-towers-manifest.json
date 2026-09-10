@@ -1,0 +1,122 @@
+{
+  "estate": "Kingswood Villas",
+  "estateTC": "嘉湖山莊",
+  "scope": "First residential tower of each marketed phase",
+  "notes": [
+    "Phase 4 is Kingswood Ginza / +WOO and hotel, not a residential court; it has no residential Tower 1 to add to the window-view launcher.",
+    "Floor-plan sources below are secondary 28Hse images and are used for flat-stack/facade geometry only after registration to an official LandsD building footprint.",
+    "Do not infer geographic north from image-up unless independently verified."
+  ],
+  "phases": [
+    {
+      "phase": 1,
+      "courtTC": "樂湖居",
+      "courtEN": "Locwood Court",
+      "buildingTC": "第1座",
+      "buildingENExpected": "Locwood Court Block 1",
+      "floorRangeTypical": {
+        "min": 1,
+        "max": 35
+      },
+      "floorPlanUrl": "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230225832562_large.jpg",
+      "estatePage": "https://www.28hse.com/estate/detail/kingswood-villas-locwood-24068",
+      "officialFootprintStatus": "retrieved",
+      "officialFootprintFile": "data/kingswood-footprints/phase-1-tower-1-official-footprint.json",
+      "buildingCSUID": "1821934639T20050430",
+      "registrationStatus": "derived-provisional"
+    },
+    {
+      "phase": 2,
+      "courtTC": "賞湖居",
+      "courtEN": "Sherwood Court",
+      "buildingTC": "第1座",
+      "buildingENExpected": "Sherwood Court Block 1",
+      "floorRangeTypical": {
+        "min": 1,
+        "max": 35
+      },
+      "floorPlanUrl": "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230327817192_large.jpg",
+      "estatePage": "https://www.28hse.com/estate/detail/kingswood-villas-sherwood-24069",
+      "officialFootprintStatus": "retrieved",
+      "officialFootprintFile": "data/kingswood-footprints/phase-2-tower-1-official-footprint.json",
+      "buildingCSUID": "1824634806T20050430",
+      "registrationStatus": "derived-provisional"
+    },
+    {
+      "phase": 3,
+      "courtTC": "翠湖居",
+      "courtEN": "Chestwood Court",
+      "buildingTC": "第1座",
+      "buildingENExpected": "Chestwood Court Block 1",
+      "floorRangeTypical": {
+        "min": 1,
+        "max": 32
+      },
+      "floorPlanUrl": "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230158764526_large.jpg",
+      "estatePage": "https://www.28hse.com/estate/detail/kingswood-villas-chestwood-24070",
+      "officialFootprintStatus": "retrieved",
+      "officialFootprintFile": "data/chestwood-tower-1-official-footprint.json",
+      "buildingCSUID": "1797235344T20050430",
+      "registrationStatus": "derived-provisional"
+    },
+    {
+      "phase": 4,
+      "courtTC": "+WOO 嘉湖 / 嘉湖海逸酒店",
+      "courtEN": "Kingswood Ginza / +WOO and hotel",
+      "residential": false,
+      "status": "not-applicable"
+    },
+    {
+      "phase": 5,
+      "courtTC": "麗湖居",
+      "courtEN": "Lynwood Court",
+      "buildingTC": "第1座",
+      "buildingENExpected": "Lynwood Court Block 1",
+      "floorRangeTypical": {
+        "min": 1,
+        "max": 29
+      },
+      "floorPlanUrl": "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230348928362_large.jpg",
+      "estatePage": "https://www.28hse.com/estate/detail/kingswood-villas-lynwood-24071",
+      "officialFootprintStatus": "retrieved",
+      "note": "Top floor/special duplex records may require separate handling; do not generalize the 1-29/F typical plan beyond its stated scope.",
+      "officialFootprintFile": "data/kingswood-footprints/phase-5-tower-1-official-footprint.json",
+      "buildingCSUID": "1849735492T20050430",
+      "registrationStatus": "derived-provisional"
+    },
+    {
+      "phase": 6,
+      "courtTC": "美湖居",
+      "courtEN": "Maywood Court",
+      "buildingTC": "第1座",
+      "buildingENExpected": "Maywood Court Block 1",
+      "floorRangeTypical": {
+        "min": 1,
+        "max": 38
+      },
+      "floorPlanUrl": "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230022575259_large.jpg",
+      "estatePage": "https://www.28hse.com/estate/detail/kingswood-villas-maywood-24072",
+      "officialFootprintStatus": "retrieved",
+      "officialFootprintFile": "data/kingswood-footprints/phase-6-tower-1-official-footprint.json",
+      "buildingCSUID": "1850535798T20050430",
+      "registrationStatus": "derived-provisional"
+    },
+    {
+      "phase": 7,
+      "courtTC": "景湖居",
+      "courtEN": "Kenswood Court",
+      "buildingTC": "第1座",
+      "buildingENExpected": "Kenswood Court Block 1",
+      "floorRangeTypical": {
+        "min": 1,
+        "max": 31
+      },
+      "floorPlanUrl": "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+      "estatePage": "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+      "officialFootprintStatus": "retrieved",
+      "officialFootprintFile": "data/kingswood-footprints/phase-7-tower-1-official-footprint.json",
+      "buildingCSUID": "1883935710T20050430",
+      "registrationStatus": "derived-provisional"
+    }
+  ]
+}

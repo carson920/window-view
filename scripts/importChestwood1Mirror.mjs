@@ -1,0 +1,9 @@
+import fs from 'node:fs';
+const root=new URL('../',import.meta.url), read=p=>JSON.parse(fs.readFileSync(new URL(p,root)));
+const d=read('data/properties.json'),r=read('data/chestwood-tower-1/result.json'),o=read('data/chestwood-tower-1-official-footprint.json');
+const estate=d.estates.find(e=>e.id==='kingswood-chestwood');
+const model={type:'formula',referenceFloor:0,referenceAltitude:o.attributes.BaseHeight,floorToFloor:(o.attributes.TopHeight-o.attributes.BaseHeight)/o.attributes.Storeys,verified:false,allowEstimated:true,confidence:'estimated',note:'Building-average estimate; floor datum unverified.'};
+const building={id:'tower-1',nameTC:'第1座',nameEN:'Tower 1',governmentBuildingId:r.buildingCsuid,source:r.annotation.source,floors:{min:1,max:32,excluded:[]},floorModel:model,flats:[...'ABCDEFGH'].map(flat=>({id:flat.toLowerCase(),label:flat,windows:r.windows.filter(w=>w.flat===flat).map(w=>({...w,nameTC:w.id==='living'?'客廳外牆窗（配準估算）':w.id==='master'?'主人房窗（配準估算）':`睡房${w.id.split('-')[1]}窗（配準估算）`,nameEN:w.id,latitude:w.cameraLat,longitude:w.cameraLng,tilt:.1,roll:0,allowApproximate:true,source:r.annotation.source,research:{windowExtraction:r.annotation.extractionMethod,templateRevision:r.annotation.revision,noteTC:'沿用已確認第二座窗線，以反射配準第一座官方輪廓；高度估算。',noteEN:'Reflected user-confirmed Tower 2 template fitted to Tower 1 official footprint; estimated height.',horizontalGeometry:{status:'derived-from-plan-and-LandsD',confidence:'review',registrationRmsMetres:r.transform.rmsMetres},registrationFile:'data/chestwood-tower-1/result.json',sources:[r.annotation.source,r.annotation.reviewSource,'data/chestwood-tower-1-official-footprint.json']}}))}))};
+estate.buildings=estate.buildings.filter(b=>b.id!=='tower-1');estate.buildings.unshift(building);
+fs.writeFileSync(new URL('data/properties.json',root),JSON.stringify(d,null,2)+'\n');
+console.log('Imported Tower 1: 8 stacks, 30 separately traced windows; review, not verified.');

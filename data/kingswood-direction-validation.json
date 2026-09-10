@@ -1,0 +1,11 @@
+{
+ "method":"Independent coarse checks gathered after the geometry-only optimisations. These bearings are never inputs to registerKingswood.py and do not replace facade normals.",
+ "checks":[
+  {"phase":1,"flat":"G","direction":"NW","source":"https://338.com.hk/pdf/tp_res_lease.pdf","note":"Taipan listing for Locwood Block 1 10/F G states North West inside street view; agency PDF is mutable."},
+  {"phase":2,"flat":"C","direction":"SE","source":"https://www.am730.com.hk/article/405840","note":"Report quoting Centaline: Sherwood Tower 1 middle-floor C faces southeast."},
+  {"phase":3,"flat":"G","direction":"SE","source":"https://www.house730.com/buy-property-8728561/","note":"Tower 1 high-floor G listing states southeast and central park; calculated ESE is inside the 90–180 degree quadrant, but more easterly than the conventional eight-point SE label. Broad sanity check only."},
+  {"phase":5,"flat":"A","direction":"S","source":"https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-5期-丽湖居_THY202209R1031","note":"Centaline Tower 1 middle-floor A transaction says south. This does not distinguish the two similarly fitting handedness hypotheses."},
+  {"phase":6,"flat":"G","direction":"S","source":"https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-6期-美湖居_GNB202211R0514","note":"Centaline Tower 1 high-floor G transaction says south."},
+  {"phase":7,"flat":"H","direction":"W","source":"https://hk.centanet.com/findproperty/zh-cn/transaction-detail/嘉湖山庄-7期-景湖居_GZB202603S0983","note":"Centaline Tower 1 middle-floor H transaction says west."}
+ ]
+}

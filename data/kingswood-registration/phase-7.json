@@ -1,0 +1,450 @@
+{
+  "phase": 7,
+  "courtTC": "景湖居",
+  "courtEN": "Kenswood Court",
+  "building": 1,
+  "attributes": {
+    "OBJECTID": 82942,
+    "Shape_Length": 164.43968766418726,
+    "Shape_Area": 535.7900980618133,
+    "GeoRefNo": "1883935710",
+    "DateCreate": 1114819200000,
+    "BuildingBlockType": "Tower",
+    "BuildingCSUID": "1883935710T20050430",
+    "BuildingID": 1105715349,
+    "Status": "Active",
+    "BuildingNameEN": "Kenswood Court Block 1",
+    "BuildingNameTC": "景湖居第一座",
+    "BaseHeight": 11.8,
+    "TopHeight": 106,
+    "Storeys": 35,
+    "StoreysInBasement": null,
+    "DateStamp": 1596844800000
+  },
+  "originWGS84": [
+    114.00755922601859,
+    22.460779523234365
+  ],
+  "metresPerDegree": [
+    102925.23394499258,
+    110736.5423569695
+  ],
+  "planSource": "https://i1.28hse.com/estate_data/108/4390/FLOOR/4390_20231121230054864672_large.jpg",
+  "estatePage": "https://www.28hse.com/estate/detail/kingswood-villas-kenswood-24073",
+  "officialFile": "data/kingswood-footprints/phase-7-tower-1-official-footprint.json",
+  "candidates": [
+    {
+      "rotationDegrees": 230.25239195432908,
+      "scaleMetresPerCanvasPixel": 0.025756196077512193,
+      "translationMetres": [
+        28.25018046846653,
+        3.168099675398926
+      ],
+      "reflected": false,
+      "rmsMetres": 0.9452289752166622,
+      "p95Metres": 2.561272098877313
+    },
+    {
+      "rotationDegrees": 230.25126171492354,
+      "scaleMetresPerCanvasPixel": 0.025756284640646193,
+      "translationMetres": [
+        28.25016610744988,
+        3.167699452631083
+      ],
+      "reflected": false,
+      "rmsMetres": 0.9452289972378495,
+      "p95Metres": 2.5614720996023914
+    },
+    {
+      "rotationDegrees": 230.24685081727645,
+      "scaleMetresPerCanvasPixel": 0.02575280546441323,
+      "translationMetres": [
+        28.24534019315181,
+        3.164808870182668
+      ],
+      "reflected": false,
+      "rmsMetres": 0.9452290979582862,
+      "p95Metres": 2.563187429293388
+    },
+    {
+      "rotationDegrees": 230.2594981247506,
+      "scaleMetresPerCanvasPixel": 0.025755076973382172,
+      "translationMetres": [
+        28.247187761133144,
+        3.171314277257075
+      ],
+      "reflected": false,
+      "rmsMetres": 0.945229132542556,
+      "p95Metres": 2.5625738465413375
+    },
+    {
+      "rotationDegrees": 320.800236097003,
+      "scaleMetresPerCanvasPixel": 0.0257161846355281,
+      "translationMetres": [
+        -3.5009572542198284,
+        28.1094148805217
+      ],
+      "reflected": false,
+      "rmsMetres": 1.133220694730654,
+      "p95Metres": 2.519879084392551
+    },
+    {
+      "rotationDegrees": 140.31491989825844,
+      "scaleMetresPerCanvasPixel": 0.025706153615045135,
+      "translationMetres": [
+        3.2988554882404113,
+        -28.254595949408674
+      ],
+      "reflected": false,
+      "rmsMetres": 1.1500869088085934,
+      "p95Metres": 2.5811958189583564
+    },
+    {
+      "rotationDegrees": 51.09411199071178,
+      "scaleMetresPerCanvasPixel": 0.025641744415416483,
+      "translationMetres": [
+        -28.04836235526961,
+        -3.660540425521641
+      ],
+      "reflected": false,
+      "rmsMetres": 1.2630738869608473,
+      "p95Metres": 2.8687722516748515
+    },
+    {
+      "rotationDegrees": 51.09693822732265,
+      "scaleMetresPerCanvasPixel": 0.025642548938551127,
+      "translationMetres": [
+        -28.049775052003593,
+        -3.662235793015429
+      ],
+      "reflected": false,
+      "rmsMetres": 1.2630739113687406,
+      "p95Metres": 2.8690487983833903
+    }
+  ],
+  "mirrorDiagnostic": [
+    {
+      "rotationDegrees": 139.9563487606283,
+      "scaleMetresPerCanvasPixel": 0.0257592971894113,
+      "translationMetres": [
+        -28.33179807119736,
+        -1.8938305820302945
+      ],
+      "reflected": true,
+      "rmsMetres": 0.938306042720172,
+      "p95Metres": 2.4977878669622373
+    },
+    {
+      "rotationDegrees": 139.95372203252143,
+      "scaleMetresPerCanvasPixel": 0.025759442567798635,
+      "translationMetres": [
+        -28.332518476949964,
+        -1.892573223936962
+      ],
+      "reflected": true,
+      "rmsMetres": 0.9383060616672098,
+      "p95Metres": 2.498051018683424
+    },
+    {
+      "rotationDegrees": 230.19312583858283,
+      "scaleMetresPerCanvasPixel": 0.025653261623288893,
+      "translationMetres": [
+        1.9825014340700267,
+        -28.259864890124483
+      ],
+      "reflected": true,
+      "rmsMetres": 1.121028602327831,
+      "p95Metres": 2.6171117407890745
+    },
+    {
+      "rotationDegrees": 49.58255804780783,
+      "scaleMetresPerCanvasPixel": 0.025709990170669054,
+      "translationMetres": [
+        -1.5602676519838068,
+        28.25984870142777
+      ],
+      "reflected": true,
+      "rmsMetres": 1.1608390551137926,
+      "p95Metres": 2.421948206354719
+    },
+    {
+      "rotationDegrees": 49.581978848154996,
+      "scaleMetresPerCanvasPixel": 0.025711119244910662,
+      "translationMetres": [
+        -1.5604762558872132,
+        28.260886200415268
+      ],
+      "reflected": true,
+      "rmsMetres": 1.1608390725303874,
+      "p95Metres": 2.421506475918142
+    },
+    {
+      "rotationDegrees": 49.581979489968425,
+      "scaleMetresPerCanvasPixel": 0.025711119222662983,
+      "translationMetres": [
+        -1.5604765658898354,
+        28.260886159664764
+      ],
+      "reflected": true,
+      "rmsMetres": 1.1608390725303952,
+      "p95Metres": 2.421506492398161
+    },
+    {
+      "rotationDegrees": 316.4362792571572,
+      "scaleMetresPerCanvasPixel": 0.02566462886368536,
+      "translationMetres": [
+        28.317290556718003,
+        0.3699467497752294
+      ],
+      "reflected": true,
+      "rmsMetres": 1.2806550356030943,
+      "p95Metres": 2.7406996792771685
+    },
+    {
+      "rotationDegrees": 316.4358557707509,
+      "scaleMetresPerCanvasPixel": 0.025662639475748126,
+      "translationMetres": [
+        28.315890414300036,
+        0.37012872347941883
+      ],
+      "reflected": true,
+      "rmsMetres": 1.2806551689859118,
+      "p95Metres": 2.742114026280869
+    }
+  ],
+  "facadeExtraction": "Adjacent A/B, C/D, E/F, G/H living rooms share straight diagonal glazing envelopes in the inspected plans. Orthogonal least-squares line fit to the four traced endpoints suppresses partition-point annotation noise; individual segment midpoints remain separate.",
+  "facades": {
+    "A": {
+      "facadeLocalMetres": [
+        [
+          -0.9169667274082691,
+          10.682731596113054
+        ],
+        [
+          -2.728740370605969,
+          10.498170223767275
+        ]
+      ],
+      "facadeMidpoint": {
+        "lat": 22.46087515969442,
+        "lng": 114.00754151555557
+      },
+      "cameraOffsetMetres": 1.0,
+      "nominalOneMetreCameraLocal": [
+        -1.9241968713544901,
+        11.585302421983846
+      ],
+      "clearanceNote": "Nominal 1 m from registered glazing. If enclosed by official generalized footprint, extend along the same normal to 0.5 m beyond its first exit; facade midpoint and heading are unchanged.",
+      "cameraLocalMetres": [
+        -1.9241968713544901,
+        11.585302421983846
+      ],
+      "lat": 22.460884,
+      "lng": 114.007541,
+      "heading": 354.2
+    },
+    "B": {
+      "facadeLocalMetres": [
+        [
+          1.0038701229034892,
+          10.878402996056913
+        ],
+        [
+          -0.9169667274082691,
+          10.682731596113054
+        ]
+      ],
+      "facadeMidpoint": {
+        "lat": 22.460876876529554,
+        "lng": 114.00755964818617
+      },
+      "cameraOffsetMetres": 1.0,
+      "nominalOneMetreCameraLocal": [
+        -0.05789162459975987,
+        11.775418808128665
+      ],
+      "clearanceNote": "Nominal 1 m from registered glazing. If enclosed by official generalized footprint, extend along the same normal to 0.5 m beyond its first exit; facade midpoint and heading are unchanged.",
+      "cameraLocalMetres": [
+        -0.05789162459975987,
+        11.775418808128665
+      ],
+      "lat": 22.460886,
+      "lng": 114.007559,
+      "heading": 354.2
+    },
+    "C": {
+      "facadeLocalMetres": [
+        [
+          10.803777072162678,
+          2.314241703969895
+        ],
+        [
+          10.962298979335909,
+          0.4813654490780981
+        ]
+      ],
+      "facadeMidpoint": {
+        "lat": 22.46079214601946,
+        "lng": 114.00766496333497
+      },
+      "cameraOffsetMetres": 1.0,
+      "nominalOneMetreCameraLocal": [
+        11.879318786181962,
+        1.4839699643542033
+      ],
+      "clearanceNote": "Nominal 1 m from registered glazing. If enclosed by official generalized footprint, extend along the same normal to 0.5 m beyond its first exit; facade midpoint and heading are unchanged.",
+      "cameraLocalMetres": [
+        11.879318786181962,
+        1.4839699643542033
+      ],
+      "lat": 22.460793,
+      "lng": 114.007675,
+      "heading": 85.1
+    },
+    "D": {
+      "facadeLocalMetres": [
+        [
+          10.962298979335909,
+          0.4813654490780981
+        ],
+        [
+          11.11293216911383,
+          -1.2602991679193085
+        ]
+      ],
+      "facadeMidpoint": {
+        "lat": 22.46077600617621,
+        "lng": 114.00766646517803
+      },
+      "cameraOffsetMetres": 1.0,
+      "nominalOneMetreCameraLocal": [
+        12.033896334657538,
+        -0.30330047159039963
+      ],
+      "clearanceNote": "Nominal 1 m from registered glazing. If enclosed by official generalized footprint, extend along the same normal to 0.5 m beyond its first exit; facade midpoint and heading are unchanged.",
+      "cameraLocalMetres": [
+        12.033896334657538,
+        -0.30330047159039963
+      ],
+      "lat": 22.460777,
+      "lng": 114.007676,
+      "heading": 85.1
+    },
+    "E": {
+      "facadeLocalMetres": [
+        [
+          2.6571324180791507,
+          -11.086380577008955
+        ],
+        [
+          1.0094006153830684,
+          -11.265161489046776
+        ]
+      ],
+      "facadeMidpoint": {
+        "lat": 22.460678601074477,
+        "lng": 114.00757703765181
+      },
+      "cameraOffsetMetres": 1.0,
+      "nominalOneMetreCameraLocal": [
+        1.9411346556204019,
+        -12.169936242946498
+      ],
+      "clearanceNote": "Nominal 1 m from registered glazing. If enclosed by official generalized footprint, extend along the same normal to 0.5 m beyond its first exit; facade midpoint and heading are unchanged.",
+      "cameraLocalMetres": [
+        1.9411346556204019,
+        -12.169936242946498
+      ],
+      "lat": 22.46067,
+      "lng": 114.007578,
+      "heading": 173.8
+    },
+    "F": {
+      "facadeLocalMetres": [
+        [
+          1.0094006153830684,
+          -11.265161489046776
+        ],
+        [
+          -0.6567319176582451,
+          -11.445938902789484
+        ]
+      ],
+      "facadeMidpoint": {
+        "lat": 22.46067697758905,
+        "lng": 114.00756093924616
+      },
+      "cameraOffsetMetres": 1.0,
+      "nominalOneMetreCameraLocal": [
+        0.2842024877517031,
+        -12.349715405836765
+      ],
+      "clearanceNote": "Nominal 1 m from registered glazing. If enclosed by official generalized footprint, extend along the same normal to 0.5 m beyond its first exit; facade midpoint and heading are unchanged.",
+      "cameraLocalMetres": [
+        0.2842024877517031,
+        -12.349715405836765
+      ],
+      "lat": 22.460668,
+      "lng": 114.007562,
+      "heading": 173.8
+    },
+    "G": {
+      "facadeLocalMetres": [
+        [
+          -10.54320156631448,
+          -3.1598683131010183
+        ],
+        [
+          -10.63694973744984,
+          -1.3760329806904261
+        ]
+      ],
+      "facadeMidpoint": {
+        "lat": 22.460759042636013,
+        "lng": 114.00745633506322
+      },
+      "cameraOffsetMetres": 1.0,
+      "nominalOneMetreCameraLocal": [
+        -11.588697530088602,
+        -2.320432494876107
+      ],
+      "clearanceNote": "Nominal 1 m from registered glazing. If enclosed by official generalized footprint, extend along the same normal to 0.5 m beyond its first exit; facade midpoint and heading are unchanged.",
+      "cameraLocalMetres": [
+        -11.588697530088602,
+        -2.320432494876107
+      ],
+      "lat": 22.460759,
+      "lng": 114.007447,
+      "heading": 267.0
+    },
+    "H": {
+      "facadeLocalMetres": [
+        [
+          -10.63694973744984,
+          -1.3760329806904261
+        ],
+        [
+          -10.738338599898967,
+          0.5531890292889865
+        ]
+      ],
+      "facadeMidpoint": {
+        "lat": 22.46077580791179,
+        "lng": 114.00745538710797
+      },
+      "cameraOffsetMetres": 1.0,
+      "nominalOneMetreCameraLocal": [
+        -11.686266046880846,
+        -0.4639038236811099
+      ],
+      "clearanceNote": "Nominal 1 m from registered glazing. If enclosed by official generalized footprint, extend along the same normal to 0.5 m beyond its first exit; facade midpoint and heading are unchanged.",
+      "cameraLocalMetres": [
+        -11.686266046880846,
+        -0.4639038236811099
+      ],
+      "lat": 22.460775,
+      "lng": 114.007446,
+      "heading": 267.0
+    }
+  }
+}

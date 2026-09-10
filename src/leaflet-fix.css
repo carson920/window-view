@@ -1,0 +1,3 @@
+#osm-map .leaflet-tile-container img{width:256px!important;height:256px!important;max-width:none!important;display:block!important}
+#osm-map .leaflet-tile-pane{z-index:200}
+#osm-map .leaflet-marker-icon,#osm-map .leaflet-marker-shadow{display:none!important}
