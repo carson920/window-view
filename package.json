@@ -1,1 +1,24 @@
-{"name":"window-view-launcher","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite --host 127.0.0.1","build":"vite build && node scripts/copyResearchAssets.mjs","preview":"vite preview --host 127.0.0.1","test":"node --test","fetch:kingswood-footprints":"node scripts/fetchKingswoodFootprints.mjs","fetch:kingswood-plans":"node scripts/acquireKingswoodPlans.mjs","register:kingswood":"python3 scripts/registerKingswood.py","import:kingswood":"node scripts/importKingswood.mjs","audit:kingswood":"python3 scripts/auditKingswood.py"},"devDependencies":{"vite":"^6.1.0"}}
+{
+  "name": "window-view-launcher",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test",
+    "fetch:kingswood-footprints": "node scripts/fetchKingswoodFootprints.mjs",
+    "fetch:kingswood-plans": "node scripts/acquireKingswoodPlans.mjs",
+    "register:kingswood": "python3 scripts/registerKingswood.py",
+    "import:kingswood": "node scripts/importKingswood.mjs",
+    "audit:kingswood": "python3 scripts/auditKingswood.py",
+    "start": "node server/start.mjs",
+    "user:add": "node scripts/manageUser.mjs add",
+    "user:remove": "node scripts/manageUser.mjs remove",
+    "start:production": "NODE_ENV=production node server/start.mjs"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0"
+  }
+}

@@ -2,29 +2,37 @@
 <html lang="zh-HK">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Select a residential window and open its camera view in LandsD Open3Dhk. Synthetic test data only."><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><title>窗外景觀 · Window View</title></head>
 <body>
-<main>
-<header><span class="brand">窗 / WINDOW VIEW</span><span class="tag">Open3Dhk launcher</span></header>
-<h1>窗外景觀 <span>View from your window</span></h1>
-<p class="intro">選擇窗口，在地政總署三維地圖查看模擬景觀。<br>Select a window to open a simulated view in LandsD’s 3D map.</p>
-<p><a href="./kingswood-report.html" target="_blank" rel="noopener noreferrer">嘉湖六期第1座：48個 stack、配準圖及來源 ↗</a></p>
-<details class="admin-panel"><summary>Developer Calibration Mode · floor plan authoring</summary><label>Official floor plan <input id="plan-file" type="file" accept="image/*"></label><div id="plan-stage"><img id="plan-image" alt="Uploaded floor plan overlay"><svg id="plan-draw" viewBox="0 0 360 215"></svg></div><p id="plan-heading">Window line: click two points on the plan</p><div class="calibration-grid"><label>X offset<input id="cal-x" type="range" min="-100" max="100" value="0"></label><label>Y offset<input id="cal-y" type="range" min="-100" max="100" value="0"></label><label>Scale<input id="cal-scale" type="range" min="50" max="150" value="100"></label><label>Rotate<input id="cal-rotate" type="range" min="-180" max="180" value="0"></label></div><button id="cal-save" type="button">Save calibration</button><output id="cal-status"></output></details>
-<aside class="notice">僅供合成測試 · SYNTHETIC TEST ONLY<br><span>資料不代表任何真實屋苑或景觀。These values do not represent a real property or view.</span></aside>
-<div class="layout"><section class="selection" aria-label="選擇窗口 Select window">
+<section id="login-panel" style="max-width:420px;margin:80px auto;padding:24px" hidden>
+<h1>登入 Window View</h1><form id="login-form">
+<label for="username">帳戶</label><input id="username" autocomplete="username" required maxlength="48">
+<label for="password">密碼</label><input id="password" type="password" autocomplete="current-password" required maxlength="256">
+<button type="submit">登入</button><p id="login-status" role="status"></p>
+</form></section>
+<main hidden>
+<header><span class="brand">窗外有景</span><div class="header-actions"><button id="logout" type="button">登出</button></div></header>
+<div class="layout awaiting-load"><section class="view-intro" aria-label="探索窗外景觀">
+<p class="intro-description">同一屋苑，唔同單位、樓層同窗口，望出去都可以好唔同。揀個單位，探索你想睇嘅角度。</p>
+<div class="intro-steps"><div><span>01</span><p>揀屋苑、樓層同單位</p></div><div><span>02</span><p>揀一扇窗，睇位置同方向</p></div><div><span>03</span><p>打開 3D 地圖，探索窗外</p></div></div>
+</section><section class="selection" aria-label="選擇窗口 Select window">
 <h2>01 <span>選擇位置 <small>Select a window</small></span></h2>
 <label for="estate">屋苑 <span>Estate</span></label><select id="estate"></select>
-<label for="building">座數 <span>Building</span></label><select id="building"></select>
-<div class="floor-heading"><label for="floor">樓層 <span>Floor</span></label><output id="floor-label" for="floor floor-slider"></output></div>
-<select id="floor"></select><input id="floor-slider" type="range" aria-label="樓層滑桿 Floor slider"><div class="range-labels"><span id="min-floor"></span><span id="max-floor"></span></div>
-<div class="pair"><div><label for="flat">單位 <span>Flat</span></label><select id="flat"></select></div><div><label for="window">窗口 <span>Window</span></label><select id="window"></select></div></div>
-</section><section class="result" aria-label="景觀參數 View parameters">
-<h2>02 <span>景觀參數 <small>Camera preview</small></span></h2>
+<div class="selection-row"><div><label for="building">座數 <span>Building</span></label><select id="building"></select></div>
+<div class="floor-heading"><label for="floor">樓層 <span>Floor</span></label><select id="floor"></select></div>
+<div><label for="flat">單位 <span>Flat</span></label><select id="flat"></select></div></div>
+<button id="load-unit" type="button" disabled>載入單位資料 · Load unit</button><p class="footnote">揀好單位後按掣載入，再選窗口。</p>
+</section></div><section class="map-preview-card" data-loaded-section hidden aria-label="單位位置 preview">
+<div class="preview-top"><div class="preview-controls"><h2>02 <span>位置 Preview <small>Unit &amp; window position</small></span></h2><div id="window-buttons" class="window-buttons" role="group" aria-label="選擇窗口"></div></div></div>
+<div id="osm-frame" role="img" aria-label="OpenStreetMap map preview"></div><p class="preview-note">OpenStreetMap（© OpenStreetMap contributors）</p>
+<div class="between-action"><button id="view" type="button" disabled>在 Open3Dhk 查看景觀<span>View in LandsD 3D Map ↗</span></button></div>
+</section>
+<section class="result" data-loaded-section hidden aria-label="景觀參數 View parameters">
+<h2>03 <span>景觀參數 <small>Camera preview</small></span></h2>
 <p id="status" role="status"></p><dl id="camera-values"></dl>
-<button id="view" type="button" disabled>在 Open3Dhk 查看景觀<span>View in LandsD 3D Map ↗</span></button>
-<button id="copy" class="secondary" type="button" disabled>複製連結 · Copy LandsD link</button><p id="copy-status" role="status"></p>
 <p class="footnote">在新分頁開啟 · Opens in a new tab<br>三維景觀由地政總署網站提供。<br>3D rendering is provided by LandsD.</p>
-</section></div><section class="map-preview-card" aria-label="單位位置 preview"><h2>03 <span>位置 Preview <small>Unit &amp; window position</small></span></h2><svg id="map-preview" viewBox="0 0 360 215" role="img" aria-label="LandsD footprint and selected window position"></svg><p class="preview-note">示意圖顯示官方 LandsD footprint 配準結果；所選窗位置及向外方向以紅點和虛線表示。比例按樓座範圍自動調整。 Diagram is a relative preview, not a survey or cadastral map.</p><div id="osm-frame" role="img" aria-label="OpenStreetMap map preview"></div><p class="preview-note">OpenStreetMap 官方嵌入地圖（© OpenStreetMap contributors）。</p></section>
-<section class="estate-review-section" aria-label="全期窗位總覽"><h2>04 <span>全期窗位總覽 <small>All towers · window review</small></span></h2><p>每座獨立放大、北向朝上；A–H 為單位。客＝客廳、主＝主人房、1／2＝睡房；點為鏡頭位置，線為向外方向。滑鼠移到窗位可查看名稱及角度。只顯示已收錄窗位，並非測量圖。</p><div id="estate-review"></div></section>
-<details><summary>開發資料 · Debug details</summary><pre id="debug"></pre></details>
+</section>
+<section class="estate-review-section" data-loaded-section hidden aria-label="所選單位窗位總覽"><h2>04 <span>所選單位窗位總覽 <small>Selected unit · window review</small></span></h2><p>顯示所選單位、北向朝上。客＝客廳、主＝主人房、1／2＝睡房；點為鏡頭位置，線為向外方向。滑鼠移到窗位可查看名稱及角度。只顯示已收錄窗位，並非測量圖。</p><div id="estate-review"></div></section>
+<section class="estate-review-section" data-review-section hidden aria-label="屋苑窗位總覽"><h2>05 <span>屋苑窗位總覽 <small>Estate-wide window review</small></span></h2><p>顯示本屋苑各座所有單位窗位及向外方向，方便逐座檢查。</p><div id="estate-overview"></div></section>
+<details hidden><summary>開發資料 · Debug details</summary><pre id="debug"></pre></details>
 <footer>WINDOW VIEW <span>測試原型 · Test prototype</span></footer>
 </main><script type="module" src="/src/main.js"></script>
 </body></html>

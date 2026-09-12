@@ -1,12 +1,4 @@
 {
-  "provenance": {
-    "source": "Hong Kong Lands Department CSDI Building Framework Spatial Data Theme",
-    "endpoint": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0/query",
-    "queryUrl": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0/query?where=BuildingNameEN+LIKE+%27%25Kenswood+Court%25%27&outFields=*&returnGeometry=true&outSR=4326&f=json",
-    "retrievedAt": "2026-09-10T05:04:51.836Z",
-    "outputCRS": "EPSG:4326",
-    "selectionRule": "BuildingNameEN contains Kenswood Court; Block/Tower 1; Chinese name contains 景湖居; all coordinates inside 113.97–114.03 E, 22.43–22.49 N; exactly one candidate required"
-  },
   "attributes": {
     "OBJECTID": 82942,
     "Shape_Length": 164.43968766418726,
@@ -226,5 +218,12 @@
         ]
       ]
     ]
+  },
+  "provenance": {
+    "source": "LandsD CSDI Building FSDT",
+    "queryUrl": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0/query?where=BuildingNameEN+LIKE+%27%25Kenswood+Court%25%27&outFields=*&returnGeometry=true&outSR=4326&f=json",
+    "rawFile": "data/kingswood-footprints/phase-7-court-query.raw.json",
+    "outputCRS": "EPSG:4326",
+    "selectionRule": "Exact court name and block number, unique match in saved official response"
   }
 }

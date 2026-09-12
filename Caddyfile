@@ -1,0 +1,4 @@
+{$DOMAIN} {
+  reverse_proxy app:5173
+  header Strict-Transport-Security "max-age=31536000"
+}

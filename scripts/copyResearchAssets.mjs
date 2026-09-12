@@ -1,4 +1,2 @@
-import { cpSync } from 'node:fs';
-// Keep report-relative sources and overlays available in the production build.
-cpSync(new URL('../data',import.meta.url),new URL('../dist/data',import.meta.url),{recursive:true});
-cpSync(new URL('../kingswood-report.html',import.meta.url),new URL('../dist/kingswood-report.html',import.meta.url));
+// Research data is private. Retained as a no-op for older build callers.
+console.log('Research assets stay server-side; no data copied.');

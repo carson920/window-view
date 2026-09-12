@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+const root=new URL('../',import.meta.url);
+const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
+const venues=read('data/indoor/venue_polygon.json').features;
+const terms=['Laguna Verde','海逸豪園','Kingswood Villas','嘉湖山莊','Chestwood Court','翠湖居','Laguna City','麗港城','City One Shatin','沙田第一城','South Horizons','海怡半島','Kornhill','康怡花園','Whampoa Garden','黃埔花園','Mei Foo Sun Chuen','美孚新邨','Discovery Park','愉景新城'];
+const matches=venues.filter(f=>terms.some(t=>JSON.stringify(f.properties).toLowerCase().includes(t.toLowerCase())));
+const lag='6bc9cf2d-e6f5-407a-bf92-2998ac84f29d';
+const win=read('data/indoor/6bc9cf2d-windows_line.json').features;
+const units=read('data/indoor/6bc9cf2d-unit_polygon.json').features;
+const levels=[...new Set(units.map(f=>f.properties.level_name_en).filter(Boolean))];
+const rows=matches.map(f=>{const p=f.properties; if(p.venue_id===lag)return [p.venue_id,p.venue_name_en,p.venue_name_zh,p.venue_category,p.address_address,'911','423',levels.join(' | '),'level_polygon not queried; levels from unit_polygon','features returned']; return [p.venue_id,p.venue_name_en,p.venue_name_zh,p.venue_category,p.address_address,'','','','not queried','network approval unavailable'];});
+const csv=['venue_id,venue_name_en,venue_name_zh,venue_category,address,window_count,unit_count,levels,level_source,status',...rows.map(r=>r.map(v=>'"'+String(v??'').replaceAll('"','""')+'"').join(','))].join('\n')+'\n';
+fs.writeFileSync(new URL('../data/indoor-window-coverage.csv',import.meta.url),csv);
+const cats=[...new Set(venues.map(f=>f.properties.venue_category))].sort();
+const report=['# Indoor venue coverage report','',`Source: official LandsD Indoor Map API venue_polygon response saved as data/indoor/venue_polygon.json (${venues.length} features).`,'','## Unique venue_category values','',...cats.map(c=>`- ${c}`),'','## Requested-name matches','',...rows.map(r=>`- ${r[2]} / ${r[1]} — venue_id \`${r[0]}\`, category ${r[3]}, address ${r[4]}; windows_line=${r[5]||'not queried'}, unit_polygon=${r[6]||'not queried'}, levels=${r[7]||'not queried'}; ${r[8]}.`),'','## Provenance','',`Laguna Verde Tower 4 windows_line and unit_polygon were previously retrieved venue-by-venue and saved locally; its listed levels come from unit_polygon. level_polygon was not retrieved. The complete venue response was already downloaded to the local project from the same official endpoint. Subsequent venue-by-venue requests were blocked by the environment approval limit, so blank counts are explicitly unqueried; no venue is inferred to have windows data.`].join('\n')+'\n';
+fs.writeFileSync(new URL('../INDOOR-WINDOW-COVERAGE.md',import.meta.url),report);
+console.log(`categories=${cats.length} matches=${matches.length}`);

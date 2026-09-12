@@ -12,7 +12,7 @@ export function mapLayout(outline,window,width,height){
  const local=p=>[p[0]-left,p[1]-top];
  return {center,tiles,outline:points.map(local),camera:local(worldPixel(window.longitude,window.latitude))};
 }
-export function renderOsm(frame,outline,window){
+export function renderOsm(frame,outline,window,showWindow=false){
  const width=frame.clientWidth||600,height=frame.clientHeight||320;
  const layout=mapLayout(outline,window,width,height);
  frame.style.cssText+=';position:relative;overflow:hidden;background-image:none;';
@@ -22,11 +22,17 @@ export function renderOsm(frame,outline,window){
   img.style.cssText=`position:absolute;left:${tile.left}px;top:${tile.top}px;width:256px;height:256px;max-width:none;margin:0;border:0;border-radius:0;`;
   frame.append(img);
  }
- const [x,y]=layout.camera,rad=window.heading*Math.PI/180;
+
  const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
  svg.setAttribute('viewBox',`0 0 ${width} ${height}`);
  svg.style.cssText='position:absolute;inset:0;width:100%;height:100%;margin:0;border:0;border-radius:0;background:none;pointer-events:none;transform:none;';
- svg.innerHTML=`${outline?`<polygon points="${layout.outline.map(p=>p.join(',')).join(' ')}" fill="#157889" fill-opacity="0.15" stroke="#157889" stroke-width="2"/>`:''}<line x1="${x}" y1="${y}" x2="${x+Math.sin(rad)*32}" y2="${y-Math.cos(rad)*32}" stroke="#d45630" stroke-width="3" stroke-dasharray="6 4"/><circle cx="${x}" cy="${y}" r="5" fill="#d45630" stroke="white" stroke-width="2"/>`;
+ svg.innerHTML=outline?`<polygon points="${layout.outline.map(p=>p.join(',')).join(' ')}" fill="#157889" fill-opacity="0.15" stroke="#157889" stroke-width="2"/>`:'';
+ if(showWindow){
+  const [x,y]=layout.camera,a=window.heading*Math.PI/180;
+  const ex=x+Math.sin(a)*32,ey=y-Math.cos(a)*32;
+  const bx=ex-Math.sin(a)*8,by=ey+Math.cos(a)*8;
+  svg.innerHTML+=`<line x1="${x}" y1="${y}" x2="${ex}" y2="${ey}" stroke="#d45630" stroke-width="3" stroke-dasharray="6 4"/><path d="M ${bx+Math.cos(a)*5} ${by+Math.sin(a)*5} L ${ex} ${ey} L ${bx-Math.cos(a)*5} ${by-Math.sin(a)*5}" fill="none" stroke="#d45630" stroke-width="3"/><circle cx="${x}" cy="${y}" r="5" fill="#d45630" stroke="white" stroke-width="2"/>`;
+ }
  frame.append(svg);
  const credit=document.createElement('a');credit.href='https://www.openstreetmap.org/copyright';credit.textContent='© OpenStreetMap contributors';credit.target='_blank';credit.rel='noopener';credit.style.cssText='position:absolute;right:0;bottom:0;background:#ffffffdd;padding:3px 6px;font-size:12px;';frame.append(credit);
 }
