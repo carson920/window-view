@@ -1,0 +1,2468 @@
+{
+  "tower": 30,
+  "buildingCsuid": "4169318533T20050430",
+  "origin": [
+    114.22951789657951,
+    22.305748426234395
+  ],
+  "coordinateFrame": "local WGS84 ellipsoid east/north metres",
+  "transform": {
+    "rotationDegrees": 309.41135563828755,
+    "scaleMetresPerCanvasPixel": 0.03390988550099635,
+    "translationMetres": [
+      8.421191523181195,
+      32.85053008182632
+    ],
+    "reflected": false,
+    "rmsMetres": 0.3449668963242556,
+    "p95Metres": 0.6341866651560405,
+    "semanticErrors": {
+      "A": {
+        "expectedSector": 315,
+        "bearing": 298.82889947558886,
+        "error": 16.171100524411145
+      },
+      "B": {
+        "expectedSector": 270,
+        "bearing": 252.87762158936852,
+        "error": 17.122378410631484
+      },
+      "C": {
+        "expectedSector": 225,
+        "bearing": 208.42421433792111,
+        "error": 16.575785662078886
+      },
+      "D": {
+        "expectedSector": 180,
+        "bearing": 162.99215243572596,
+        "error": 17.007847564274044
+      },
+      "E": {
+        "expectedSector": 135,
+        "bearing": 118.11540745290462,
+        "error": 16.884592547095394
+      },
+      "F": {
+        "expectedSector": 90,
+        "bearing": 74.21475141195765,
+        "error": 15.78524858804235
+      },
+      "G": {
+        "expectedSector": 45,
+        "bearing": 27.49490875233763,
+        "error": 17.505091247662364
+      },
+      "H": {
+        "expectedSector": 0,
+        "bearing": 341.67494542318093,
+        "error": 18.32505457681907
+      }
+    },
+    "semanticPass": true
+  },
+  "candidates": [
+    {
+      "rotationDegrees": 309.41135563828755,
+      "scaleMetresPerCanvasPixel": 0.03390988550099635,
+      "translationMetres": [
+        8.421191523181195,
+        32.85053008182632
+      ],
+      "reflected": false,
+      "rmsMetres": 0.3449668963242556,
+      "p95Metres": 0.6341866651560405,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 298.82889947558886,
+          "error": 16.171100524411145
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 252.87762158936852,
+          "error": 17.122378410631484
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 208.42421433792111,
+          "error": 16.575785662078886
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 162.99215243572596,
+          "error": 17.007847564274044
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 118.11540745290462,
+          "error": 16.884592547095394
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 74.21475141195765,
+          "error": 15.78524858804235
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 27.49490875233763,
+          "error": 17.505091247662364
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 341.67494542318093,
+          "error": 18.32505457681907
+        }
+      },
+      "semanticPass": true
+    },
+    {
+      "rotationDegrees": 309.411355643382,
+      "scaleMetresPerCanvasPixel": 0.03390988549009043,
+      "translationMetres": [
+        8.421191523887536,
+        32.85053007081166
+      ],
+      "reflected": false,
+      "rmsMetres": 0.3449668963242556,
+      "p95Metres": 0.6341866575784285,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 298.8288994704944,
+          "error": 16.171100529505622
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 252.87762158427404,
+          "error": 17.12237841572596
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 208.4242143328266,
+          "error": 16.575785667173392
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 162.99215243063148,
+          "error": 17.007847569368522
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 118.11540744781013,
+          "error": 16.884592552189872
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 74.21475140686317,
+          "error": 15.785248593136828
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 27.49490874724315,
+          "error": 17.50509125275684
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 341.6749454180864,
+          "error": 18.325054581913605
+        }
+      },
+      "semanticPass": true
+    },
+    {
+      "rotationDegrees": 309.4113730447016,
+      "scaleMetresPerCanvasPixel": 0.03390987778378197,
+      "translationMetres": [
+        8.421179692061648,
+        32.850524757546935
+      ],
+      "reflected": false,
+      "rmsMetres": 0.34496689636078604,
+      "p95Metres": 0.6341847509671636,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 298.82888206917477,
+          "error": 16.171117930825233
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 252.87760418295449,
+          "error": 17.122395817045515
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 208.42419693150705,
+          "error": 16.575803068492945
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 162.99213502931187,
+          "error": 17.007864970688132
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 118.11539004649055,
+          "error": 16.884609953509454
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 74.21473400554358,
+          "error": 15.785265994456438
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 27.49489134592356,
+          "error": 17.50510865407645
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 341.67492801676684,
+          "error": 18.3250719832331
+        }
+      },
+      "semanticPass": true
+    },
+    {
+      "rotationDegrees": 309.27431572452474,
+      "scaleMetresPerCanvasPixel": 0.033893337726045865,
+      "translationMetres": [
+        8.470053916365398,
+        32.78928945746334
+      ],
+      "reflected": false,
+      "rmsMetres": 0.34506434395237623,
+      "p95Metres": 0.6546602013923873,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 298.96593938935166,
+          "error": 16.03406061064834
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 253.01466150313132,
+          "error": 16.98533849686868
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 208.56125425168392,
+          "error": 16.43874574831608
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 163.12919234948873,
+          "error": 16.870807650511267
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 118.25244736666738,
+          "error": 16.747552633332617
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 74.35179132572046,
+          "error": 15.648208674279545
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 27.63194866610042,
+          "error": 17.368051333899587
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 341.81198533694374,
+          "error": 18.188014663056265
+        }
+      },
+      "semanticPass": true
+    },
+    {
+      "rotationDegrees": 129.3336602960037,
+      "scaleMetresPerCanvasPixel": 0.03380755139268748,
+      "translationMetres": [
+        -8.497032320756565,
+        -32.69771416525214
+      ],
+      "reflected": false,
+      "rmsMetres": 0.41846652541527124,
+      "p95Metres": 0.8091457793924156,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 118.90659481787269,
+          "error": 163.9065948178727
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 72.95531693165236,
+          "error": 162.95531693165236
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 28.501909680204943,
+          "error": 163.5019096802049
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 343.0698477780098,
+          "error": 163.06984777800977
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 298.19310279518845,
+          "error": 163.19310279518845
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 254.2924467542415,
+          "error": 164.2924467542415
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 207.57260409462145,
+          "error": 162.57260409462145
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 161.75264076546472,
+          "error": 161.75264076546472
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 129.3328445588014,
+      "scaleMetresPerCanvasPixel": 0.03380779733916603,
+      "translationMetres": [
+        -8.497686324935001,
+        -32.697680326997975
+      ],
+      "reflected": false,
+      "rmsMetres": 0.4184665438813376,
+      "p95Metres": 0.8088800025292475,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 118.90741055507497,
+          "error": 163.907410555075
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 72.95613266885462,
+          "error": 162.9561326688546
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 28.502725417407202,
+          "error": 163.5027254174072
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 343.07066351521206,
+          "error": 163.07066351521206
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 298.19391853239074,
+          "error": 163.19391853239074
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 254.29326249144378,
+          "error": 164.29326249144378
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 207.57341983182377,
+          "error": 162.5734198318238
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 161.75345650266704,
+          "error": 161.75345650266706
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 129.3335743145329,
+      "scaleMetresPerCanvasPixel": 0.033807081751393554,
+      "translationMetres": [
+        -8.496811976492602,
+        -32.697120730932625
+      ],
+      "reflected": false,
+      "rmsMetres": 0.4184665453208807,
+      "p95Metres": 0.8093810699253954,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 118.90668079934345,
+          "error": 163.90668079934346
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 72.95540291312311,
+          "error": 162.95540291312312
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 28.501995661675714,
+          "error": 163.50199566167572
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 343.0699337594806,
+          "error": 163.0699337594806
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 298.1931887766592,
+          "error": 163.1931887766592
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 254.2925327357123,
+          "error": 164.2925327357123
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 207.57269007609224,
+          "error": 162.57269007609227
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 161.75272674693554,
+          "error": 161.75272674693554
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 129.3335743208433,
+      "scaleMetresPerCanvasPixel": 0.03380708177064959,
+      "translationMetres": [
+        -8.496811975073397,
+        -32.69712075107963
+      ],
+      "reflected": false,
+      "rmsMetres": 0.41846654532088084,
+      "p95Metres": 0.8093810626174762,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 118.90668079303313,
+          "error": 163.90668079303316
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 72.95540290681278,
+          "error": 162.95540290681276
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 28.501995655365338,
+          "error": 163.50199565536536
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 343.0699337531702,
+          "error": 163.06993375317018
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 298.1931887703488,
+          "error": 163.1931887703488
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 254.2925327294019,
+          "error": 164.2925327294019
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 207.57269006978186,
+          "error": 162.57269006978186
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 161.75272674062518,
+          "error": 161.75272674062518
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 130.10069418898428,
+      "scaleMetresPerCanvasPixel": 0.033813443556204706,
+      "translationMetres": [
+        -33.76232238241004,
+        -2.286471385465712
+      ],
+      "reflected": true,
+      "rmsMetres": 0.3417350559103798,
+      "p95Metres": 0.5943331961101592,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 341.6590506971394,
+          "error": 26.659050697139378
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 27.610328583359703,
+          "error": 117.61032858335972
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 72.06373583480709,
+          "error": 152.9362641651929
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 117.49579773700225,
+          "error": 62.50420226299775
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 162.3725427198236,
+          "error": 27.3725427198236
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 206.27319876077053,
+          "error": 116.27319876077053
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 252.99304142039057,
+          "error": 152.00695857960943
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 298.8130047495473,
+          "error": 61.186995250452696
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 130.10069419540721,
+      "scaleMetresPerCanvasPixel": 0.03381344355819659,
+      "translationMetres": [
+        -33.762322384085294,
+        -2.2864713861009878
+      ],
+      "reflected": true,
+      "rmsMetres": 0.3417350559103798,
+      "p95Metres": 0.5943331989288061,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 341.6590506907164,
+          "error": 26.659050690716413
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 27.610328576936748,
+          "error": 117.61032857693675
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 72.06373582838414,
+          "error": 152.93626417161585
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 117.49579773057933,
+          "error": 62.504202269420674
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 162.37254271340063,
+          "error": 27.372542713400634
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 206.2731987543476,
+          "error": 116.27319875434762
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 252.9930414139676,
+          "error": 152.0069585860324
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 298.81300474312434,
+          "error": 61.18699525687566
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 130.10069417234487,
+      "scaleMetresPerCanvasPixel": 0.0338134435451432,
+      "translationMetres": [
+        -33.76232237224572,
+        -2.286471371590726
+      ],
+      "reflected": true,
+      "rmsMetres": 0.34173505591037995,
+      "p95Metres": 0.5943332018594616,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 341.65905071377875,
+          "error": 26.659050713778754
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 27.610328599999086,
+          "error": 117.6103285999991
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 72.06373585144651,
+          "error": 152.9362641485535
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 117.49579775364168,
+          "error": 62.50420224635832
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 162.372542736463,
+          "error": 27.372542736463004
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 206.27319877740993,
+          "error": 116.2731987774099
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 252.99304143702997,
+          "error": 152.00695856297
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 298.8130047661867,
+          "error": 61.18699523381332
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 130.10069415997918,
+      "scaleMetresPerCanvasPixel": 0.03381344355612689,
+      "translationMetres": [
+        -33.762322383427325,
+        -2.286471367140927
+      ],
+      "reflected": true,
+      "rmsMetres": 0.34173505591038,
+      "p95Metres": 0.5943331958710852,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 341.6590507261444,
+          "error": 26.659050726144415
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 27.61032861236474,
+          "error": 117.61032861236475
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 72.06373586381217,
+          "error": 152.93626413618784
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 117.49579776600736,
+          "error": 62.50420223399264
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 162.3725427488287,
+          "error": 27.372542748828693
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 206.27319878977562,
+          "error": 116.27319878977562
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 252.99304144939566,
+          "error": 152.00695855060434
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 298.81300477855234,
+          "error": 61.18699522144766
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 310.0633532504036,
+      "scaleMetresPerCanvasPixel": 0.03380590514786094,
+      "translationMetres": [
+        33.688759891256524,
+        2.326659664306751
+      ],
+      "reflected": true,
+      "rmsMetres": 0.41433718099805333,
+      "p95Metres": 0.8078674932583264,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 161.69639163571998,
+          "error": 153.30360836428002
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 207.64766952194032,
+          "error": 62.352330478059685
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 252.10107677338772,
+          "error": 27.101076773387717
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 297.5331386755829,
+          "error": 117.5331386755829
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 342.4098836584042,
+          "error": 152.59011634159577
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 26.310539699351164,
+          "error": 63.68946030064883
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 73.03038235897118,
+          "error": 28.030382358971167
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 118.85034568812794,
+          "error": 118.85034568812796
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 310.06335324937123,
+      "scaleMetresPerCanvasPixel": 0.033805905134048235,
+      "translationMetres": [
+        33.68875987295627,
+        2.3266596548095784
+      ],
+      "reflected": true,
+      "rmsMetres": 0.41433718099805333,
+      "p95Metres": 0.8078675034590549,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 161.69639163675245,
+          "error": 153.30360836324755
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 207.64766952297273,
+          "error": 62.352330477027266
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 252.10107677442014,
+          "error": 27.101076774420136
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 297.5331386766153,
+          "error": 117.5331386766153
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 342.4098836594367,
+          "error": 152.59011634056333
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 26.310539700383583,
+          "error": 63.689460299616414
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 73.03038236000364,
+          "error": 28.030382360003642
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 118.85034568916038,
+          "error": 118.85034568916035
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 310.0633532602811,
+      "scaleMetresPerCanvasPixel": 0.03380590514257838,
+      "translationMetres": [
+        33.68875988426328,
+        2.3266596625122937
+      ],
+      "reflected": true,
+      "rmsMetres": 0.4143371809980534,
+      "p95Metres": 0.8078675015529992,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 161.69639162584255,
+          "error": 153.30360837415745
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 207.64766951206286,
+          "error": 62.35233048793714
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 252.10107676351032,
+          "error": 27.10107676351032
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 297.53313866570545,
+          "error": 117.53313866570545
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 342.40988364852683,
+          "error": 152.59011635147317
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 26.310539689473735,
+          "error": 63.68946031052627
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 73.03038234909376,
+          "error": 28.03038234909377
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 118.85034567825049,
+          "error": 118.8503456782505
+        }
+      },
+      "semanticPass": false
+    },
+    {
+      "rotationDegrees": 310.0633578422027,
+      "scaleMetresPerCanvasPixel": 0.033805904489150954,
+      "translationMetres": [
+        33.68875867494848,
+        2.326663216932377
+      ],
+      "reflected": true,
+      "rmsMetres": 0.4143371810006111,
+      "p95Metres": 0.8078671869030212,
+      "semanticErrors": {
+        "A": {
+          "expectedSector": 315,
+          "bearing": 161.69638704392094,
+          "error": 153.30361295607906
+        },
+        "B": {
+          "expectedSector": 270,
+          "bearing": 207.64766493014127,
+          "error": 62.352335069858725
+        },
+        "C": {
+          "expectedSector": 225,
+          "bearing": 252.10107218158868,
+          "error": 27.101072181588677
+        },
+        "D": {
+          "expectedSector": 180,
+          "bearing": 297.5331340837838,
+          "error": 117.5331340837838
+        },
+        "E": {
+          "expectedSector": 135,
+          "bearing": 342.4098790666052,
+          "error": 152.59012093339481
+        },
+        "F": {
+          "expectedSector": 90,
+          "bearing": 26.310535107552102,
+          "error": 63.6894648924479
+        },
+        "G": {
+          "expectedSector": 45,
+          "bearing": 73.03037776717214,
+          "error": 28.030377767172126
+        },
+        "H": {
+          "expectedSector": 0,
+          "bearing": 118.85034109632886,
+          "error": 118.85034109632886
+        }
+      },
+      "semanticPass": false
+    }
+  ],
+  "windows": [
+    {
+      "flat": "A",
+      "id": "living",
+      "lat": 22.305766514915536,
+      "lng": 114.22940817772266,
+      "cameraLat": 22.305766260022555,
+      "cameraLng": 114.22939847655749,
+      "heading": 268.38258736032935,
+      "projectedFacadeLat": 22.305766516209616,
+      "projectedFacadeLng": 114.22940822697508,
+      "facadeDistanceMeters": -0.005076959409965968,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.6736108103058176,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          309,
+          1008
+        ],
+        [
+          358,
+          1046
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "A",
+      "id": "bedroom-1",
+      "lat": 22.305780985695744,
+      "lng": 114.22939859310165,
+      "cameraLat": 22.305776124436314,
+      "cameraLng": 114.22939041420838,
+      "heading": 237.43141777434352,
+      "projectedFacadeLat": 22.305779412595435,
+      "projectedFacadeLng": 114.22939594641724,
+      "facadeDistanceMeters": 0.3235993331360695,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.201286367977481,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          266,
+          1018
+        ],
+        [
+          291,
+          1021
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "A",
+      "id": "bedroom-2",
+      "lat": 22.305831260282527,
+      "lng": 114.22936974249896,
+      "cameraLat": 22.30583823740625,
+      "cameraLng": 114.22936358093293,
+      "heading": 320.58864436171245,
+      "projectedFacadeLat": 22.305832468204567,
+      "projectedFacadeLng": 114.22936867577123,
+      "facadeDistanceMeters": 0.17312607412011363,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.000683244558786,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          96,
+          951
+        ],
+        [
+          96,
+          1015
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "A",
+      "id": "master",
+      "lat": 22.30585060493388,
+      "lng": 114.22939504162,
+      "cameraLat": 22.3058575820576,
+      "cameraLng": 114.22938888005396,
+      "heading": 320.58864436171245,
+      "projectedFacadeLat": 22.30585199238458,
+      "projectedFacadeLng": 114.22939381634875,
+      "facadeDistanceMeters": 0.1988571155764073,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.0006832445587848,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          96,
+          853
+        ],
+        [
+          96,
+          914
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "B",
+      "id": "living",
+      "lat": 22.305746498573303,
+      "lng": 114.22940817719689,
+      "cameraLat": 22.30574656070668,
+      "cameraLng": 114.22939847239479,
+      "heading": 270.39421545397784,
+      "projectedFacadeLat": 22.305746510609822,
+      "projectedFacadeLng": 114.22940629717641,
+      "facadeDistanceMeters": 0.19372064029676161,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.869874235301785,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          363,
+          1051
+        ],
+        [
+          405,
+          1086
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "B",
+      "id": "bedroom-1",
+      "lat": 22.305730602018535,
+      "lng": 114.22938324067205,
+      "cameraLat": 22.305737579142257,
+      "cameraLng": 114.22937707910602,
+      "heading": 320.5886443617125,
+      "projectedFacadeLat": 22.30573155030097,
+      "projectedFacadeLng": 114.22938240323458,
+      "facadeDistanceMeters": 0.13591308857306178,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.4242151910418468,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          376,
+          1133
+        ],
+        [
+          376,
+          1187
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "B",
+      "id": "master",
+      "lat": 22.30569927136477,
+      "lng": 114.2293928059697,
+      "cameraLat": 22.30570041466659,
+      "cameraLng": 114.22938317902958,
+      "heading": 277.27332867960877,
+      "projectedFacadeLat": 22.305699411139887,
+      "projectedFacadeLng": 114.2293916290218,
+      "facadeDistanceMeters": 0.12225565786831416,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.2265743946439418,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          457,
+          1185
+        ],
+        [
+          490,
+          1220
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "C",
+      "id": "living",
+      "lat": 22.305647344823395,
+      "lng": 114.22949595381861,
+      "cameraLat": 22.305638499694766,
+      "cameraLng": 114.2294939969195,
+      "heading": 191.63273652395335,
+      "projectedFacadeLat": 22.30564475901974,
+      "projectedFacadeLng": 114.22949538173458,
+      "facadeDistanceMeters": 0.29234211998288445,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.883796472408727,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          780,
+          1087
+        ],
+        [
+          827,
+          1049
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "C",
+      "id": "bedroom-1",
+      "lat": 22.305627920454057,
+      "lng": 114.22947391976349,
+      "cameraLat": 22.305620943330336,
+      "cameraLng": 114.22948008132953,
+      "heading": 140.58864436171237,
+      "projectedFacadeLat": 22.305625516562376,
+      "projectedFacadeLng": 114.22947604266369,
+      "facadeDistanceMeters": 0.34453906491195047,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.4242151910418466,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          810,
+          1133
+        ],
+        [
+          810,
+          1187
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "C",
+      "id": "master",
+      "lat": 22.30564272552627,
+      "lng": 114.22944274215139,
+      "cameraLat": 22.305633715865476,
+      "cameraLng": 114.22944208139162,
+      "heading": 183.90396004381628,
+      "projectedFacadeLat": 22.30564204789261,
+      "projectedFacadeLng": 114.2294426924544,
+      "facadeDistanceMeters": 0.0752118944961591,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.2265743946439434,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          729,
+          1185
+        ],
+        [
+          696,
+          1220
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "D",
+      "id": "living",
+      "lat": 22.305646114560233,
+      "lng": 114.22951663422862,
+      "cameraLat": 22.30563708400191,
+      "cameraLng": 114.22951666880881,
+      "heading": 179.79584786668025,
+      "projectedFacadeLat": 22.305642775221234,
+      "projectedFacadeLng": 114.22951664701576,
+      "facadeDistanceMeters": 0.3697821198567339,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.778988753445658,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          831,
+          1041
+        ],
+        [
+          862,
+          1003
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "D",
+      "id": "bedroom-1",
+      "lat": 22.305634010750317,
+      "lng": 114.22953009193195,
+      "cameraLat": 22.305627456228336,
+      "cameraLng": 114.22952341589917,
+      "heading": 223.4636280128107,
+      "projectedFacadeLat": 22.30563098710414,
+      "projectedFacadeLng": 114.229527012232,
+      "facadeDistanceMeters": 0.46130689368085775,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1650630105144295,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          891,
+          1017
+        ],
+        [
+          915,
+          1014
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "D",
+      "id": "bedroom-2",
+      "lat": 22.305602597328853,
+      "lng": 114.22957401973962,
+      "cameraLat": 22.305595620205132,
+      "cameraLng": 114.22958018130565,
+      "heading": 140.5886443617124,
+      "projectedFacadeLat": 22.30560150570176,
+      "projectedFacadeLng": 114.22957498376616,
+      "facadeDistanceMeters": 0.15645803901208735,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.9328634735567944,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          1067,
+          945
+        ],
+        [
+          1067,
+          1010
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "D",
+      "id": "master",
+      "lat": 22.305622330817418,
+      "lng": 114.2295998273857,
+      "cameraLat": 22.305615353693696,
+      "cameraLng": 114.22960598895173,
+      "heading": 140.58864436171257,
+      "projectedFacadeLat": 22.30562139197787,
+      "projectedFacadeLng": 114.22960065648407,
+      "facadeDistanceMeters": 0.13455968222203912,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.9328634735567924,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          1067,
+          845
+        ],
+        [
+          1067,
+          907
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "E",
+      "id": "living",
+      "lat": 22.305730686654087,
+      "lng": 114.2296272384261,
+      "cameraLat": 22.305728104884608,
+      "cameraLng": 114.22963653839142,
+      "heading": 106.6121003254555,
+      "projectedFacadeLat": 22.30573009348356,
+      "projectedFacadeLng": 114.22962937512551,
+      "facadeDistanceMeters": 0.2297534804615146,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.495373597080865,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          831,
+          564
+        ],
+        [
+          862,
+          610
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "E",
+      "id": "bedroom-1",
+      "lat": 22.305715763774373,
+      "lng": 114.22963700932286,
+      "cameraLat": 22.30572089794151,
+      "cameraLng": 114.22964499329541,
+      "heading": 55.35228605243879,
+      "projectedFacadeLat": 22.305717904525466,
+      "projectedFacadeLng": 114.22964033833368,
+      "facadeDistanceMeters": 0.4169617071078019,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.2869406599395337,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          891,
+          594
+        ],
+        [
+          915,
+          596
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "E",
+      "id": "bedroom-2",
+      "lat": 22.30567015779463,
+      "lng": 114.22966237596634,
+      "cameraLat": 22.30566318067091,
+      "cameraLng": 114.22966853753238,
+      "heading": 140.58864436171248,
+      "projectedFacadeLat": 22.305669789059145,
+      "projectedFacadeLng": 114.22966270160025,
+      "facadeDistanceMeters": 0.052849211619140926,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.932863473556792,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          1067,
+          598
+        ],
+        [
+          1067,
+          662
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "E",
+      "id": "master",
+      "lat": 22.30565081314328,
+      "lng": 114.22963707684531,
+      "cameraLat": 22.305643836019556,
+      "cameraLng": 114.22964323841134,
+      "heading": 140.5886443617124,
+      "projectedFacadeLat": 22.30565019548464,
+      "projectedFacadeLng": 114.22963762230567,
+      "facadeDistanceMeters": 0.08852625631410345,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.9328634735567922,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          1067,
+          698
+        ],
+        [
+          1067,
+          761
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "F",
+      "id": "living",
+      "lat": 22.30574861582998,
+      "lng": 114.22962865619334,
+      "cameraLat": 22.305749915147995,
+      "cameraLng": 114.22963826024677,
+      "heading": 81.72761679869127,
+      "projectedFacadeLat": 22.305748982923774,
+      "projectedFacadeLng": 114.22963136960789,
+      "facadeDistanceMeters": 0.2825280562789379,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.398712503515939,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          780,
+          532
+        ],
+        [
+          828,
+          561
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "F",
+      "id": "bedroom-1",
+      "lat": 22.305763814428303,
+      "lng": 114.22964931060217,
+      "cameraLat": 22.305759008404745,
+      "cameraLng": 114.22965752711059,
+      "heading": 122.15369553879033,
+      "projectedFacadeLat": 22.305762181154634,
+      "projectedFacadeLng": 114.22965210289121,
+      "facadeDistanceMeters": 0.33983888168897497,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.2867896805440222,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          797,
+          441
+        ],
+        [
+          814,
+          492
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "F",
+      "id": "master",
+      "lat": 22.305790341722602,
+      "lng": 114.22964590399785,
+      "cameraLat": 22.30578336459888,
+      "cameraLng": 114.22965206556388,
+      "heading": 140.5886443617125,
+      "projectedFacadeLat": 22.30579108970158,
+      "projectedFacadeLng": 114.22964524345032,
+      "facadeDistanceMeters": -0.10720448786055997,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.4242151910418455,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          732,
+          403
+        ],
+        [
+          732,
+          436
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "G",
+      "id": "living",
+      "lat": 22.305848361063553,
+      "lng": 114.22954035722661,
+      "cameraLat": 22.30585682901556,
+      "cameraLng": 114.22954372936418,
+      "heading": 20.332207198183166,
+      "projectedFacadeLat": 22.30585095541508,
+      "projectedFacadeLng": 114.22954139035838,
+      "facadeDistanceMeters": 0.3063729605231912,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.4115963253425536,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          358,
+          561
+        ],
+        [
+          406,
+          533
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "G",
+      "id": "bedroom-1",
+      "lat": 22.30586472154178,
+      "lng": 114.22956019854571,
+      "cameraLat": 22.305873094973336,
+      "cameraLng": 114.22955656401575,
+      "heading": 338.0066151539153,
+      "projectedFacadeLat": 22.305868545779703,
+      "projectedFacadeLng": 114.22955853861606,
+      "facadeDistanceMeters": 0.4567109547911765,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.2612105159374831,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          387,
+          441
+        ],
+        [
+          371,
+          492
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "G",
+      "id": "master",
+      "lat": 22.3058568244867,
+      "lng": 114.2295871924202,
+      "cameraLat": 22.30586380161042,
+      "cameraLng": 114.22958103085416,
+      "heading": 320.5886443617125,
+      "projectedFacadeLat": 22.305856630207572,
+      "projectedFacadeLng": 114.22958736398999,
+      "facadeDistanceMeters": -0.027845160102525798,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.6615843895488196,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          451,
+          403
+        ],
+        [
+          451,
+          436
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "H",
+      "id": "living",
+      "lat": 22.305852219574014,
+      "lng": 114.22951948556323,
+      "cameraLat": 22.30586118438834,
+      "cameraLng": 114.22952065500348,
+      "heading": 6.920864215582109,
+      "projectedFacadeLat": 22.305852809928428,
+      "projectedFacadeLng": 114.22951956257367,
+      "facadeDistanceMeters": 0.06585238635546474,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.63797209559729,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          310,
+          609
+        ],
+        [
+          354,
+          567
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "H",
+      "id": "bedroom-1",
+      "lat": 22.305861876695655,
+      "lng": 114.2295054198435,
+      "cameraLat": 22.305869185401164,
+      "cameraLng": 114.22951355762868,
+      "heading": 46.01472310181148,
+      "projectedFacadeLat": 22.305866049639526,
+      "projectedFacadeLng": 114.22951006615477,
+      "facadeDistanceMeters": 0.6653796362447315,
+      "cameraOffsetMetres": 1.1653796362447315,
+      "interiorNormalDot": -1.153320553702627,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          268,
+          602
+        ],
+        [
+          293,
+          600
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "H",
+      "id": "bedroom-2",
+      "lat": 22.305898334701787,
+      "lng": 114.22945746306938,
+      "cameraLat": 22.305905311825512,
+      "cameraLng": 114.22945130150335,
+      "heading": 320.58864436171245,
+      "projectedFacadeLat": 22.305900045945165,
+      "projectedFacadeLng": 114.22945595185367,
+      "facadeDistanceMeters": 0.24526487470192596,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.000683244558788,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          96,
+          607
+        ],
+        [
+          96,
+          669
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "H",
+      "id": "master",
+      "lat": 22.305879184469042,
+      "lng": 114.22943241821088,
+      "cameraLat": 22.305886161592763,
+      "cameraLng": 114.22942625664484,
+      "heading": 320.58864436171245,
+      "projectedFacadeLat": 22.305880763281163,
+      "projectedFacadeLng": 114.22943102394649,
+      "facadeDistanceMeters": 0.22628409387976509,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.000683244558787,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          96,
+          704
+        ],
+        [
+          96,
+          769
+        ]
+      ],
+      "qaErrors": []
+    }
+  ],
+  "annotation": {
+    "canvas": [
+      1188,
+      1400
+    ],
+    "outline": [
+      [
+        450,
+        400
+      ],
+      [
+        558,
+        400
+      ],
+      [
+        558,
+        570
+      ],
+      [
+        628,
+        570
+      ],
+      [
+        628,
+        400
+      ],
+      [
+        735,
+        400
+      ],
+      [
+        735,
+        438
+      ],
+      [
+        815,
+        438
+      ],
+      [
+        815,
+        493
+      ],
+      [
+        776,
+        532
+      ],
+      [
+        865,
+        615
+      ],
+      [
+        902,
+        578
+      ],
+      [
+        919,
+        595
+      ],
+      [
+        1068,
+        595
+      ],
+      [
+        1068,
+        765
+      ],
+      [
+        780,
+        765
+      ],
+      [
+        780,
+        840
+      ],
+      [
+        1068,
+        840
+      ],
+      [
+        1068,
+        1013
+      ],
+      [
+        919,
+        1013
+      ],
+      [
+        902,
+        1031
+      ],
+      [
+        865,
+        1004
+      ],
+      [
+        829,
+        1046
+      ],
+      [
+        776,
+        1083
+      ],
+      [
+        817,
+        1125
+      ],
+      [
+        795,
+        1146
+      ],
+      [
+        795,
+        1190
+      ],
+      [
+        729,
+        1190
+      ],
+      [
+        729,
+        1223
+      ],
+      [
+        630,
+        1223
+      ],
+      [
+        630,
+        1010
+      ],
+      [
+        558,
+        1010
+      ],
+      [
+        558,
+        1223
+      ],
+      [
+        458,
+        1223
+      ],
+      [
+        458,
+        1193
+      ],
+      [
+        391,
+        1193
+      ],
+      [
+        391,
+        1147
+      ],
+      [
+        373,
+        1125
+      ],
+      [
+        409,
+        1087
+      ],
+      [
+        360,
+        1048
+      ],
+      [
+        307,
+        1008
+      ],
+      [
+        281,
+        1038
+      ],
+      [
+        265,
+        1019
+      ],
+      [
+        95,
+        1019
+      ],
+      [
+        95,
+        847
+      ],
+      [
+        401,
+        847
+      ],
+      [
+        401,
+        773
+      ],
+      [
+        95,
+        773
+      ],
+      [
+        95,
+        603
+      ],
+      [
+        266,
+        603
+      ],
+      [
+        282,
+        582
+      ],
+      [
+        307,
+        611
+      ],
+      [
+        411,
+        532
+      ],
+      [
+        371,
+        494
+      ],
+      [
+        371,
+        438
+      ],
+      [
+        450,
+        438
+      ]
+    ],
+    "rooms": {
+      "A": [
+        [
+          "living",
+          [
+            309,
+            1008
+          ],
+          [
+            358,
+            1046
+          ],
+          [
+            359,
+            947
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            266,
+            1018
+          ],
+          [
+            291,
+            1021
+          ],
+          [
+            280,
+            984
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            96,
+            951
+          ],
+          [
+            96,
+            1015
+          ],
+          [
+            155,
+            980
+          ]
+        ],
+        [
+          "master",
+          [
+            96,
+            853
+          ],
+          [
+            96,
+            914
+          ],
+          [
+            155,
+            881
+          ]
+        ]
+      ],
+      "B": [
+        [
+          "living",
+          [
+            363,
+            1051
+          ],
+          [
+            405,
+            1086
+          ],
+          [
+            470,
+            1030
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            376,
+            1133
+          ],
+          [
+            376,
+            1187
+          ],
+          [
+            418,
+            1157
+          ]
+        ],
+        [
+          "master",
+          [
+            457,
+            1185
+          ],
+          [
+            490,
+            1220
+          ],
+          [
+            502,
+            1180
+          ]
+        ]
+      ],
+      "C": [
+        [
+          "living",
+          [
+            780,
+            1087
+          ],
+          [
+            827,
+            1049
+          ],
+          [
+            714,
+            1031
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            810,
+            1133
+          ],
+          [
+            810,
+            1187
+          ],
+          [
+            768,
+            1157
+          ]
+        ],
+        [
+          "master",
+          [
+            729,
+            1185
+          ],
+          [
+            696,
+            1220
+          ],
+          [
+            684,
+            1180
+          ]
+        ]
+      ],
+      "D": [
+        [
+          "living",
+          [
+            831,
+            1041
+          ],
+          [
+            862,
+            1003
+          ],
+          [
+            806,
+            942
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            891,
+            1017
+          ],
+          [
+            915,
+            1014
+          ],
+          [
+            902,
+            981
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            1067,
+            945
+          ],
+          [
+            1067,
+            1010
+          ],
+          [
+            1010,
+            980
+          ]
+        ],
+        [
+          "master",
+          [
+            1067,
+            845
+          ],
+          [
+            1067,
+            907
+          ],
+          [
+            1010,
+            880
+          ]
+        ]
+      ],
+      "E": [
+        [
+          "living",
+          [
+            831,
+            564
+          ],
+          [
+            862,
+            610
+          ],
+          [
+            811,
+            666
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            891,
+            594
+          ],
+          [
+            915,
+            596
+          ],
+          [
+            902,
+            633
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            1067,
+            598
+          ],
+          [
+            1067,
+            662
+          ],
+          [
+            1010,
+            630
+          ]
+        ],
+        [
+          "master",
+          [
+            1067,
+            698
+          ],
+          [
+            1067,
+            761
+          ],
+          [
+            1010,
+            732
+          ]
+        ]
+      ],
+      "F": [
+        [
+          "living",
+          [
+            780,
+            532
+          ],
+          [
+            828,
+            561
+          ],
+          [
+            721,
+            579
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            797,
+            441
+          ],
+          [
+            814,
+            492
+          ],
+          [
+            770,
+            480
+          ]
+        ],
+        [
+          "master",
+          [
+            732,
+            403
+          ],
+          [
+            732,
+            436
+          ],
+          [
+            690,
+            440
+          ]
+        ]
+      ],
+      "G": [
+        [
+          "living",
+          [
+            358,
+            561
+          ],
+          [
+            406,
+            533
+          ],
+          [
+            470,
+            578
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            387,
+            441
+          ],
+          [
+            371,
+            492
+          ],
+          [
+            415,
+            476
+          ]
+        ],
+        [
+          "master",
+          [
+            451,
+            403
+          ],
+          [
+            451,
+            436
+          ],
+          [
+            500,
+            440
+          ]
+        ]
+      ],
+      "H": [
+        [
+          "living",
+          [
+            310,
+            609
+          ],
+          [
+            354,
+            567
+          ],
+          [
+            364,
+            665
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            268,
+            602
+          ],
+          [
+            293,
+            600
+          ],
+          [
+            282,
+            635
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            96,
+            607
+          ],
+          [
+            96,
+            669
+          ],
+          [
+            155,
+            638
+          ]
+        ],
+        [
+          "master",
+          [
+            96,
+            704
+          ],
+          [
+            96,
+            769
+          ],
+          [
+            155,
+            740
+          ]
+        ]
+      ]
+    },
+    "core": [
+      593,
+      806
+    ],
+    "source": "https://llam.com.hk/admin/estate_image/efda844f.jpg",
+    "sourcePage": "https://llam.com.hk/floorplan_detail.php?sno=4",
+    "extractionMethod": "Visual tracing of fine glazing lines on approved Primary full-resolution image; largest main pane or existing reviewed corner chord; room-side interior witness chooses outward normal.",
+    "reviewNotes": "25/30 explicit standard B/C insets: bedroom outer vertical pane and master L-corner chord. Aligned to main bathroom partition; special 522sf main B/C excluded.",
+    "insetTranslations": {
+      "B": [
+        276,
+        -15
+      ],
+      "C": [
+        -283,
+        -14
+      ]
+    },
+    "sourceSheet": "L04",
+    "planInterpretationConfidence": "visually-traced",
+    "windowVerified": false,
+    "templateId": "L04-standard"
+  },
+  "orientationEvidence": {
+    "bearings": {
+      "A": 315,
+      "B": 270,
+      "C": 225,
+      "D": 180,
+      "E": 135,
+      "F": 90,
+      "G": 45,
+      "H": 0
+    },
+    "toleranceDegrees": 40,
+    "evidence": "data/laguna-approved-job/orientation/centamap-overview-1.png",
+    "northUp": true,
+    "method": "Visible A-H labels transcribed to coarse compass sectors; north-up per user convention; not measurement coordinates."
+  },
+  "approvedJob": "data/laguna-approved-job/approved-job.json",
+  "qa": {
+    "pass": true,
+    "errors": [],
+    "method": "symmetric boundary ICP + Powell; 72 rotation starts each handedness; semantic compass constraints; room-side normal; official polygon point-in-polygon and 2m forward probe",
+    "limits": {
+      "rmseMetres": 1.5,
+      "facadeDiscrepancyMetres": 2,
+      "maxOffsetMetres": 3
+    }
+  },
+  "confidenceDimensions": {
+    "planInterpretation": "visually-traced-approved-primary",
+    "horizontalGeoreferencing": "derived-plan-to-official-footprint",
+    "windowSemantics": "derived-from-room-side-witness",
+    "verticalGeometry": "building-average estimate; floor range must have source"
+  }
+}

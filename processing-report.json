@@ -1,0 +1,77 @@
+{
+  "job": "laguna-city-astra-job",
+  "estate": "麗港城 / Laguna City",
+  "status": "completed",
+  "sourcePackage": "data/laguna-approved-job/approved-job.json",
+  "primaryPlanSource": {
+    "setId": "llam-full-38",
+    "provider": "L&Lam 美林物業",
+    "sourcePage": "https://llam.com.hk/floorplan_detail.php?sno=4",
+    "sheetsDownloaded": 11,
+    "coverage": "38/38 towers"
+  },
+  "orientationSource": {
+    "file": "data/laguna-approved-job/orientation/centamap-overview-1.png",
+    "sourceUrl": "http://www1.centamap.com/gc/home.aspx?ref=alias&ck=gbase&alias=Default.htm",
+    "convention": "north-up; top=north, right=east, bottom=south, left=west",
+    "use": "A-H identity and rotation/reflection constraints only"
+  },
+  "towersCompleted": 38,
+  "towers": "1-38",
+  "geometryFamiliesConfirmed": [
+    "L01",
+    "L01-special",
+    "L02",
+    "L02-special",
+    "L03",
+    "L04",
+    "L04-standard",
+    "L05",
+    "L05-special",
+    "L06",
+    "L07",
+    "L08",
+    "L09",
+    "L10",
+    "L11",
+    "L11-special"
+  ],
+  "familyReview": "Each family and source-specific variant was retained as a separate reviewed template. Similar-looking sheets were not merged solely by appearance; topology, core, room labels and inset differences were checked.",
+  "towersNeedingReview": [],
+  "registration": {
+    "method": "Existing local WGS84 ellipsoid east/north metre frame; symmetric boundary sampling, ICP/Chamfer refinement, Powell similarity fit; both handedness candidates evaluated",
+    "rmseRangeMetres": [0.226, 0.456],
+    "officialGeometry": "data/laguna-tower-1/court-query.raw.json, exact BuildingNameEN match per tower",
+    "windowsPerTower": 28,
+    "totalWindowRecords": 1064,
+    "cameraClearance": "All camera proxies outside the matched official polygon; facade discrepancy <= 2m; outward normal selected from room-side witness",
+    "georefVerified": false,
+    "confidence": "review"
+  },
+  "filesChanged": [
+    "data/properties.json",
+    "data/laguna-tower-1..38/approved-result.json",
+    "data/laguna-tower-1..38/official-footprint.json",
+    "data/laguna-approved-job/",
+    "scripts/annotateLagunaApproved.py",
+    "scripts/fetchLagunaApproved.mjs",
+    "scripts/processLagunaApproved.py",
+    "scripts/importLaguna.mjs",
+    "tests/laguna-approved.test.js",
+    "tests/reviewMode.test.js",
+    "needs-review.json"
+  ],
+  "tests": {
+    "command": "npm test",
+    "result": "89 passed, 0 failed"
+  },
+  "build": {
+    "command": "npm run build",
+    "result": "passed"
+  },
+  "notes": [
+    "All 38 official BuildingCSUID values were selected from the saved estate-level LandsD response; no new broad dataset download was used.",
+    "Floor ranges and vertical height models remain separate from horizontal geometry and retain their source-specific uncertainty.",
+    "needs-review.json is empty because every current registration passed deterministic geometry and semantic orientation QA."
+  ]
+}

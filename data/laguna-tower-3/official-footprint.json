@@ -10,7 +10,7 @@
     "BuildingID": 1108240931,
     "Status": "Active",
     "BuildingNameEN": "Laguna City Block 3",
-    "BuildingNameTC": "\u9e97\u6e2f\u57ce\u7b2c\u4e09\u5ea7",
+    "BuildingNameTC": "麗港城第三座",
     "BaseHeight": 5.4,
     "TopHeight": 85.6,
     "Storeys": 28,
@@ -263,6 +263,8 @@
     "source": "LandsD CSDI Building FSDT",
     "queryUrl": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0/query?where=BuildingNameEN%20LIKE%20%27%25Laguna%20City%25%27&outFields=*&returnGeometry=true&outSR=4326&f=json",
     "rawFile": "data/laguna-tower-1/court-query.raw.json",
-    "outputCRS": "EPSG:4326"
+    "rawSha256": "448d90d2230040edc237e2410b6608a0bd54ce340ae940d34f1e13bb18b2e16c",
+    "outputCRS": "EPSG:4326",
+    "selectionRule": "unique exact BuildingNameEN Laguna City Block N; independent official polygon"
   }
 }
