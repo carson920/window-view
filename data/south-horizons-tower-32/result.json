@@ -1,0 +1,2162 @@
+{
+  "tower": "32",
+  "buildingCsuid": "3342311653T20050430",
+  "origin": [
+    114.14927810712454,
+    22.24361492632205
+  ],
+  "transform": {
+    "rotationDegrees": -12,
+    "reflected": false,
+    "scaleMetresPerCanvasPixel": 0.0353221321046984,
+    "translationMetres": [
+      -14.129991622071712,
+      19.79811057479909
+    ],
+    "rmsMetres": 0.30162593865583476,
+    "method": "Single approved screenshot angle held constant; symmetric boundary distance optimizes uniform scale + east/north translation only"
+  },
+  "windows": [
+    {
+      "flat": "A",
+      "id": "living",
+      "lat": 22.243691666441883,
+      "lng": 114.14921179189118,
+      "cameraLat": 22.243699294993466,
+      "cameraLng": 114.14920660022635,
+      "heading": 327.64374571417534,
+      "projectedFacadeLat": 22.24369027219194,
+      "projectedFacadeLng": 114.14921274075785,
+      "facadeDistanceMeters": -0.1827673220080842,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.7708857057094947,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          248.7,
+          289.36
+        ],
+        [
+          288.3,
+          250.64
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "A",
+      "id": "master",
+      "lat": 22.243684690403764,
+      "lng": 114.14914486698332,
+      "cameraLat": 22.24368656798869,
+      "cameraLng": 114.14913537822137,
+      "heading": 282.0,
+      "projectedFacadeLat": 22.243685040627003,
+      "projectedFacadeLng": 114.14914309705807,
+      "facadeDistanceMeters": 0.1865285742485868,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033641,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          82,
+          301
+        ],
+        [
+          82,
+          363
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "A",
+      "id": "bedroom-1",
+      "lat": 22.243691706325844,
+      "lng": 114.14919428569385,
+      "cameraLat": 22.24370065765387,
+      "cameraLng": 114.14919556889684,
+      "heading": 7.601294645004381,
+      "projectedFacadeLat": 22.243690710843655,
+      "projectedFacadeLng": 114.14919414298814,
+      "facadeDistanceMeters": -0.11121055843470445,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7747979855543181,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          212,
+          281
+        ],
+        [
+          225,
+          280
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "B",
+      "id": "living",
+      "lat": 22.24370237741782,
+      "lng": 114.14923017643247,
+      "cameraLat": 22.243710058590125,
+      "cameraLng": 114.14922507508068,
+      "heading": 328.2730300200567,
+      "projectedFacadeLat": 22.243700130114664,
+      "projectedFacadeLng": 114.14923166894994,
+      "facadeDistanceMeters": -0.2925729388989735,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.7721255085961385,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          293.76,
+          245.36
+        ],
+        [
+          334.24,
+          206.64
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "B",
+      "id": "master",
+      "lat": 22.243751597035704,
+      "lng": 114.14924842076631,
+      "cameraLat": 22.243753474620632,
+      "cameraLng": 114.14923893200438,
+      "heading": 282.0,
+      "projectedFacadeLat": 22.2437512665041,
+      "projectedFacadeLng": 114.14925009117584,
+      "facadeDistanceMeters": -0.1760408297192702,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033633,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          334,
+          45
+        ],
+        [
+          334,
+          83
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "B",
+      "id": "bedroom-1",
+      "lat": 22.243725009653456,
+      "lng": 114.14924270043109,
+      "cameraLat": 22.243726887238385,
+      "cameraLng": 114.14923321166914,
+      "heading": 282.0,
+      "projectedFacadeLat": 22.243724793258277,
+      "projectedFacadeLng": 114.14924379402868,
+      "facadeDistanceMeters": -0.11525187390265039,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033671,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          335,
+          132
+        ],
+        [
+          335,
+          166
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "C",
+      "id": "living",
+      "lat": 22.243677743201946,
+      "lng": 114.14935714260434,
+      "cameraLat": 22.24368266166535,
+      "cameraLng": 114.14936527833494,
+      "heading": 57.00000000000009,
+      "projectedFacadeLat": 22.24367778653223,
+      "projectedFacadeLng": 114.14935721427784,
+      "facadeDistanceMeters": 0.008809719853712721,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.8129804678270705,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          672.7,
+          204.7
+        ],
+        [
+          712.3,
+          244.3
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "C",
+      "id": "master",
+      "lat": 22.243728626845293,
+      "lng": 114.14936368132193,
+      "cameraLat": 22.243726749260365,
+      "cameraLng": 114.14937317008388,
+      "heading": 101.99999999999999,
+      "projectedFacadeLat": 22.24372893685863,
+      "projectedFacadeLng": 114.1493621146057,
+      "facadeDistanceMeters": -0.1651128185705978,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033659,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          678,
+          46
+        ],
+        [
+          678,
+          83
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "C",
+      "id": "bedroom-1",
+      "lat": 22.243702261789593,
+      "lng": 114.14935766144397,
+      "cameraLat": 22.243700384204665,
+      "cameraLng": 114.14936715020592,
+      "heading": 102.00000000000009,
+      "projectedFacadeLat": 22.2437027194326,
+      "projectedFacadeLng": 114.14935534865081,
+      "facadeDistanceMeters": -0.24374024393927612,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033681,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          678,
+          131
+        ],
+        [
+          678,
+          167
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "D",
+      "id": "living",
+      "lat": 22.243660529059714,
+      "lng": 114.14936915106188,
+      "cameraLat": 22.243665447523117,
+      "cameraLng": 114.14937728679247,
+      "heading": 57.00000000000007,
+      "projectedFacadeLat": 22.2436605409556,
+      "projectedFacadeLng": 114.14936917073909,
+      "facadeDistanceMeters": 0.0024186179040585035,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.8129804678270705,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          717.76,
+          249.76
+        ],
+        [
+          758.24,
+          290.24
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "D",
+      "id": "master",
+      "lat": 22.243627912671315,
+      "lng": 114.14942686076085,
+      "cameraLat": 22.24362603508639,
+      "cameraLng": 114.1494363495228,
+      "heading": 102.00000000000007,
+      "projectedFacadeLat": 22.243627457591593,
+      "projectedFacadeLng": 114.14942916059991,
+      "facadeDistanceMeters": 0.24237503963262294,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033659,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          924,
+          303
+        ],
+        [
+          924,
+          367
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "D",
+      "id": "bedroom-1",
+      "lat": 22.243651520704876,
+      "lng": 114.14938583557829,
+      "cameraLat": 22.243658785333675,
+      "cameraLng": 114.1493915981728,
+      "heading": 36.44395478041653,
+      "projectedFacadeLat": 22.243653712868344,
+      "projectedFacadeLng": 114.14938757449015,
+      "facadeDistanceMeters": 0.3017584969809257,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.707433869573709,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          786,
+          285
+        ],
+        [
+          797,
+          290
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "E",
+      "id": "living",
+      "lat": 22.243542525793497,
+      "lng": 114.14934501007184,
+      "cameraLat": 22.24353490067316,
+      "cameraLng": 114.14935020754986,
+      "heading": 147.60309119438057,
+      "projectedFacadeLat": 22.243542111858204,
+      "projectedFacadeLng": 114.14934529222077,
+      "facadeDistanceMeters": 0.05428573910159471,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.5545620185824105,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          767.12,
+          625.82
+        ],
+        [
+          724.88,
+          667.18
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "E",
+      "id": "master",
+      "lat": 22.24356453425118,
+      "lng": 114.14942990500285,
+      "cameraLat": 22.243562656666253,
+      "cameraLng": 114.14943939376478,
+      "heading": 101.99999999999997,
+      "projectedFacadeLat": 22.243564246002602,
+      "projectedFacadeLng": 114.14943136172637,
+      "facadeDistanceMeters": 0.15352092655820332,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033714,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          974,
+          503
+        ],
+        [
+          974,
+          552
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "E",
+      "id": "bedroom-1",
+      "lat": 22.243542306537652,
+      "lng": 114.14936177470139,
+      "cameraLat": 22.243534927031657,
+      "cameraLng": 114.1493561830726,
+      "heading": 215.19859051364816,
+      "projectedFacadeLat": 22.243543714806055,
+      "projectedFacadeLng": 114.14936284178015,
+      "facadeDistanceMeters": -0.19083505110329477,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7142555678208469,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          787,
+          634
+        ],
+        [
+          801,
+          640
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "E",
+      "id": "bedroom-2",
+      "lat": 22.243539483442245,
+      "lng": 114.14938757821886,
+      "cameraLat": 22.243530650099665,
+      "cameraLng": 114.14938556132026,
+      "heading": 191.99999999999994,
+      "projectedFacadeLat": 22.243539102605677,
+      "projectedFacadeLng": 114.14938749126325,
+      "facadeDistanceMeters": 0.043113528372255204,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033641,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          850,
+          630
+        ],
+        [
+          889,
+          630
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "F",
+      "id": "living",
+      "lat": 22.243531167426934,
+      "lng": 114.14932577710104,
+      "cameraLat": 22.24352354121162,
+      "cameraLng": 114.14933097272495,
+      "heading": 147.61605990839917,
+      "projectedFacadeLat": 22.243530319069382,
+      "projectedFacadeLng": 114.14932635507408,
+      "facadeDistanceMeters": 0.11124227662176323,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.5545071037701144,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          719.18,
+          672.76
+        ],
+        [
+          677.82,
+          713.24
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "F",
+      "id": "master",
+      "lat": 22.243466224338277,
+      "lng": 114.14930376750699,
+      "cameraLat": 22.243464346753353,
+      "cameraLng": 114.14931325626894,
+      "heading": 101.99999999999994,
+      "projectedFacadeLat": 22.243466172409395,
+      "projectedFacadeLng": 114.1493040299403,
+      "facadeDistanceMeters": 0.027657275464018454,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033666,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          678,
+          890
+        ],
+        [
+          678,
+          921
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "F",
+      "id": "bedroom-1",
+      "lat": 22.2435106861186,
+      "lng": 114.14931391937219,
+      "cameraLat": 22.243508808533672,
+      "cameraLng": 114.14932340813414,
+      "heading": 101.99999999999999,
+      "projectedFacadeLat": 22.243510582308954,
+      "projectedFacadeLng": 114.1493144439956,
+      "facadeDistanceMeters": 0.05528892217950137,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033679,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          678,
+          751
+        ],
+        [
+          678,
+          775
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "F",
+      "id": "bedroom-2",
+      "lat": 22.243490405306524,
+      "lng": 114.14930928869684,
+      "cameraLat": 22.243488527721595,
+      "cameraLng": 114.14931877745877,
+      "heading": 102.00000000000007,
+      "projectedFacadeLat": 22.243490325161787,
+      "projectedFacadeLng": 114.14930969372476,
+      "facadeDistanceMeters": 0.04268501315138511,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033701,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          678,
+          816
+        ],
+        [
+          678,
+          840
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "G",
+      "id": "living",
+      "lat": 22.24355791185672,
+      "lng": 114.14919473877087,
+      "cameraLat": 22.24355291046705,
+      "cameraLng": 114.14918666158735,
+      "heading": 236.37040139158967,
+      "projectedFacadeLat": 22.24356000971862,
+      "projectedFacadeLng": 114.14919812679234,
+      "facadeDistanceMeters": -0.41945579974384695,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.504774064024739,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          286.76,
+          670.7
+        ],
+        [
+          327.24,
+          710.3
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "G",
+      "id": "master",
+      "lat": 22.24348956908487,
+      "lng": 114.14918579002438,
+      "cameraLat": 22.243491446669793,
+      "cameraLng": 114.14917630126244,
+      "heading": 281.99999999999994,
+      "projectedFacadeLat": 22.243489431324765,
+      "projectedFacadeLng": 114.14918648622343,
+      "facadeDistanceMeters": -0.07337090505441515,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033633,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          326,
+          890
+        ],
+        [
+          326,
+          921
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "G",
+      "id": "bedroom-1",
+      "lat": 22.24353383190428,
+      "lng": 114.14919694737948,
+      "cameraLat": 22.24353570948921,
+      "cameraLng": 114.14918745861755,
+      "heading": 282.0000000000001,
+      "projectedFacadeLat": 22.243534133658688,
+      "projectedFacadeLng": 114.14919542240146,
+      "facadeDistanceMeters": 0.16071411973138844,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033646,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          329,
+          751
+        ],
+        [
+          329,
+          775
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "G",
+      "id": "bedroom-2",
+      "lat": 22.243513551092203,
+      "lng": 114.14919231670413,
+      "cameraLat": 22.24351542867713,
+      "cameraLng": 114.14918282794218,
+      "heading": 282.00000000000006,
+      "projectedFacadeLat": 22.243513743120406,
+      "projectedFacadeLng": 114.14919134625008,
+      "facadeDistanceMeters": 0.10227404358639754,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.777086906303366,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          329,
+          816
+        ],
+        [
+          329,
+          840
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "H",
+      "id": "living",
+      "lat": 22.243575003152856,
+      "lng": 114.14918252711111,
+      "cameraLat": 22.243570001763185,
+      "cameraLng": 114.14917444992757,
+      "heading": 236.37040139158958,
+      "projectedFacadeLat": 22.24357802170425,
+      "projectedFacadeLng": 114.14918740203491,
+      "facadeDistanceMeters": -0.6035425340345166,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -2.5047740640247347,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          240.76,
+          625.7
+        ],
+        [
+          281.24,
+          665.3
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "H",
+      "id": "master",
+      "lat": 22.24362841203265,
+      "lng": 114.14911450175676,
+      "cameraLat": 22.243630481657362,
+      "cameraLng": 114.14910404248222,
+      "heading": 282.0,
+      "projectedFacadeLat": 22.2436295428649,
+      "projectedFacadeLng": 114.1491087868632,
+      "facadeDistanceMeters": 0.6022802128791808,
+      "cameraOffsetMetres": 1.1022802128791809,
+      "interiorNormalDot": -0.7770869063033637,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          32,
+          497
+        ],
+        [
+          32,
+          549
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "H",
+      "id": "bedroom-1",
+      "lat": 22.24358258408583,
+      "lng": 114.14916481606228,
+      "cameraLat": 22.243575350586855,
+      "cameraLng": 114.14915900845698,
+      "heading": 216.77514056883172,
+      "projectedFacadeLat": 22.243586777722594,
+      "projectedFacadeLng": 114.14916818303409,
+      "facadeDistanceMeters": -0.5797521752769745,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7055633491505622,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          199,
+          630
+        ],
+        [
+          212,
+          636
+        ]
+      ],
+      "qaErrors": []
+    },
+    {
+      "flat": "H",
+      "id": "bedroom-2",
+      "lat": 22.243589463343653,
+      "lng": 114.14913993867987,
+      "cameraLat": 22.243580630001073,
+      "cameraLng": 114.14913792178126,
+      "heading": 192.0,
+      "projectedFacadeLat": 22.24359404110617,
+      "projectedFacadeLng": 114.1491409839108,
+      "facadeDistanceMeters": -0.5182367237012626,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.7770869063033645,
+      "cameraOutside": true,
+      "windowVerified": false,
+      "georefVerified": false,
+      "confidence": "review",
+      "planSegment": [
+        [
+          105,
+          627
+        ],
+        [
+          155,
+          627
+        ]
+      ],
+      "qaErrors": []
+    }
+  ],
+  "annotation": {
+    "tower": "32",
+    "canvas": [
+      1000,
+      965
+    ],
+    "source": "https://i1.28hse.com/estate_data/13/350/FLOOR/350_20231116121541532593_large.jpg",
+    "sourcePage": "https://www.28hse.com/estate/detail/%E6%B5%B7%E6%80%A1%E5%8D%8A%E5%B2%9B-350",
+    "floorCoverage": "1–30F",
+    "sourceId": "H-32-typ",
+    "cropInSourcePixels": [
+      106,
+      379,
+      1337,
+      1567
+    ],
+    "sourceImageSize": [
+      1475,
+      1968
+    ],
+    "outline": [
+      [
+        329,
+        31
+      ],
+      [
+        326,
+        36
+      ],
+      [
+        325,
+        80
+      ],
+      [
+        328,
+        90
+      ],
+      [
+        339,
+        97
+      ],
+      [
+        339,
+        180
+      ],
+      [
+        326,
+        182
+      ],
+      [
+        327,
+        209
+      ],
+      [
+        314,
+        213
+      ],
+      [
+        313,
+        225
+      ],
+      [
+        301,
+        226
+      ],
+      [
+        300,
+        237
+      ],
+      [
+        287,
+        240
+      ],
+      [
+        281,
+        250
+      ],
+      [
+        280,
+        264
+      ],
+      [
+        266,
+        264
+      ],
+      [
+        265,
+        271
+      ],
+      [
+        249,
+        281
+      ],
+      [
+        235,
+        281
+      ],
+      [
+        222,
+        269
+      ],
+      [
+        199,
+        285
+      ],
+      [
+        88,
+        284
+      ],
+      [
+        83,
+        270
+      ],
+      [
+        75,
+        273
+      ],
+      [
+        77,
+        379
+      ],
+      [
+        161,
+        380
+      ],
+      [
+        162,
+        421
+      ],
+      [
+        267,
+        422
+      ],
+      [
+        273,
+        437
+      ],
+      [
+        275,
+        434
+      ],
+      [
+        309,
+        437
+      ],
+      [
+        310,
+        454
+      ],
+      [
+        297,
+        455
+      ],
+      [
+        296,
+        468
+      ],
+      [
+        271,
+        465
+      ],
+      [
+        271,
+        450
+      ],
+      [
+        258,
+        450
+      ],
+      [
+        258,
+        460
+      ],
+      [
+        270,
+        464
+      ],
+      [
+        269,
+        484
+      ],
+      [
+        51,
+        482
+      ],
+      [
+        40,
+        480
+      ],
+      [
+        40,
+        456
+      ],
+      [
+        57,
+        452
+      ],
+      [
+        42,
+        452
+      ],
+      [
+        38,
+        448
+      ],
+      [
+        34,
+        452
+      ],
+      [
+        37,
+        456
+      ],
+      [
+        37,
+        480
+      ],
+      [
+        23,
+        483
+      ],
+      [
+        23,
+        561
+      ],
+      [
+        88,
+        563
+      ],
+      [
+        88,
+        637
+      ],
+      [
+        98,
+        639
+      ],
+      [
+        98,
+        627
+      ],
+      [
+        103,
+        625
+      ],
+      [
+        189,
+        625
+      ],
+      [
+        202,
+        630
+      ],
+      [
+        210,
+        639
+      ],
+      [
+        221,
+        638
+      ],
+      [
+        224,
+        631
+      ],
+      [
+        240,
+        631
+      ],
+      [
+        247,
+        642
+      ],
+      [
+        267,
+        639
+      ],
+      [
+        274,
+        649
+      ],
+      [
+        275,
+        666
+      ],
+      [
+        300,
+        673
+      ],
+      [
+        302,
+        678
+      ],
+      [
+        309,
+        680
+      ],
+      [
+        309,
+        685
+      ],
+      [
+        318,
+        693
+      ],
+      [
+        319,
+        730
+      ],
+      [
+        331,
+        730
+      ],
+      [
+        333,
+        734
+      ],
+      [
+        332,
+        872
+      ],
+      [
+        318,
+        878
+      ],
+      [
+        319,
+        935
+      ],
+      [
+        431,
+        936
+      ],
+      [
+        427,
+        928
+      ],
+      [
+        430,
+        880
+      ],
+      [
+        427,
+        878
+      ],
+      [
+        427,
+        861
+      ],
+      [
+        438,
+        856
+      ],
+      [
+        471,
+        856
+      ],
+      [
+        468,
+        815
+      ],
+      [
+        472,
+        811
+      ],
+      [
+        472,
+        685
+      ],
+      [
+        479,
+        684
+      ],
+      [
+        479,
+        679
+      ],
+      [
+        472,
+        678
+      ],
+      [
+        472,
+        664
+      ],
+      [
+        478,
+        656
+      ],
+      [
+        516,
+        656
+      ],
+      [
+        522,
+        666
+      ],
+      [
+        519,
+        690
+      ],
+      [
+        535,
+        691
+      ],
+      [
+        536,
+        856
+      ],
+      [
+        574,
+        856
+      ],
+      [
+        579,
+        861
+      ],
+      [
+        578,
+        931
+      ],
+      [
+        574,
+        934
+      ],
+      [
+        588,
+        937
+      ],
+      [
+        687,
+        937
+      ],
+      [
+        687,
+        879
+      ],
+      [
+        675,
+        877
+      ],
+      [
+        671,
+        841
+      ],
+      [
+        676,
+        732
+      ],
+      [
+        686,
+        732
+      ],
+      [
+        686,
+        706
+      ],
+      [
+        700,
+        705
+      ],
+      [
+        704,
+        700
+      ],
+      [
+        699,
+        699
+      ],
+      [
+        701,
+        682
+      ],
+      [
+        721,
+        683
+      ],
+      [
+        737,
+        662
+      ],
+      [
+        737,
+        648
+      ],
+      [
+        742,
+        643
+      ],
+      [
+        756,
+        643
+      ],
+      [
+        760,
+        647
+      ],
+      [
+        760,
+        639
+      ],
+      [
+        765,
+        634
+      ],
+      [
+        782,
+        634
+      ],
+      [
+        793,
+        643
+      ],
+      [
+        800,
+        643
+      ],
+      [
+        801,
+        635
+      ],
+      [
+        815,
+        629
+      ],
+      [
+        839,
+        630
+      ],
+      [
+        840,
+        621
+      ],
+      [
+        872,
+        621
+      ],
+      [
+        873,
+        630
+      ],
+      [
+        904,
+        630
+      ],
+      [
+        905,
+        643
+      ],
+      [
+        918,
+        644
+      ],
+      [
+        922,
+        630
+      ],
+      [
+        919,
+        624
+      ],
+      [
+        918,
+        569
+      ],
+      [
+        983,
+        568
+      ],
+      [
+        981,
+        520
+      ],
+      [
+        985,
+        495
+      ],
+      [
+        983,
+        487
+      ],
+      [
+        915,
+        488
+      ],
+      [
+        914,
+        495
+      ],
+      [
+        889,
+        495
+      ],
+      [
+        879,
+        488
+      ],
+      [
+        739,
+        487
+      ],
+      [
+        735,
+        483
+      ],
+      [
+        735,
+        469
+      ],
+      [
+        699,
+        469
+      ],
+      [
+        698,
+        443
+      ],
+      [
+        737,
+        442
+      ],
+      [
+        739,
+        426
+      ],
+      [
+        760,
+        426
+      ],
+      [
+        761,
+        435
+      ],
+      [
+        763,
+        427
+      ],
+      [
+        815,
+        426
+      ],
+      [
+        816,
+        430
+      ],
+      [
+        842,
+        428
+      ],
+      [
+        847,
+        423
+      ],
+      [
+        849,
+        385
+      ],
+      [
+        933,
+        385
+      ],
+      [
+        934,
+        279
+      ],
+      [
+        924,
+        276
+      ],
+      [
+        923,
+        289
+      ],
+      [
+        815,
+        289
+      ],
+      [
+        806,
+        287
+      ],
+      [
+        791,
+        275
+      ],
+      [
+        781,
+        277
+      ],
+      [
+        775,
+        285
+      ],
+      [
+        760,
+        285
+      ],
+      [
+        759,
+        280
+      ],
+      [
+        753,
+        279
+      ],
+      [
+        753,
+        273
+      ],
+      [
+        741,
+        273
+      ],
+      [
+        740,
+        264
+      ],
+      [
+        729,
+        255
+      ],
+      [
+        727,
+        248
+      ],
+      [
+        712,
+        239
+      ],
+      [
+        711,
+        232
+      ],
+      [
+        697,
+        231
+      ],
+      [
+        693,
+        213
+      ],
+      [
+        682,
+        205
+      ],
+      [
+        685,
+        181
+      ],
+      [
+        672,
+        180
+      ],
+      [
+        671,
+        106
+      ],
+      [
+        678,
+        95
+      ],
+      [
+        685,
+        93
+      ],
+      [
+        686,
+        37
+      ],
+      [
+        677,
+        34
+      ],
+      [
+        581,
+        34
+      ],
+      [
+        581,
+        112
+      ],
+      [
+        571,
+        113
+      ],
+      [
+        570,
+        117
+      ],
+      [
+        537,
+        117
+      ],
+      [
+        537,
+        214
+      ],
+      [
+        519,
+        219
+      ],
+      [
+        521,
+        256
+      ],
+      [
+        518,
+        259
+      ],
+      [
+        493,
+        258
+      ],
+      [
+        492,
+        254
+      ],
+      [
+        484,
+        253
+      ],
+      [
+        481,
+        226
+      ],
+      [
+        490,
+        223
+      ],
+      [
+        492,
+        213
+      ],
+      [
+        507,
+        208
+      ],
+      [
+        496,
+        202
+      ],
+      [
+        477,
+        203
+      ],
+      [
+        474,
+        197
+      ],
+      [
+        473,
+        117
+      ],
+      [
+        431,
+        115
+      ],
+      [
+        430,
+        34
+      ]
+    ],
+    "outlineMethod": "Independent colour-fill contour, morphology closing and 2.5px simplification; review overlay before publication",
+    "rooms": {
+      "A": [
+        [
+          "living",
+          [
+            248.7,
+            289.36
+          ],
+          [
+            288.3,
+            250.64
+          ],
+          [
+            326.375,
+            323.125
+          ]
+        ],
+        [
+          "master",
+          [
+            82,
+            301
+          ],
+          [
+            82,
+            363
+          ],
+          [
+            104.0,
+            332.0
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            212,
+            281
+          ],
+          [
+            225,
+            280
+          ],
+          [
+            218.5,
+            302.5
+          ]
+        ]
+      ],
+      "B": [
+        [
+          "living",
+          [
+            293.76,
+            245.36
+          ],
+          [
+            334.24,
+            206.64
+          ],
+          [
+            360.5,
+            290.125
+          ]
+        ],
+        [
+          "master",
+          [
+            334,
+            45
+          ],
+          [
+            334,
+            83
+          ],
+          [
+            356.0,
+            64.0
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            335,
+            132
+          ],
+          [
+            335,
+            166
+          ],
+          [
+            357.0,
+            149.0
+          ]
+        ]
+      ],
+      "C": [
+        [
+          "living",
+          [
+            672.7,
+            204.7
+          ],
+          [
+            712.3,
+            244.3
+          ],
+          [
+            644.375,
+            289.0
+          ]
+        ],
+        [
+          "master",
+          [
+            678,
+            46
+          ],
+          [
+            678,
+            83
+          ],
+          [
+            656.0,
+            64.5
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            678,
+            131
+          ],
+          [
+            678,
+            167
+          ],
+          [
+            656.0,
+            149.0
+          ]
+        ]
+      ],
+      "D": [
+        [
+          "living",
+          [
+            717.76,
+            249.76
+          ],
+          [
+            758.24,
+            290.24
+          ],
+          [
+            678.5,
+            323.125
+          ]
+        ],
+        [
+          "master",
+          [
+            924,
+            303
+          ],
+          [
+            924,
+            367
+          ],
+          [
+            902.0,
+            335.0
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            786,
+            285
+          ],
+          [
+            797,
+            290
+          ],
+          [
+            791.5,
+            309.5
+          ]
+        ]
+      ],
+      "E": [
+        [
+          "living",
+          [
+            767.12,
+            625.82
+          ],
+          [
+            724.88,
+            667.18
+          ],
+          [
+            684.5,
+            605.5
+          ]
+        ],
+        [
+          "master",
+          [
+            974,
+            503
+          ],
+          [
+            974,
+            552
+          ],
+          [
+            952.0,
+            527.5
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            787,
+            634
+          ],
+          [
+            801,
+            640
+          ],
+          [
+            794.0,
+            615.0
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            850,
+            630
+          ],
+          [
+            889,
+            630
+          ],
+          [
+            869.5,
+            608.0
+          ]
+        ]
+      ],
+      "F": [
+        [
+          "living",
+          [
+            719.18,
+            672.76
+          ],
+          [
+            677.82,
+            713.24
+          ],
+          [
+            648.875,
+            640.375
+          ]
+        ],
+        [
+          "master",
+          [
+            678,
+            890
+          ],
+          [
+            678,
+            921
+          ],
+          [
+            656.0,
+            905.5
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            678,
+            751
+          ],
+          [
+            678,
+            775
+          ],
+          [
+            656.0,
+            763.0
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            678,
+            816
+          ],
+          [
+            678,
+            840
+          ],
+          [
+            656.0,
+            828.0
+          ]
+        ]
+      ],
+      "G": [
+        [
+          "living",
+          [
+            286.76,
+            670.7
+          ],
+          [
+            327.24,
+            710.3
+          ],
+          [
+            355.25,
+            638.5
+          ]
+        ],
+        [
+          "master",
+          [
+            326,
+            890
+          ],
+          [
+            326,
+            921
+          ],
+          [
+            348.0,
+            905.5
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            329,
+            751
+          ],
+          [
+            329,
+            775
+          ],
+          [
+            351.0,
+            763.0
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            329,
+            816
+          ],
+          [
+            329,
+            840
+          ],
+          [
+            351.0,
+            828.0
+          ]
+        ]
+      ],
+      "H": [
+        [
+          "living",
+          [
+            240.76,
+            625.7
+          ],
+          [
+            281.24,
+            665.3
+          ],
+          [
+            320.75,
+            604.75
+          ]
+        ],
+        [
+          "master",
+          [
+            32,
+            497
+          ],
+          [
+            32,
+            549
+          ],
+          [
+            54.0,
+            523.0
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            199,
+            630
+          ],
+          [
+            212,
+            636
+          ],
+          [
+            205.5,
+            611.0
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            105,
+            627
+          ],
+          [
+            155,
+            627
+          ],
+          [
+            130.0,
+            605.0
+          ]
+        ]
+      ]
+    },
+    "templateId": "H-32-typ",
+    "reflected": false,
+    "extractionMethod": "Independent visual tracing of close parallel glazing/sill lines on approved tower-specific crop; living glazing excludes party-wall ends; bedroom interior witness selects outward normal",
+    "planInterpretation": "visually-reviewed-main-window-segments",
+    "geometryFamily": "independent-H-32-typ",
+    "core": [
+      500.0,
+      482.5
+    ]
+  },
+  "qa": {
+    "pass": true,
+    "errors": []
+  },
+  "confidenceDimensions": {
+    "planInterpretation": "manual-trace-approved-published-plan",
+    "horizontalGeoreferencing": "fixed-approved-orientation-and-official-footprint",
+    "windowSemantics": "room-interior-witness",
+    "verticalGeometry": "estimated-building-average"
+  },
+  "orientationEvidence": {
+    "northUp": true,
+    "rotationDegrees": -12,
+    "reflected": false,
+    "source": "Approved north-up Centamap screenshots in data/south-horizons-approved-job/orientation",
+    "method": "Single screenshot orientation; no alternate angle or reflection optimization"
+  },
+  "approvedJob": "data/south-horizons-approved-job/approved-job.json"
+}

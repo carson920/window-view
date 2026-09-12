@@ -12,7 +12,7 @@ for(const tower of approvedTowers) {
  if(approved && (!r.qa?.pass || r.windows.some(w=>w.qaErrors.length)))throw Error(`Tower ${tower} failed approved QA`);
  // Published source sheets explicitly state these ranges. Missing ranges
  // receive one demo floor only, not Storeys-1 disguised as numbered floors.
- const known=tower<=8?[1,27]:tower>=13&&tower<=15?[1,28]:[16,17,19,20,21,22,23].includes(tower)?[1,25]:[9,10,11,12,24,25,26,27,28,29,30,31,32,33,35,36,37,38].includes(tower)?[1,27]:tower===34?[2,27]:null;
+ const known=tower<=8?[1,27]:tower>=13&&tower<=15?[1,28]:[16,17,18,19,20,21,22,23].includes(tower)?[1,25]:[9,10,11,12,27,28,29,30,31,32,33,35,36,37,38].includes(tower)?[1,27]:[24,25,26].includes(tower)?[1,26]:tower===34?[2,27]:null;
  const floors=known?{min:known[0],max:known[1],excluded:[],verified:true,source:'Approved L02/L06/L07/L09/L10/L11 printed floor-range labels'}:{min:1,max:1,excluded:[],verified:false,scope:'Single 1/F demo only; approved source does not specify numbered floor range'};
  if(approved){
   fs.writeFileSync(new URL(`../${folder}/result.json`,import.meta.url),JSON.stringify(r,null,2)+'\n');

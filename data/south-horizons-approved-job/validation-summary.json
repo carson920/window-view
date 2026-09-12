@@ -1,0 +1,281 @@
+[
+  {
+    "tower": "1",
+    "windows": 28,
+    "qaPass": false,
+    "errors": [
+      "B/master: window-to-facade discrepancy exceeds 2 metres, outward correction exceeds 3 metres",
+      "C/master: window-to-facade discrepancy exceeds 2 metres, outward correction exceeds 3 metres",
+      "outline RMSE > 1.5m"
+    ],
+    "rmse": 1.7055012276377397,
+    "seconds": 0.049327458000334445
+  },
+  {
+    "tower": "2",
+    "windows": 26,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.723735058508262,
+    "seconds": 0.04046895799547201
+  },
+  {
+    "tower": "3",
+    "windows": 28,
+    "qaPass": false,
+    "errors": [
+      "B/master: window-to-facade discrepancy exceeds 2 metres",
+      "C/master: window-to-facade discrepancy exceeds 2 metres"
+    ],
+    "rmse": 0.7615436905219964,
+    "seconds": 0.039858083000581246
+  },
+  {
+    "tower": "4",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.5124728520576379,
+    "seconds": 0.04001462499581976
+  },
+  {
+    "tower": "5",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.478331448577872,
+    "seconds": 0.03857554100250127
+  },
+  {
+    "tower": "6",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.4720383611586513,
+    "seconds": 0.041606332997616846
+  },
+  {
+    "tower": "7",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.3336004869141404,
+    "seconds": 0.04766079200635431
+  },
+  {
+    "tower": "8",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.5124355654614409,
+    "seconds": 0.04868866700417129
+  },
+  {
+    "tower": "9",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.522233432268544,
+    "seconds": 0.04714975000388222
+  },
+  {
+    "tower": "10",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.5515276948328415,
+    "seconds": 0.05028366600163281
+  },
+  {
+    "tower": "11",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.9262878652390364,
+    "seconds": 0.04781320899928687
+  },
+  {
+    "tower": "12",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.9370022710938076,
+    "seconds": 0.048636291998263914
+  },
+  {
+    "tower": "13",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.31496214000019646,
+    "seconds": 0.04927549999410985
+  },
+  {
+    "tower": "13A",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.247889876913411,
+    "seconds": 0.05050912500155391
+  },
+  {
+    "tower": "15",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.2451051016375865,
+    "seconds": 0.048971040996548254
+  },
+  {
+    "tower": "16",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.25319174558889185,
+    "seconds": 0.04802704100438859
+  },
+  {
+    "tower": "17",
+    "windows": 32,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.31901364025757006,
+    "seconds": 0.049142416995891836
+  },
+  {
+    "tower": "18",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.3859995522845896,
+    "seconds": 0.04137879199697636
+  },
+  {
+    "tower": "19",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.2813475962999097,
+    "seconds": 0.040946459004771896
+  },
+  {
+    "tower": "20",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.7214567173418616,
+    "seconds": 0.04254508400481427
+  },
+  {
+    "tower": "21",
+    "windows": 29,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.3131527010557037,
+    "seconds": 0.04298445799940964
+  },
+  {
+    "tower": "22",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.34475409871653,
+    "seconds": 0.042698792000010144
+  },
+  {
+    "tower": "23",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.3165021069303969,
+    "seconds": 0.043931332998909056
+  },
+  {
+    "tower": "23A",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.3244412571680185,
+    "seconds": 0.042610042000887915
+  },
+  {
+    "tower": "25",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.4242128679626476,
+    "seconds": 0.04322895900259027
+  },
+  {
+    "tower": "26",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.6210044414782455,
+    "seconds": 0.04216579100466333
+  },
+  {
+    "tower": "27",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.42198130353832325,
+    "seconds": 0.043722417001845315
+  },
+  {
+    "tower": "28",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.3931260712566661,
+    "seconds": 0.04270225000072969
+  },
+  {
+    "tower": "29",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.2612047253157844,
+    "seconds": 0.04161345800093841
+  },
+  {
+    "tower": "30",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.2772402300631992,
+    "seconds": 0.04153962500276975
+  },
+  {
+    "tower": "31",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.3207597577558434,
+    "seconds": 0.041878166994138155
+  },
+  {
+    "tower": "32",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.30162593865583476,
+    "seconds": 0.04288516600354342
+  },
+  {
+    "tower": "33",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.28637553336835275,
+    "seconds": 0.043444249997264706
+  },
+  {
+    "tower": "33A",
+    "windows": 28,
+    "qaPass": true,
+    "errors": [],
+    "rmse": 0.3315801970263092,
+    "seconds": 0.04401783299545059
+  }
+]

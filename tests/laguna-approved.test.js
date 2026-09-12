@@ -11,6 +11,14 @@ test('Approved package covers 38 distinct official towers without silently dropp
  assert.deepEqual(data.buildings.map(b=>Number(b.id.split('-')[1])),summary.filter(r=>r.qaPass).map(r=>r.tower));
  assert.equal(data.buildings.flatMap(b=>b.flats.flatMap(f=>f.windows)).length,1064);
 });
+test('Laguna published floor ranges include Block 18 and the 24–26 1–26/F group',()=>{
+ const expected={18:[1,25],24:[1,26],25:[1,26],26:[1,26],31:[1,27]};
+ for(const [tower,[min,max]] of Object.entries(expected)){
+  const floors=data.buildings.find(b=>b.id===`tower-${tower}`).floors;
+  assert.deepEqual([floors.min,floors.max],[min,max]);
+  assert.equal(floors.verified,true);
+ }
+});
 for(const record of summary)test(`Approved Laguna ${record.tower}: semantic placement, window tangent, official clearance and API`,()=>{
  const r=read(`data/laguna-tower-${record.tower}/approved-result.json`),o=read(`data/laguna-tower-${record.tower}/official-footprint.json`);
  assert.ok(r.qa.pass,JSON.stringify(r.qa.errors));assert.equal(r.buildingCsuid,o.attributes.BuildingCSUID);
