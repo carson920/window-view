@@ -1,0 +1,301 @@
+[
+  {
+    "tower": "1",
+    "scope": "entire tower withheld",
+    "issues": [
+      "B/master: window-to-facade discrepancy exceeds 2 metres, outward correction exceeds 3 metres",
+      "C/master: window-to-facade discrepancy exceeds 2 metres, outward correction exceeds 3 metres",
+      "outline RMSE > 1.5m"
+    ],
+    "evidence": [
+      "data/south-horizons-tower-1/result.json",
+      "data/south-horizons-tower-1/approved-overlay.png",
+      "data/south-horizons-tower-1/window-review.png"
+    ],
+    "candidateSolutions": [
+      "Keep approved orientation and existing trace pending source/footprint reconciliation",
+      "Correct only the identified exterior/window extraction after confirming its source evidence"
+    ],
+    "humanDecision": "Confirm the indicated facade/window on the approved plan against the saved official footprint; no alternate orientation is proposed.",
+    "affectedWindows": [
+      {
+        "flat": "B",
+        "id": "master",
+        "lat": 22.245190333159492,
+        "lng": 114.14786403116075,
+        "heading": 0.0,
+        "facadeDistanceMeters": 3.320753886934629,
+        "cameraOffsetMetres": 3.820753886934629,
+        "qaErrors": [
+          "window-to-facade discrepancy exceeds 2 metres",
+          "outward correction exceeds 3 metres"
+        ]
+      },
+      {
+        "flat": "C",
+        "id": "master",
+        "lat": 22.245189756189916,
+        "lng": 114.14791438879168,
+        "heading": 0.0,
+        "facadeDistanceMeters": 3.150306233278089,
+        "cameraOffsetMetres": 3.650306233278089,
+        "qaErrors": [
+          "window-to-facade discrepancy exceeds 2 metres",
+          "outward correction exceeds 3 metres"
+        ]
+      }
+    ]
+  },
+  {
+    "tower": "3",
+    "scope": "entire tower withheld",
+    "issues": [
+      "B/master: window-to-facade discrepancy exceeds 2 metres",
+      "C/master: window-to-facade discrepancy exceeds 2 metres"
+    ],
+    "evidence": [
+      "data/south-horizons-tower-3/result.json",
+      "data/south-horizons-tower-3/approved-overlay.png",
+      "data/south-horizons-tower-3/window-review.png"
+    ],
+    "candidateSolutions": [
+      "Keep approved orientation and existing trace pending source/footprint reconciliation",
+      "Correct only the identified exterior/window extraction after confirming its source evidence"
+    ],
+    "humanDecision": "Confirm the indicated facade/window on the approved plan against the saved official footprint; no alternate orientation is proposed.",
+    "affectedWindows": [
+      {
+        "flat": "B",
+        "id": "master",
+        "lat": 22.244915361319983,
+        "lng": 114.14731454089262,
+        "heading": 356.5,
+        "facadeDistanceMeters": -2.9223668416195006,
+        "cameraOffsetMetres": 1,
+        "qaErrors": [
+          "window-to-facade discrepancy exceeds 2 metres"
+        ]
+      },
+      {
+        "flat": "C",
+        "id": "master",
+        "lat": 22.24491872056919,
+        "lng": 114.1473735398321,
+        "heading": 356.5,
+        "facadeDistanceMeters": -2.8381179583972322,
+        "cameraOffsetMetres": 1,
+        "qaErrors": [
+          "window-to-facade discrepancy exceeds 2 metres"
+        ]
+      }
+    ]
+  },
+  {
+    "tower": "6",
+    "scope": "entire tower withheld",
+    "issues": [
+      "A/master: segment x=2 touches crop boundary; original left facade/window identity needs review."
+    ],
+    "evidence": [
+      "data/south-horizons-tower-6/result.json",
+      "data/south-horizons-tower-6/approved-overlay.png",
+      "data/south-horizons-tower-6/window-review.png"
+    ],
+    "candidateSolutions": [
+      "Keep approved orientation and existing trace pending source/footprint reconciliation",
+      "Correct only the identified exterior/window extraction after confirming its source evidence"
+    ],
+    "humanDecision": "Confirm the indicated facade/window on the approved plan against the saved official footprint; no alternate orientation is proposed.",
+    "affectedWindows": [
+      {
+        "flat": "A",
+        "id": "master",
+        "lat": 22.244706512835638,
+        "lng": 114.14607871888566,
+        "heading": 266.49999999999994,
+        "facadeDistanceMeters": 0.6249446289329045,
+        "cameraOffsetMetres": 1.1249446289329046,
+        "qaErrors": []
+      }
+    ]
+  },
+  {
+    "tower": "1",
+    "scope": "40F",
+    "source": "H-1-special-40F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "3",
+    "scope": "35F",
+    "source": "H-3-special-35F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "4",
+    "scope": "35F",
+    "source": "H-4-special-35F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "5",
+    "scope": "35F",
+    "source": "H-5-special-35F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "6",
+    "scope": "35F",
+    "source": "H-6-special-35F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "7",
+    "scope": "42F",
+    "source": "H-7-special-42F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "8",
+    "scope": "42F",
+    "source": "H-8-special-42F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "9",
+    "scope": "42F",
+    "source": "H-9-special-42F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "10",
+    "scope": "42F",
+    "source": "H-10-special-42F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "13A",
+    "scope": "40F",
+    "source": "H-13A-special-40F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "15",
+    "scope": "40F",
+    "source": "H-15-special-40F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "16",
+    "scope": "40F",
+    "source": "H-16-special-40F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "17",
+    "scope": "40F",
+    "source": "H-17-special-40F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "18",
+    "scope": "40F",
+    "source": "H-18-special-40F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "19",
+    "scope": "40F",
+    "source": "H-19-special-40F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "22",
+    "scope": "36F",
+    "source": "H-22-special-36F",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "30",
+    "scope": "30F special variant",
+    "source": "H-30-special-30F-special-variant",
+    "status": "not processed in existing artifacts",
+    "issues": [
+      "No saved trace/placement for this special-floor variant; excluded from import."
+    ],
+    "humanDecision": "A separate floor-specific window template is needed; standard-floor windows were not extrapolated."
+  },
+  {
+    "tower": "13",
+    "scope": "1–3/F G/H variant; whole building limited to 4–33/F",
+    "source": "H-13-typ",
+    "issues": [
+      "Inset variant has no saved independent trace."
+    ],
+    "humanDecision": "Confirm separate G/H inset window template before enabling these floors."
+  }
+]

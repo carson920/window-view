@@ -1,0 +1,36 @@
+2026-09-12T17:36:54.581598+00:00 Resume audit: saved HSV20 validation complete; 51 source hashes, 34 result/placement pairs checked; no fetch, matching, orientation search or tracing rerun.
+Tower 1: numerical=False publication=False windows=28 RMSE=1.7055; B/master: window-to-facade discrepancy exceeds 2 metres, outward correction exceeds 3 metres; C/master: window-to-facade discrepancy exceeds 2 metres, outward correction exceeds 3 metres; outline RMSE > 1.5m
+Tower 2: numerical=True publication=True windows=26 RMSE=0.7237; 
+Tower 3: numerical=False publication=False windows=28 RMSE=0.7615; B/master: window-to-facade discrepancy exceeds 2 metres; C/master: window-to-facade discrepancy exceeds 2 metres
+Tower 4: numerical=True publication=True windows=28 RMSE=0.5125; 
+Tower 5: numerical=True publication=True windows=28 RMSE=0.4783; 
+Tower 6: numerical=True publication=False windows=28 RMSE=0.4720; A/master: segment x=2 touches crop boundary; original left facade/window identity needs review.
+Tower 7: numerical=True publication=True windows=32 RMSE=0.3336; 
+Tower 8: numerical=True publication=True windows=32 RMSE=0.5124; 
+Tower 9: numerical=True publication=True windows=32 RMSE=0.5222; 
+Tower 10: numerical=True publication=True windows=32 RMSE=0.5515; 
+Tower 11: numerical=True publication=True windows=32 RMSE=0.9263; 
+Tower 12: numerical=True publication=True windows=32 RMSE=0.9370; 
+Tower 13: numerical=True publication=True windows=32 RMSE=0.3150; 
+Tower 13A: numerical=True publication=True windows=32 RMSE=0.2479; 
+Tower 15: numerical=True publication=True windows=32 RMSE=0.2451; 
+Tower 16: numerical=True publication=True windows=32 RMSE=0.2532; 
+Tower 17: numerical=True publication=True windows=32 RMSE=0.3190; 
+Tower 18: numerical=True publication=True windows=28 RMSE=0.3860; 
+Tower 19: numerical=True publication=True windows=28 RMSE=0.2813; 
+Tower 20: numerical=True publication=True windows=28 RMSE=0.7215; 
+Tower 21: numerical=True publication=True windows=29 RMSE=0.3132; 
+Tower 22: numerical=True publication=True windows=28 RMSE=0.3448; 
+Tower 23: numerical=True publication=True windows=28 RMSE=0.3165; 
+Tower 23A: numerical=True publication=True windows=28 RMSE=0.3244; 
+Tower 25: numerical=True publication=True windows=28 RMSE=0.4242; 
+Tower 26: numerical=True publication=True windows=28 RMSE=0.6210; 
+Tower 27: numerical=True publication=True windows=28 RMSE=0.4220; 
+Tower 28: numerical=True publication=True windows=28 RMSE=0.3931; 
+Tower 29: numerical=True publication=True windows=28 RMSE=0.2612; 
+Tower 30: numerical=True publication=True windows=28 RMSE=0.2772; 
+Tower 31: numerical=True publication=True windows=28 RMSE=0.3208; 
+Tower 32: numerical=True publication=True windows=28 RMSE=0.3016; 
+Tower 33: numerical=True publication=True windows=28 RMSE=0.2864; 
+Tower 33A: numerical=True publication=True windows=28 RMSE=0.3316; 
+2026-09-12T17:41:08.316155+00:00 Publication: 31 towers / 911 windows; existing 238 artifacts preserved; other estates unchanged. Build PASS; tests 92/92 PASS. UI Tower2->33A PASS. Withheld 1,3,6; special variants excluded.

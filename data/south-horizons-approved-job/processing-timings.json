@@ -1,0 +1,633 @@
+{
+  "perTower": [
+    {
+      "tower": "1",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.37811991699709324,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.385806499994942,
+        "validation": 0.049327458000334445,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.005867917003342882
+    },
+    {
+      "tower": "2",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.32500345799780916,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.390498208005738,
+        "validation": 0.04046895799547201,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.005419957989943214
+    },
+    {
+      "tower": "3",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.05838387499534292,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.3086568750004517,
+        "validation": 0.039858083000581246,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.002941957995062694
+    },
+    {
+      "tower": "4",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.07688229099585442,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.4160647919998155,
+        "validation": 0.04001462499581976,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.0036300840001786128
+    },
+    {
+      "tower": "5",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.06220799999573501,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.3376044160031597,
+        "validation": 0.03857554100250127,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.0033454999938840047
+    },
+    {
+      "tower": "6",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.06891000000177883,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.4242849170041154,
+        "validation": 0.041606332997616846,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.003665917000034824
+    },
+    {
+      "tower": "7",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.30663087499851827,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.2197301249980228,
+        "validation": 0.04766079200635431,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.00611229200148955
+    },
+    {
+      "tower": "8",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.29614145799860125,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.4087532499979716,
+        "validation": 0.04868866700417129,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.006011000004946254
+    },
+    {
+      "tower": "9",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.2989228340011323,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.35529779200442135,
+        "validation": 0.04714975000388222,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.005417124993982725
+    },
+    {
+      "tower": "10",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.31264087499585,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.24268291699991096,
+        "validation": 0.05028366600163281,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.005240541999228299
+    },
+    {
+      "tower": "11",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.2889509590022499,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.2964920419981354,
+        "validation": 0.04781320899928687,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.005617166010779329
+    },
+    {
+      "tower": "12",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.31964249999873573,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.365555124997627,
+        "validation": 0.048636291998263914,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.005216333011048846
+    },
+    {
+      "tower": "13",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.2874234580012853,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.2910432499993476,
+        "validation": 0.04927549999410985,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.00511283399828244
+    },
+    {
+      "tower": "13A",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.3271962079961668,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.49933270899782656,
+        "validation": 0.05050912500155391,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.005171791999600828
+    },
+    {
+      "tower": "15",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.2928883330023382,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.32132149999961257,
+        "validation": 0.048971040996548254,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.004857042004005052
+    },
+    {
+      "tower": "16",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.3098690830011037,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.30313408299844014,
+        "validation": 0.04802704100438859,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.0054344169911928475
+    },
+    {
+      "tower": "17",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.132370292005362,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.42431075000058627,
+        "validation": 0.049142416995891836,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.0040394160023424774
+    },
+    {
+      "tower": "18",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.08715845799451927,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.30201066700101364,
+        "validation": 0.04137879199697636,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.00406345899682492
+    },
+    {
+      "tower": "19",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.10130100000242237,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.2793731249985285,
+        "validation": 0.040946459004771896,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.004212542000459507
+    },
+    {
+      "tower": "20",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.08306245799758472,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.44124737499805633,
+        "validation": 0.04254508400481427,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.0038549579912796617
+    },
+    {
+      "tower": "21",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.1449648750058259,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.3443743330062716,
+        "validation": 0.04298445799940964,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.0042741249926621094
+    },
+    {
+      "tower": "22",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.11753645799763035,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.25049795800441643,
+        "validation": 0.042698792000010144,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.004660582999349572
+    },
+    {
+      "tower": "23",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.11830524999822956,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.3088322910043644,
+        "validation": 0.043931332998909056,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.00430249999044463
+    },
+    {
+      "tower": "23A",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.1127765420023934,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.2409317089986871,
+        "validation": 0.042610042000887915,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.004134083996177651
+    },
+    {
+      "tower": "25",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.22947620799823198,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.446920707996469,
+        "validation": 0.04322895900259027,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.005144999988260679
+    },
+    {
+      "tower": "26",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.23074404199724086,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.33364620900101727,
+        "validation": 0.04216579100466333,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.004793166997842491
+    },
+    {
+      "tower": "27",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.2248417500013602,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.33823291700537084,
+        "validation": 0.043722417001845315,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.004867625000770204
+    },
+    {
+      "tower": "28",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.2231392500034417,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.37736191699514166,
+        "validation": 0.04270225000072969,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.004520499991485849
+    },
+    {
+      "tower": "29",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.057140416000038385,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.4322632919938769,
+        "validation": 0.04161345800093841,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.0033066670002881438
+    },
+    {
+      "tower": "30",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.05866499999683583,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.2824071670038393,
+        "validation": 0.04153962500276975,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.003274916991358623
+    },
+    {
+      "tower": "31",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.07828933400014648,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.3820363750055549,
+        "validation": 0.041878166994138155,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.0033866669982671738
+    },
+    {
+      "tower": "32",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.31858070800080895,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.2512260830044397,
+        "validation": 0.04288516600354342,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.005078540998511016
+    },
+    {
+      "tower": "33",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.28078004200506257,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.22523679199366597,
+        "validation": 0.043444249997264706,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.004797458997927606
+    },
+    {
+      "tower": "33A",
+      "seconds": {
+        "source-fetch": null,
+        "plan-parse": 0.2199473329965258,
+        "orientation-apply": null,
+        "footprint-match": null,
+        "geospatial-transform": 0.3233090420035296,
+        "validation": 0.04401783299545059,
+        "output-write": null,
+        "total": null
+      },
+      "resumptionAuditSeconds": 0.004760959011036903
+    }
+  ],
+  "slowestTowers": [
+    {
+      "tower": "13A",
+      "recordedSubtotalSeconds": 0.8770380419955472
+    },
+    {
+      "tower": "1",
+      "recordedSubtotalSeconds": 0.8132538749923697
+    },
+    {
+      "tower": "2",
+      "recordedSubtotalSeconds": 0.7559706239990192
+    },
+    {
+      "tower": "8",
+      "recordedSubtotalSeconds": 0.7535833750007441
+    },
+    {
+      "tower": "12",
+      "recordedSubtotalSeconds": 0.7338339169946266
+    },
+    {
+      "tower": "25",
+      "recordedSubtotalSeconds": 0.7196258749972912
+    },
+    {
+      "tower": "9",
+      "recordedSubtotalSeconds": 0.7013703760094359
+    },
+    {
+      "tower": "15",
+      "recordedSubtotalSeconds": 0.663180873998499
+    },
+    {
+      "tower": "16",
+      "recordedSubtotalSeconds": 0.6610302070039324
+    },
+    {
+      "tower": "28",
+      "recordedSubtotalSeconds": 0.643203416999313
+    },
+    {
+      "tower": "11",
+      "recordedSubtotalSeconds": 0.6332562099996721
+    },
+    {
+      "tower": "13",
+      "recordedSubtotalSeconds": 0.6277422079947428
+    },
+    {
+      "tower": "32",
+      "recordedSubtotalSeconds": 0.6126919570087921
+    },
+    {
+      "tower": "27",
+      "recordedSubtotalSeconds": 0.6067970840085763
+    },
+    {
+      "tower": "26",
+      "recordedSubtotalSeconds": 0.6065560420029215
+    },
+    {
+      "tower": "17",
+      "recordedSubtotalSeconds": 0.6058234590018401
+    },
+    {
+      "tower": "10",
+      "recordedSubtotalSeconds": 0.6056074579973938
+    },
+    {
+      "tower": "33A",
+      "recordedSubtotalSeconds": 0.587274207995506
+    },
+    {
+      "tower": "7",
+      "recordedSubtotalSeconds": 0.5740217920028954
+    },
+    {
+      "tower": "20",
+      "recordedSubtotalSeconds": 0.5668549170004553
+    },
+    {
+      "tower": "33",
+      "recordedSubtotalSeconds": 0.5494610839959932
+    },
+    {
+      "tower": "6",
+      "recordedSubtotalSeconds": 0.5348012500035111
+    },
+    {
+      "tower": "4",
+      "recordedSubtotalSeconds": 0.5329617079914897
+    },
+    {
+      "tower": "21",
+      "recordedSubtotalSeconds": 0.5323236660115072
+    },
+    {
+      "tower": "29",
+      "recordedSubtotalSeconds": 0.5310171659948537
+    },
+    {
+      "tower": "31",
+      "recordedSubtotalSeconds": 0.5022038759998395
+    },
+    {
+      "tower": "23",
+      "recordedSubtotalSeconds": 0.471068874001503
+    },
+    {
+      "tower": "5",
+      "recordedSubtotalSeconds": 0.438387957001396
+    },
+    {
+      "tower": "18",
+      "recordedSubtotalSeconds": 0.43054791699250927
+    },
+    {
+      "tower": "19",
+      "recordedSubtotalSeconds": 0.4216205840057228
+    },
+    {
+      "tower": "22",
+      "recordedSubtotalSeconds": 0.4107332080020569
+    },
+    {
+      "tower": "3",
+      "recordedSubtotalSeconds": 0.40689883299637586
+    },
+    {
+      "tower": "23A",
+      "recordedSubtotalSeconds": 0.3963182930019684
+    },
+    {
+      "tower": "30",
+      "recordedSubtotalSeconds": 0.38261179200344486
+    }
+  ],
+  "slowestStages": [
+    [
+      "geospatial-transform",
+      11.550477211014368
+    ],
+    [
+      "plan-parse",
+      6.828893539983255
+    ],
+    [
+      "validation",
+      1.5103013740081224
+    ]
+  ],
+  "limitations": "Historical stages were not fully instrumented. Null means unrecorded, not zero. plan-parse includes preparation I/O; geospatial-transform includes fit and overlay I/O; validation includes result/overlay output. Subtotals are not full job elapsed time. No times were fabricated."
+}

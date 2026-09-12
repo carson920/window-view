@@ -1,0 +1,738 @@
+{
+  "validationRunCompleted": true,
+  "threshold": 20,
+  "evidence": {
+    "preparationScriptMtime": "2026-09-12T08:55:53.145061+00:00",
+    "placementSummaryMtime": "2026-09-12T08:56:12.663276+00:00",
+    "validationSummaryMtime": "2026-09-12T08:56:17.818413+00:00",
+    "savedResults": 34,
+    "sourceHashesChecked": 51
+  },
+  "towers": [
+    {
+      "tower": "1",
+      "buildingCsuid": "3327911817T20050430",
+      "windows": 28,
+      "numericalQaPass": false,
+      "artifactAuditPass": true,
+      "publicationPass": false,
+      "issues": [
+        "B/master: window-to-facade discrepancy exceeds 2 metres, outward correction exceeds 3 metres",
+        "C/master: window-to-facade discrepancy exceeds 2 metres, outward correction exceeds 3 metres",
+        "outline RMSE > 1.5m"
+      ],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 1.7055012276377397
+    },
+    {
+      "tower": "2",
+      "buildingCsuid": "3327811769T20050430",
+      "windows": 26,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        40
+      ],
+      "rmse": 0.723735058508262
+    },
+    {
+      "tower": "3",
+      "buildingCsuid": "3322411781T20050430",
+      "windows": 28,
+      "numericalQaPass": false,
+      "artifactAuditPass": true,
+      "publicationPass": false,
+      "issues": [
+        "B/master: window-to-facade discrepancy exceeds 2 metres",
+        "C/master: window-to-facade discrepancy exceeds 2 metres"
+      ],
+      "floors": [
+        1,
+        34
+      ],
+      "rmse": 0.7615436905219964
+    },
+    {
+      "tower": "4",
+      "buildingCsuid": "3318911779T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        34
+      ],
+      "rmse": 0.5124728520576379
+    },
+    {
+      "tower": "5",
+      "buildingCsuid": "3314711776T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        34
+      ],
+      "rmse": 0.478331448577872
+    },
+    {
+      "tower": "6",
+      "buildingCsuid": "3311311773T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": false,
+      "issues": [
+        "A/master: segment x=2 touches crop boundary; original left facade/window identity needs review."
+      ],
+      "floors": [
+        1,
+        34
+      ],
+      "rmse": 0.4720383611586513
+    },
+    {
+      "tower": "7",
+      "buildingCsuid": "3301811766T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        41
+      ],
+      "rmse": 0.3336004869141404
+    },
+    {
+      "tower": "8",
+      "buildingCsuid": "3299011735T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        41
+      ],
+      "rmse": 0.5124355654614409
+    },
+    {
+      "tower": "9",
+      "buildingCsuid": "3296011703T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        41
+      ],
+      "rmse": 0.522233432268544
+    },
+    {
+      "tower": "10",
+      "buildingCsuid": "3293111673T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        41
+      ],
+      "rmse": 0.5515276948328415
+    },
+    {
+      "tower": "11",
+      "buildingCsuid": "3306911733T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        33
+      ],
+      "rmse": 0.9262878652390364
+    },
+    {
+      "tower": "12",
+      "buildingCsuid": "3306211695T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        33
+      ],
+      "rmse": 0.9370022710938076
+    },
+    {
+      "tower": "13",
+      "buildingCsuid": "3305211659T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        4,
+        33
+      ],
+      "rmse": 0.31496214000019646
+    },
+    {
+      "tower": "13A",
+      "buildingCsuid": "3306011614T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 0.247889876913411
+    },
+    {
+      "tower": "15",
+      "buildingCsuid": "3310011604T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 0.2451051016375865
+    },
+    {
+      "tower": "16",
+      "buildingCsuid": "3313811595T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 0.25319174558889185
+    },
+    {
+      "tower": "17",
+      "buildingCsuid": "3323911569T20050430",
+      "windows": 32,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 0.31901364025757006
+    },
+    {
+      "tower": "18",
+      "buildingCsuid": "3328011561T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 0.3859995522845896
+    },
+    {
+      "tower": "19",
+      "buildingCsuid": "3331911551T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 0.2813475962999097
+    },
+    {
+      "tower": "20",
+      "buildingCsuid": "3335811543T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 0.7214567173418616
+    },
+    {
+      "tower": "21",
+      "buildingCsuid": "3327111479T20050430",
+      "windows": 29,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        35
+      ],
+      "rmse": 0.3131527010557037
+    },
+    {
+      "tower": "22",
+      "buildingCsuid": "3331011471T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        35
+      ],
+      "rmse": 0.34475409871653
+    },
+    {
+      "tower": "23",
+      "buildingCsuid": "3335411478T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 0.3165021069303969
+    },
+    {
+      "tower": "23A",
+      "buildingCsuid": "3339111493T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        39
+      ],
+      "rmse": 0.3244412571680185
+    },
+    {
+      "tower": "25",
+      "buildingCsuid": "3343711527T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        35
+      ],
+      "rmse": 0.4242128679626476
+    },
+    {
+      "tower": "26",
+      "buildingCsuid": "3347111551T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        35
+      ],
+      "rmse": 0.6210044414782455
+    },
+    {
+      "tower": "27",
+      "buildingCsuid": "3350311575T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        35
+      ],
+      "rmse": 0.42198130353832325
+    },
+    {
+      "tower": "28",
+      "buildingCsuid": "3353811599T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        30
+      ],
+      "rmse": 0.3931260712566661
+    },
+    {
+      "tower": "29",
+      "buildingCsuid": "3351111675T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        30
+      ],
+      "rmse": 0.2612047253157844
+    },
+    {
+      "tower": "30",
+      "buildingCsuid": "3347111682T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        29
+      ],
+      "rmse": 0.2772402300631992
+    },
+    {
+      "tower": "31",
+      "buildingCsuid": "3343211691T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        30
+      ],
+      "rmse": 0.3207597577558434
+    },
+    {
+      "tower": "32",
+      "buildingCsuid": "3342311653T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        30
+      ],
+      "rmse": 0.30162593865583476
+    },
+    {
+      "tower": "33",
+      "buildingCsuid": "3341511615T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        30
+      ],
+      "rmse": 0.28637553336835275
+    },
+    {
+      "tower": "33A",
+      "buildingCsuid": "3340711577T20050430",
+      "windows": 28,
+      "numericalQaPass": true,
+      "artifactAuditPass": true,
+      "publicationPass": true,
+      "issues": [],
+      "floors": [
+        1,
+        30
+      ],
+      "rmse": 0.3315801970263092
+    }
+  ],
+  "preservedArtifactSha256": {
+    "data/south-horizons-tower-1/annotations.json": "ceb350ea8445d16d01395742aaf528c1ec1322832ddc2aaeb8540e08d5c7a91b",
+    "data/south-horizons-tower-1/official-footprint.json": "19d14285abc83ca822419cce68fd9c42e68125db13e5841abed885ff216eaf97",
+    "data/south-horizons-tower-1/placement.json": "25860779136d05ad70a4de3423714a3d7908c4bb1d2944755421c9c9f946a9a6",
+    "data/south-horizons-tower-1/result.json": "a5c9bedc2d806a82ea89683008c9bda3f19d804b87b61062deb9fd4f8cd8a4ad",
+    "data/south-horizons-tower-1/plan-crop.png": "396acbc5e94e75b59ea8c590c49dfb463fc2a01925559b209959d438e35d27dc",
+    "data/south-horizons-tower-1/window-review.png": "238251698b05e18baa4db9464d59239eda39e89d4b8336c99c5b26179abb6b8e",
+    "data/south-horizons-tower-1/approved-overlay.png": "a6e71fd0347a2a3af34fd8f3cc91ddcb4afd9aad17fc20ad2eaed2036d763239",
+    "data/south-horizons-tower-2/annotations.json": "7aef785567d91c2d42f41c42786fb5d36d49787a00fcd6a9e22b65b17dab7d6f",
+    "data/south-horizons-tower-2/official-footprint.json": "3da3f139972b0dd099c4d5130e83718e02f261fe46881bafc7dccfea8449e36b",
+    "data/south-horizons-tower-2/placement.json": "2b3cdea91a2b7b12a4493d28bcffbba4a9390fd53cc46b8b2f97175be7bcd333",
+    "data/south-horizons-tower-2/result.json": "d6b35f4a399038254ac6642d2ceae6dba49dc4b19d0c97aa5a3263a9f364d1b1",
+    "data/south-horizons-tower-2/plan-crop.png": "6b0c436710721bd5718b5d5d97a300a1737fdc4bf20c3cd16a5f2f405dad1cd5",
+    "data/south-horizons-tower-2/window-review.png": "88bb8afa07defd457da845bd7aaf98a352a551a516c2f700cac88af4d506e9f6",
+    "data/south-horizons-tower-2/approved-overlay.png": "9fdc45f937de773eeb8ba10dc6c79e480f19490f5dcc4f44beecf6d9bcd85a17",
+    "data/south-horizons-tower-3/annotations.json": "50cf6e7bda3439a40a4bd9deb5c2e6491de8023f8806b5552563645c9985297c",
+    "data/south-horizons-tower-3/official-footprint.json": "3f43a6f3f146292720efa058774dd5ba8af7dbf194efc2090c1fb52bf4a22ee5",
+    "data/south-horizons-tower-3/placement.json": "02eaf31f604b3f849d070a246aa417566d13e9e9724b2a3ec93647b2fd5a4f1d",
+    "data/south-horizons-tower-3/result.json": "48d7ac6146ef1a345b7f4d24e3578f8d45bb8403f1f3ffb49517c6bb3cfd6c7c",
+    "data/south-horizons-tower-3/plan-crop.png": "3c9993fd3340a8bb8099d8e47818e6d6dfe3b761923067271c12119e71a0e433",
+    "data/south-horizons-tower-3/window-review.png": "ca405911e43210c4f42f8c41bf178e3a2b918cabbf40fe12b7edf47cd104dfe8",
+    "data/south-horizons-tower-3/approved-overlay.png": "286927ab4d1266e9eb953723d8ea8ffa811685ccb99c577231509d1356de715b",
+    "data/south-horizons-tower-4/annotations.json": "c3c70ae7e7f8ffc0868fd85c38c92461024a1f8d4e395e0671eff68cf93471e4",
+    "data/south-horizons-tower-4/official-footprint.json": "64f4e8b1d6b409a4f8bdd0e87d8475b6e47fd523bcf1ef8644918d30a2390977",
+    "data/south-horizons-tower-4/placement.json": "37d91e93155ae98f36f83b393eb1ebf8f4d631620418827299af4a24121df716",
+    "data/south-horizons-tower-4/result.json": "283b3a981c4435454804cf7260c2bdfa264f366245f4bb00df1719fd0d7709ae",
+    "data/south-horizons-tower-4/plan-crop.png": "7aa7091b855a939b5deb97b495280be941a96bbb8550e2b489029f83c143d038",
+    "data/south-horizons-tower-4/window-review.png": "f8806861aee50b6c5c50904ca5cb31a61ccd3ae965465f8aec8b9a8b3df00690",
+    "data/south-horizons-tower-4/approved-overlay.png": "ed6a437c2bfd9965566141cce3296acaa381d04d2e98a66623f82f7bceb55e44",
+    "data/south-horizons-tower-5/annotations.json": "caa69d7bd97d13a81717b7f9153e73ed6737b729987be857421cddd054106955",
+    "data/south-horizons-tower-5/official-footprint.json": "c5930a113955caf4a9c5231825193c03a331b870c439b4eb4177c3aeebda9eaa",
+    "data/south-horizons-tower-5/placement.json": "52c500ca9a60a7e4ae9a1901b813cf4aab342c25c5594d94f3b9995cff6e49f6",
+    "data/south-horizons-tower-5/result.json": "386a6d40316d49c85ccd976ce5ae3b97255007f42d9f86c82f240ea96d2b995a",
+    "data/south-horizons-tower-5/plan-crop.png": "6e9a7c401ff810df2fa76bbb648c41baf995f33b9b09d8161cf1067ebb57ed81",
+    "data/south-horizons-tower-5/window-review.png": "80951c229c990ff89be5c42f8ccdc3db9c000542eb163164bf74068d6cd544fa",
+    "data/south-horizons-tower-5/approved-overlay.png": "847e36a4083e95fff1985c4ca9f5e0ad77ad15b9e7b872a8ebc713a59a9ce76d",
+    "data/south-horizons-tower-6/annotations.json": "cb4466e194bb2d4de4ecde5e584721e0c6e226a2a16d67242d9532def7fdcc77",
+    "data/south-horizons-tower-6/official-footprint.json": "37c98abbef63676d686f374d3d70c8568cd0f735a74d2b2311205bfbfbdb52aa",
+    "data/south-horizons-tower-6/placement.json": "fbad49afe1177fb3329f87e62be6460eb3740789733eedef98c002f25bb31451",
+    "data/south-horizons-tower-6/result.json": "fe5687f2f45b8307993a6788178b42922a895fb71284c3909cc3e3958eaa79eb",
+    "data/south-horizons-tower-6/plan-crop.png": "a9b2b1c391b78832b23837ed3923113354c6f17dd2763e7bcff09ee3d922a6a1",
+    "data/south-horizons-tower-6/window-review.png": "9a3ee16ca235876da0f787d044340dd6bbf67421efa5439475fdb413e41b6514",
+    "data/south-horizons-tower-6/approved-overlay.png": "a55bbe6f0aba99ac36135872c31be2b3ec7c3e3c17f48d4a7649a6acd9a6789b",
+    "data/south-horizons-tower-7/annotations.json": "d6f4a4c4de79433b26598ad3614d20d19fc27debfe30f43d406c535fd40841dc",
+    "data/south-horizons-tower-7/official-footprint.json": "14d0d8f313853fe8fbcb0ee66e7b7c5df14ab79d8bcd97549cfb6a37b5171f5e",
+    "data/south-horizons-tower-7/placement.json": "6c9d3ffed30f29bb49ba99857d903ff3683392c8b6e8beae15a1d38bae2dda36",
+    "data/south-horizons-tower-7/result.json": "ede49df23277e79f86f455d15a57b566739e142f640b00d97dbe600b73e95525",
+    "data/south-horizons-tower-7/plan-crop.png": "43a4cddb1027a986d8c865c3ad9cb84e89dae6f6a8498910cdc22a14bcb46f14",
+    "data/south-horizons-tower-7/window-review.png": "155838378c10bcd385069a520c8dcfc0d3a947ba669c4a65c8142ace52125e9a",
+    "data/south-horizons-tower-7/approved-overlay.png": "f17eeb4f9bc5abd542a8ced34d2ad148f7eaab934444910460299362d233dd92",
+    "data/south-horizons-tower-8/annotations.json": "f0e1976d2acef8c92607189f1beaef33603c3a2c578e29a9ea4af7a3276d4f75",
+    "data/south-horizons-tower-8/official-footprint.json": "9f4e26c5419ae18661758049c3d93dc5a874be63d1b72b2f30a1d9951d089451",
+    "data/south-horizons-tower-8/placement.json": "48aecfc2ab39bfdf1b1cd81b94bbf5ee0a830b3551a35442be0371a7322c1920",
+    "data/south-horizons-tower-8/result.json": "012fa521b02cd6eba21c16e7d78aa69de9f3e8c751db04bd15b73a3c10088ec8",
+    "data/south-horizons-tower-8/plan-crop.png": "2424cf8befcf425e199709365feb28ba306c3635bcecb8e79add0d78f59dbd6e",
+    "data/south-horizons-tower-8/window-review.png": "4de19940520519990967b90fda9da81d126cd4021d1e17af9ac7aa39b87e0e2a",
+    "data/south-horizons-tower-8/approved-overlay.png": "47a7941f30d0a402be893a5496e6df2ac5a8ee3a4a1904e771020245bc3242db",
+    "data/south-horizons-tower-9/annotations.json": "812882d0bd5b0443f5e388b4bcebe0bf148280b43fbfe6107a038e4b667397d1",
+    "data/south-horizons-tower-9/official-footprint.json": "d7bb59a8e782d1b520cb6b5115cf63dfd292f4b6d8b8a36309f1561406c327ad",
+    "data/south-horizons-tower-9/placement.json": "5ae9f57db907db5dd55cb93e084181b1ebc3a67050936ad1400275fd61571d1a",
+    "data/south-horizons-tower-9/result.json": "8f4271abc19e4565344b2d1bd800fca08104b1e0042c9997e3697c92ae4165ff",
+    "data/south-horizons-tower-9/plan-crop.png": "d65088a64f3012c7f98b586917a901fb987bc888dd3e84375a2b591cbce6772d",
+    "data/south-horizons-tower-9/window-review.png": "731c815295b8c7628ce97c1199ffc9e92c25b1b585be0fa1028d86b6f9965393",
+    "data/south-horizons-tower-9/approved-overlay.png": "a1dde49ccfa63acaa12f95f542393c2c4661a01f0035e2b6a4d03816ebec0aa8",
+    "data/south-horizons-tower-10/annotations.json": "91b95f551fc5780b74c05031cffc0f17171c1e77aec5f02ac176b293c7c4d0de",
+    "data/south-horizons-tower-10/official-footprint.json": "eaf6b503530b95e5e28f1746ba10f999cc232d9bec1740110346d8c697ccdd90",
+    "data/south-horizons-tower-10/placement.json": "d53da6749a869c0cb52e9b038d5ed82386e1366b7f0a9cade5c831592001eed4",
+    "data/south-horizons-tower-10/result.json": "4df9337cb33f9dc86ee618adf70fd91dd38059ad9b229f5905e6d86e8fb67a8d",
+    "data/south-horizons-tower-10/plan-crop.png": "b9f6862fcbc4eb0c268c3a68d346341da4c9c9f3b484494eb70cb7b6008992a8",
+    "data/south-horizons-tower-10/window-review.png": "8f222bd271e13a2a78e56c97bb59847977a09dd4fdbc01be30530b3f629eaf9e",
+    "data/south-horizons-tower-10/approved-overlay.png": "1ebb242d72b5efa2432a14c906af8b63145e3285f3b9f3203b31bbbeb41837f1",
+    "data/south-horizons-tower-11/annotations.json": "ee83c5c09305d05240cfb2c2783a0200b84bc5af0560e2b717f78475b481c047",
+    "data/south-horizons-tower-11/official-footprint.json": "1d6b878251deca1193fb245933cfab3679c18b16134d6f4e9843302a80668697",
+    "data/south-horizons-tower-11/placement.json": "328d3a3b03496b1e837f2cd809dafb15ba19a71b58efe7662430019461c9aec6",
+    "data/south-horizons-tower-11/result.json": "19d5a6baa3ee4d6bf6ab183b3e7a9fd0df003a4ee105c851b2da196b3a5d0766",
+    "data/south-horizons-tower-11/plan-crop.png": "a3c670e44b286f1b8d552c9931d6f45593fdcce4a7296d25a1b3dab251c73a5a",
+    "data/south-horizons-tower-11/window-review.png": "513ac9bfa95ee7f70a26f7f6a1f349e8b8e44ac87c4a5feb11118fdb750173d3",
+    "data/south-horizons-tower-11/approved-overlay.png": "d887244f67c30fe2665c83e78e141a76dcb1a616c6bcf9586886dda87c2d7087",
+    "data/south-horizons-tower-12/annotations.json": "87445ccd55a5d402330e343156b07c3041137961d89bd2158e6229101fc93ea2",
+    "data/south-horizons-tower-12/official-footprint.json": "88488cad125310a8e2f132130950515a65cd1cc720cb6955af4b238ad3e61da1",
+    "data/south-horizons-tower-12/placement.json": "a190bf9e007cac3ed61779eded9628d98e2af1e10939d3412f99ee8f16a7c843",
+    "data/south-horizons-tower-12/result.json": "0be9c84a5da176e22c098fcc67269b88e1b928cef032c1f904b45a0ca2ecd450",
+    "data/south-horizons-tower-12/plan-crop.png": "9cf088f65cca39caa2ab726bf351d00cad7ca79cd5979d955ed3144d33a7a57b",
+    "data/south-horizons-tower-12/window-review.png": "b202ae17ea7b04cb440734b436253e616e8817f0b4d04bfbaeac4bf6f2886045",
+    "data/south-horizons-tower-12/approved-overlay.png": "ceaa7044da751f43bafffe2a0d78f97b12fde71dd28bcc260b3dc645bc82f065",
+    "data/south-horizons-tower-13/annotations.json": "1ae9a71e7bcb58a2e9df402f73f0b3ebb1e2db9127f29885875da6f3c334d5dd",
+    "data/south-horizons-tower-13/official-footprint.json": "797092c372df4ffd10c5ab70ebf1c5470360eaa5f3250e819b058147981b6b3e",
+    "data/south-horizons-tower-13/placement.json": "b0338528d67d2f5fc77beb3712ef26f78fb0d20e3c6dc287198bc661e3a3cff2",
+    "data/south-horizons-tower-13/result.json": "0f880a1e0c4ba5951c131d30ad52760028c04c7478f6a3000539fafe9ada83cc",
+    "data/south-horizons-tower-13/plan-crop.png": "4a87438e3bb587933d37d098df04bbbcef433c75ab91f2d5f84cce0a1dd39d2e",
+    "data/south-horizons-tower-13/window-review.png": "608ebb2a054fb483712ceef2eae409884798651b9ba5315edc0b0317f5ce49d6",
+    "data/south-horizons-tower-13/approved-overlay.png": "034311a4fc37a8ed61258163c02a4f449ec2ca054d669c1db2eb4b58e74a5a7b",
+    "data/south-horizons-tower-13a/annotations.json": "dcd8630badc684ac2a187bca6f34fde5f1694874bcdcc3b91d0541b2a7562595",
+    "data/south-horizons-tower-13a/official-footprint.json": "9c2a5169713d98ca394bfb3d60c7e707049bbb2edda7cbca7e3f2ee090e4426b",
+    "data/south-horizons-tower-13a/placement.json": "cbff956b87f4b5dc37f362150fa8a67ea20697bc10c1ae93e7e324a2c817f100",
+    "data/south-horizons-tower-13a/result.json": "9609f00a9dddce6b28dc0e2f4c570a1ef25a72758d739816d113c98c1f5d4e5d",
+    "data/south-horizons-tower-13a/plan-crop.png": "59c3177088e8e0ccd5b8b22372a52cd7fb98faad6bde3943f23c18751e33a780",
+    "data/south-horizons-tower-13a/window-review.png": "6e641246d46774cbb46e3ae60acedee68fdead471929a8cb32e0f0c86e69686c",
+    "data/south-horizons-tower-13a/approved-overlay.png": "30cb6399669799c1cda3c00bd26223221115bb93446e2145e047721190a17e8b",
+    "data/south-horizons-tower-15/annotations.json": "c9fd4ccaa5c9afca8bced8f4efff750af4c2ebb0d12cdf66d74274ece7146b2f",
+    "data/south-horizons-tower-15/official-footprint.json": "cd2a7ba5d4b03e17d84c740b05d00510988844467a5227a99b1322951fc4ec5b",
+    "data/south-horizons-tower-15/placement.json": "5f56e43785dad8ff0b879360352fa9043c95e28c39725c574f2d848a0c5caca3",
+    "data/south-horizons-tower-15/result.json": "13af8e5eab5c8b9e94275f0e7a7698751bc8033774d9fe08792c9e6533d6e7b1",
+    "data/south-horizons-tower-15/plan-crop.png": "fc77cbb3d1587436090ff1aa13f7e3c217dcfb030ce816b5af75a81356a07f66",
+    "data/south-horizons-tower-15/window-review.png": "edc163733eea184c253e6b094b1bff1a8c50c49ec64eb8795e2d1eebbaa7805b",
+    "data/south-horizons-tower-15/approved-overlay.png": "451acea393a8501784549acc5bbcaea6bb8c1d07d9cf898f328c99c1130e66ac",
+    "data/south-horizons-tower-16/annotations.json": "83c9085842b998d3a82bb6203b689248d372173fe8b20539449aeedb4ccac0ee",
+    "data/south-horizons-tower-16/official-footprint.json": "ce70cdc4c14ffffb954fda5993e186071cca8fd200ca9efff1c7519ba61033ff",
+    "data/south-horizons-tower-16/placement.json": "3a85fa47cc8195bab4af68c27a5651d56a94039d9f4176709a983b28c322d064",
+    "data/south-horizons-tower-16/result.json": "80dbddedab3832296d4ed947fb9f1f1f39e8c47c059383f23843fd778b4bfb50",
+    "data/south-horizons-tower-16/plan-crop.png": "026fdfa1884d23a1db7f5290f0352ee4cd0468ae5ca003034c09c8e3e5d99126",
+    "data/south-horizons-tower-16/window-review.png": "e78bd460c30407a85552b47a2623923a2ae814ffea8e78c71bb3e6b6697ad0d7",
+    "data/south-horizons-tower-16/approved-overlay.png": "cf25efa2a137b23ca940415f969996cf6985be1f4794ae0b1ff21850482bae20",
+    "data/south-horizons-tower-17/annotations.json": "387086acba2cea4e4891e90dee7548a25bf01e778f4c9980e91ecf11b1128d19",
+    "data/south-horizons-tower-17/official-footprint.json": "5caf092cc7cd037bb5f914ade6072112808ace0da3d33bb660bd6f81293e5728",
+    "data/south-horizons-tower-17/placement.json": "63f4a5748778695d27f23ad6f16ea9aa6b91207ca621364224c08278fba0a904",
+    "data/south-horizons-tower-17/result.json": "1814bfc0b52a97215300c6fdd2f4b8ed0ceadadfe4cf4a6c3d699bffbb35fa21",
+    "data/south-horizons-tower-17/plan-crop.png": "9c3aa7a0991cfc0a1a982280b919993b06206bafb0f0384ca48efd2032e0587d",
+    "data/south-horizons-tower-17/window-review.png": "52ead7f26b2d54d2303b4d1ce36c93d12840449d4a8963f6b8bc94f620c61b76",
+    "data/south-horizons-tower-17/approved-overlay.png": "e10913f31189c969cf802b11a5edee6e72f0834b9c14800d24ab729ef1867c13",
+    "data/south-horizons-tower-18/annotations.json": "0619c933e6868392ffc744bbfd80f55f05172f5df3faaaae1a07a6fe8f61f290",
+    "data/south-horizons-tower-18/official-footprint.json": "64f13cc80d3aefe12f0ca5235ae6a6124298ce9a60e7df1d457aba59f48d7c5d",
+    "data/south-horizons-tower-18/placement.json": "79dc7365ee6237658ab6516065f526b40b4570ddf39c908ba25f196548be09ec",
+    "data/south-horizons-tower-18/result.json": "5fd781f2047531792ea8d778890ed387c296f137fdf358eae45e2b191b5969a8",
+    "data/south-horizons-tower-18/plan-crop.png": "504739f36787edba2ab60dd3e8fc63d0fed35818d12c92de88cd50a5d96cb5c8",
+    "data/south-horizons-tower-18/window-review.png": "57fdfef29db9fef7ece3855e18130e8b6a161074b7e868bbccbdfea6c70cc621",
+    "data/south-horizons-tower-18/approved-overlay.png": "be6a703e5602d4803645e8d8208675ff83bbe44c7462ddd5a6331dbe85ea0f55",
+    "data/south-horizons-tower-19/annotations.json": "0f490295cf6657c60ed07412537570990059211733aa11899aa6c1c673d35db4",
+    "data/south-horizons-tower-19/official-footprint.json": "01d9920e8f92083ed6517b0cacbf621cdd772db8af18f2dcfa2999c41498b1a0",
+    "data/south-horizons-tower-19/placement.json": "62e71cc1c12bca6560bd3aca203f78748a674a46612d126bae533e8138cc6607",
+    "data/south-horizons-tower-19/result.json": "10b8b4835e22e73aadefe0b9f5b7489349683b825e3662aa5fe90230459dfade",
+    "data/south-horizons-tower-19/plan-crop.png": "acdc027ca53ab1b346eda781f782962010640ca0a03f8ccc120f550a8f973c63",
+    "data/south-horizons-tower-19/window-review.png": "44b685eca8cf8e4479baec9efbbdc8b7d73722eed6df6d3fa09e5920a248d94e",
+    "data/south-horizons-tower-19/approved-overlay.png": "2a9c958f3bdab2a9deec4f9538354fdf914468fd609e5bffeb6a76303e9223a7",
+    "data/south-horizons-tower-20/annotations.json": "fc73bdb5ba5c97147febd2f5540c06d1fc1f31baad325cd7fbe769a48aa8e8a5",
+    "data/south-horizons-tower-20/official-footprint.json": "e8d593f922ba41a31357fb34e43b37ce7904ff7e0684708d99e0f6465f0789bd",
+    "data/south-horizons-tower-20/placement.json": "46631054cb0e6c1f3e7d1af4fa92e35b69e8eb42ebd263a2b56dfbcd40c73b7b",
+    "data/south-horizons-tower-20/result.json": "7da95df5ab13ebd7ae5d1ee7b2906bc6a0323be0808b089fa57b769c862a0c5c",
+    "data/south-horizons-tower-20/plan-crop.png": "32a91a69e083194fdd58837759fef508b1774f421bd3625eb5af49598bf62713",
+    "data/south-horizons-tower-20/window-review.png": "3c5de3515cbaccfe29ec84d71b7116a6b760261c71999561e043fe3864d4dfd3",
+    "data/south-horizons-tower-20/approved-overlay.png": "2bd9a49a51be83644b241efd96e7547b6940d47c635ddb970723d99816db5e8c",
+    "data/south-horizons-tower-21/annotations.json": "b38e2840a5ad869d2d036d3b55e15a123a936f82c0f6a7718bcf2e4a6a1f684c",
+    "data/south-horizons-tower-21/official-footprint.json": "9134aa04e33bccbfeefa86d252635ba36a69e010a05b58f7d9458c779838830e",
+    "data/south-horizons-tower-21/placement.json": "d7415de6ca04028c64fe27de4b0e807c362f679858569e646151d9f1d2d1202c",
+    "data/south-horizons-tower-21/result.json": "474bece7b9f5abb33af06596cc9692eafa0453c1e987f9f3befb1fbb5fe16555",
+    "data/south-horizons-tower-21/plan-crop.png": "c8de7648736c93dd5b443912ff0cec4406475e720df5b3cee55bf7aa1ecbe611",
+    "data/south-horizons-tower-21/window-review.png": "1444932e22589cc779c054d1cd84967bbcd6b52db09f3e4548b626627222fcc9",
+    "data/south-horizons-tower-21/approved-overlay.png": "0818d7141d117aa11957bf8a086dc7465286bfc24972c78ea9dff7bc7c33028d",
+    "data/south-horizons-tower-22/annotations.json": "8e8c1d595a86a83c9df5c64b5168dd315dfe2f8f7aa7cee8b3c106972bc0c202",
+    "data/south-horizons-tower-22/official-footprint.json": "16f9377bf597af8938c60072127074c7e6255a361354d6125e6645d459630b73",
+    "data/south-horizons-tower-22/placement.json": "76cddb0e489329748f0ec8d97cf812b98997e33a3058a89376a73c8b2fae7817",
+    "data/south-horizons-tower-22/result.json": "623b5d19b78759a890a779d6d881b381a8864b40eae219030546e3d6780a471d",
+    "data/south-horizons-tower-22/plan-crop.png": "bd136e78dad3b7d56c3125500c96674f3773941d8e1784f9e9b18571ed366c3b",
+    "data/south-horizons-tower-22/window-review.png": "9e81c1b4951cd578dd7ce72a6eef43bcac4734affb3b7e20a5e224c550412ad3",
+    "data/south-horizons-tower-22/approved-overlay.png": "5d902f02f492a2a2411b6dc242ed31333cb8d212e38300be276cf2e192c52646",
+    "data/south-horizons-tower-23/annotations.json": "fc8ee28824c59e839eabf85b2337e0288e787f675a5ecf36fb447451af6f279a",
+    "data/south-horizons-tower-23/official-footprint.json": "243d41a1a048188cd127098928a3d6ab4a66cc649d1f5ab1424b441667a8e8c0",
+    "data/south-horizons-tower-23/placement.json": "ffb9ac2b585a38b3eb64271f1147c421d0a726ce10e8d1edbdb6eb768040b6ca",
+    "data/south-horizons-tower-23/result.json": "763cb1444f58671fd36490145a8c5de01e0e9c01148503e8341ccbdf69ff8e09",
+    "data/south-horizons-tower-23/plan-crop.png": "875cb1051e3238ab277ba1da20d66a2c75f4b1108561fc1397b6013836f6cfee",
+    "data/south-horizons-tower-23/window-review.png": "4d87f1e5e8b597654a5296e9e1274e93a4b2984f9f1ac99fa06b8d39de360e31",
+    "data/south-horizons-tower-23/approved-overlay.png": "7f6fc5b9bf276e469eef38e3a9bf46b3d9cb6cd216e3c7db408f36a049f710fc",
+    "data/south-horizons-tower-23a/annotations.json": "100308dd3dc7b80371e9863823df21307da2abee0abe16b5150b9de9b18153c7",
+    "data/south-horizons-tower-23a/official-footprint.json": "1ea0fe04d36a62d869489723f08fb61cec227118de27f2c371b280abef9b4fe3",
+    "data/south-horizons-tower-23a/placement.json": "303355d7221e0d138a6c64b5bab6231440414e1123441e9a722810b31df3085a",
+    "data/south-horizons-tower-23a/result.json": "4c2967e51ac6b1a47aa68914e0d685b2d1d27e325efa903e4ab2e6e98bae7533",
+    "data/south-horizons-tower-23a/plan-crop.png": "e2e4f457c4b27be88a9498d5a0880aea4186401aa89c1d024e660873d4c3c899",
+    "data/south-horizons-tower-23a/window-review.png": "3945505af94401c1824926ad0c9292cd1c9d1043b0ff39e29cb7875a8ecd606f",
+    "data/south-horizons-tower-23a/approved-overlay.png": "bd3c6df715327f182407e21be29f21a187f0f1584614ece22ec513b827a26879",
+    "data/south-horizons-tower-25/annotations.json": "eb758ca10f8b3868720d11873036a1cb96cca8ca8221d08d666cfb42d855d769",
+    "data/south-horizons-tower-25/official-footprint.json": "d1252963b437fe41521788adb353edf70f0d06ae7c05713e1271ca465d3995bd",
+    "data/south-horizons-tower-25/placement.json": "9a8051778b171605d92565defeb3d6d327a536dc70a979511ff01a42527847b0",
+    "data/south-horizons-tower-25/result.json": "936227ea7a8a8cdc914d036e3066cbf75dd61fa3409997c9e92ad1a2d7ee98c0",
+    "data/south-horizons-tower-25/plan-crop.png": "580ec98c06c52a7b2ac13bae0e3349082807cb2277368bc653665447786ff6cf",
+    "data/south-horizons-tower-25/window-review.png": "bc5a2e35680d1ecbf7430016dec174a3a0ef9c2653df946aacb9fd19253b5fab",
+    "data/south-horizons-tower-25/approved-overlay.png": "546bad248a48b3637a9e8694cf2af5d1f304ac4b9d251a1be975c3fc37145c41",
+    "data/south-horizons-tower-26/annotations.json": "90cbc578521e6fc77d9a84455ba98b622c8196e823f71c42580dee883d46194b",
+    "data/south-horizons-tower-26/official-footprint.json": "800f90664e2a30394718fef07f3d5ad85ed6e2f608dc030e9023d21daf074af2",
+    "data/south-horizons-tower-26/placement.json": "7b3464b513e887ce69982f72009f54d6adc8fe2e7d557aaf5fac9055d87d9415",
+    "data/south-horizons-tower-26/result.json": "25ce82c529382edac24e67ff44f61b3fcf6d6574bea151a79772e4b50aa128dc",
+    "data/south-horizons-tower-26/plan-crop.png": "92799dd53baa8bdf29d664b1a41cb736874c1a036685af0f4c9d650b712f4acf",
+    "data/south-horizons-tower-26/window-review.png": "775973dfa14edb93b21b0f9654dcad3ceaa9be54654e6b33bbfc327cebb19061",
+    "data/south-horizons-tower-26/approved-overlay.png": "83abbecb17419261a95c46f54cae06113e6c36b2dc75e24446afa9568a077789",
+    "data/south-horizons-tower-27/annotations.json": "457e16c93633618ac3e828a6919eec9b4d9ccbaab97eac82a1c22622507ab5af",
+    "data/south-horizons-tower-27/official-footprint.json": "4da984a47b7c599295056126d3f1e975ee211ac87c5cb04ec9c37b10aaf87d2e",
+    "data/south-horizons-tower-27/placement.json": "3f164b94b83bde9e4ea315ae51181c38361da01d32b4cac1248df1348c04db2d",
+    "data/south-horizons-tower-27/result.json": "fff8cfa83cbf32d02f88e7536d68ece563ecd16931c9d632294eff3acec6c289",
+    "data/south-horizons-tower-27/plan-crop.png": "c6053d79c96a1d143e3bf0ada727eaec39c41f5cf1975b1168aef0e0a5d285cf",
+    "data/south-horizons-tower-27/window-review.png": "03bd0fc95d3a70f1a7bfb241923efad3de7d831504f644002e126f0be17213be",
+    "data/south-horizons-tower-27/approved-overlay.png": "08558260e388bd5fbaf40f155bb7f4562b0daa31ae885729c6cdcd73d1817d16",
+    "data/south-horizons-tower-28/annotations.json": "beb2a6bf5ce8cdcb2a7b4155adca2e46d67c25fa654b8b4bdf3a8950db294652",
+    "data/south-horizons-tower-28/official-footprint.json": "0cd61ef1f86d4bc0c5887f873ab6b50f37f798d10353e6efe7782e0ca0a740ee",
+    "data/south-horizons-tower-28/placement.json": "7713932152dafc60706a167ae942f955e272c78c80a9ab8b272fdca83faa4478",
+    "data/south-horizons-tower-28/result.json": "8d84bd8f27991ddb8ebe75c0a7f43f3ffd90cb78841a6c9a5476067960600acb",
+    "data/south-horizons-tower-28/plan-crop.png": "6c590412e67d10b743b44b7840cc171a2187d302d0a882dbd7670f7b3ca2d232",
+    "data/south-horizons-tower-28/window-review.png": "ee4aa223d6ae824416cd843eb942b03863c35b420490c7a2f0346777ec4c2f21",
+    "data/south-horizons-tower-28/approved-overlay.png": "c1667e9321be23ed00fa1c908c715432fee9bb7cc19b36c1be43c4fc8cd3cec5",
+    "data/south-horizons-tower-29/annotations.json": "985031ba7535d76f9b0072cd5c32e41aeddf3a14c975b65898ef0d30b8eabffd",
+    "data/south-horizons-tower-29/official-footprint.json": "7f7bbaa2f5d152cf7b52d2afea1e7f3359af9fbf687bfd56f509bd3ab12c22ad",
+    "data/south-horizons-tower-29/placement.json": "b0389326fc56674530858409c9ebcf1dd5945dc5306e01798c65c73830cff354",
+    "data/south-horizons-tower-29/result.json": "3795bb8c9fa7391b0fde08e988447ef9a85a06f4fb5fa158c5cbec8362c7024f",
+    "data/south-horizons-tower-29/plan-crop.png": "f937a7713ecbae5e15a68fb646e5768cdc7ee71c5431c03c3e20adf543e132a4",
+    "data/south-horizons-tower-29/window-review.png": "edf024d5fe86be4ebb48c4a09ac687badbfba8e2becb47e3bb4981916952b67d",
+    "data/south-horizons-tower-29/approved-overlay.png": "6ffd9229cbda9f59aac20fdef1ba1b656c008fe7b9b2abb688ac128681732de6",
+    "data/south-horizons-tower-30/annotations.json": "bd3f43b18fb3a82dcc87d67512654e998075593e1365d00286bb6674db6ffb9a",
+    "data/south-horizons-tower-30/official-footprint.json": "a2061417e5e673bb3af6d87caa270242fd67f62275177d88b32c67396f220e50",
+    "data/south-horizons-tower-30/placement.json": "57381e57e75ff32cf53155401dc843be8322e8a1ffceef7668ed329caa0862b5",
+    "data/south-horizons-tower-30/result.json": "6f32fb5d6e91974e310e9cba8e3926fdd8fcf7c81f9a65a6ce0674c5db9941e8",
+    "data/south-horizons-tower-30/plan-crop.png": "1e73aba70e6404340da84bf60885798ced1ca679f8616809131dea76b033fcad",
+    "data/south-horizons-tower-30/window-review.png": "7e12e52d7a1a0f01223dc81e7e6a9c8c0697e0f00548a633fa0a4502e20bc15d",
+    "data/south-horizons-tower-30/approved-overlay.png": "ae798a5b67b27ce71bfbd3efa32fb606511a8bb4f87dc062a00f36a483b86c0b",
+    "data/south-horizons-tower-31/annotations.json": "9c8348d26f20eaf36398061795ae71e5fce57ad02eb589850a88d7b01518ec59",
+    "data/south-horizons-tower-31/official-footprint.json": "d14b5bc9045f7fa668cf55612af9ece6072f89518406ef8adeaf6d616904edf3",
+    "data/south-horizons-tower-31/placement.json": "6b1cd418a8a415a5dfeb12d2aae4d3e4edd7bf45e5a4765dd000d094d2c9bd54",
+    "data/south-horizons-tower-31/result.json": "2a5984747b22500b1df9dda6a7761682ecf0a1c5f13fa4f886d93b53beb2844e",
+    "data/south-horizons-tower-31/plan-crop.png": "abf3e1ad7d72b90dd63d2a5868f41fb9b5a692b539e2bf212bdfb1524b3803da",
+    "data/south-horizons-tower-31/window-review.png": "5229c1a013c45bf9bde8ad97abde3bdeb8f0dbda870bcdeb69904ede543723d3",
+    "data/south-horizons-tower-31/approved-overlay.png": "de8b1924b8274ca5d4c17f4eb12e55abec7a671cd43eb825450879306e08f3a7",
+    "data/south-horizons-tower-32/annotations.json": "8484a434671f24c05061874305bff9149a2bc168f2976ae46510bdf8c6f1f57e",
+    "data/south-horizons-tower-32/official-footprint.json": "ba95df2c8b4a8ea366fe73548a419432dc5cbdf7cb9ce48d93fee928ca796897",
+    "data/south-horizons-tower-32/placement.json": "bf7526a91aeea8b9a81380884a1656e1a37f167607ed4e5652e6cc4ba57a526b",
+    "data/south-horizons-tower-32/result.json": "042e07626576bb217f894e59d6a941b52e4bce5c2379316cd4f098fc01b3dbd3",
+    "data/south-horizons-tower-32/plan-crop.png": "9b390460f87cceeca1fd27b89c01d2a5de8bd0f6106474f035d04982d38fd834",
+    "data/south-horizons-tower-32/window-review.png": "24559f689517f9939bd9e377097db96e06b748ef2a35575bcc98fba99cbd88c0",
+    "data/south-horizons-tower-32/approved-overlay.png": "0774328a17c11c0ad1cc8686c9063a119bab7ef69700c5c1a4e6adbd254ae3d8",
+    "data/south-horizons-tower-33/annotations.json": "c010b938f0a98c868ce452660309d09670450cb4efd9fe7428c661db0e786cf9",
+    "data/south-horizons-tower-33/official-footprint.json": "574393ad63aa312840ed7e38777bd38df485003f3c19f9065cc124318bc7f39c",
+    "data/south-horizons-tower-33/placement.json": "1e34ac8fcc95162f71db76d87ee534c8b06f13d3590ab1f9c4a78039c2df938c",
+    "data/south-horizons-tower-33/result.json": "9d177d6dd6942314d85ea8fcd08b94cc774a31b2441e2e67440dfdff0fab663a",
+    "data/south-horizons-tower-33/plan-crop.png": "59ef6e1844025b431ad155c39224468c0f337b32db4e9b280b9205fdf857676c",
+    "data/south-horizons-tower-33/window-review.png": "caaf8ee4a07bb49ca274531fc331ca57b6c0f1edaa4a463cb3ebe0dfd85b4a57",
+    "data/south-horizons-tower-33/approved-overlay.png": "26e4b4ddc240cf39c9418c15482d0c2f6e84c8c5e509e3c9aca53c8964021ce9",
+    "data/south-horizons-tower-33a/annotations.json": "9d614e42de14b4b1481ec508264f280abf3f86cbf410446061c241d1d6eb7d0b",
+    "data/south-horizons-tower-33a/official-footprint.json": "4cdbabf12a020fb800573c2f844c3075a986d87903e38fc321040ca3caee74a6",
+    "data/south-horizons-tower-33a/placement.json": "b513f4d1257a8ee787fb7c265bcf38e9d80d7ed4e30319b8e21fc598023d0d36",
+    "data/south-horizons-tower-33a/result.json": "bb73d56e543e9739273421018c4dbb33960fe48250aeb06465b695e3d0d5631f",
+    "data/south-horizons-tower-33a/plan-crop.png": "3e0fc4ea76a1c562034f5194ffcc02305b4dfafb7addbcadd70560cd2710df39",
+    "data/south-horizons-tower-33a/window-review.png": "ad384e42a46d70782c294361134f7448bcd9e98958fcb30cd3ccbe10518970b4",
+    "data/south-horizons-tower-33a/approved-overlay.png": "690f09ba6c897ef6e98058e29ad288de9f49f2ad561afd59a0c7ca41c5a75f61"
+  }
+}
