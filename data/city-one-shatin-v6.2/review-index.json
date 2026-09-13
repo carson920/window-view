@@ -1,0 +1,522 @@
+[
+  {
+    "tower": 1,
+    "familyId": "COS-F01",
+    "accepted": 23,
+    "rejected": 9,
+    "sourceOverlay": "review-results/tower-1/window-review.png",
+    "registrationOverlay": "review-results/tower-1/approved-overlay.png",
+    "familyDiff": "review-results/tower-1/family-diff-overlay.png",
+    "result": "review-results/tower-1/result.json"
+  },
+  {
+    "tower": 2,
+    "familyId": "COS-F01",
+    "accepted": 26,
+    "rejected": 6,
+    "sourceOverlay": "review-results/tower-2/window-review.png",
+    "registrationOverlay": "review-results/tower-2/approved-overlay.png",
+    "familyDiff": "review-results/tower-2/family-diff-overlay.png",
+    "result": "review-results/tower-2/result.json"
+  },
+  {
+    "tower": 3,
+    "familyId": "COS-F01",
+    "accepted": 27,
+    "rejected": 5,
+    "sourceOverlay": "review-results/tower-3/window-review.png",
+    "registrationOverlay": "review-results/tower-3/approved-overlay.png",
+    "familyDiff": "review-results/tower-3/family-diff-overlay.png",
+    "result": "review-results/tower-3/result.json"
+  },
+  {
+    "tower": 4,
+    "familyId": "COS-F03",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-4/window-review.png",
+    "registrationOverlay": "review-results/tower-4/approved-overlay.png",
+    "familyDiff": "review-results/tower-4/family-diff-overlay.png",
+    "result": "review-results/tower-4/result.json"
+  },
+  {
+    "tower": 5,
+    "familyId": "COS-F03",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-5/window-review.png",
+    "registrationOverlay": "review-results/tower-5/approved-overlay.png",
+    "familyDiff": "review-results/tower-5/family-diff-overlay.png",
+    "result": "review-results/tower-5/result.json"
+  },
+  {
+    "tower": 6,
+    "familyId": "COS-F03",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-6/window-review.png",
+    "registrationOverlay": "review-results/tower-6/approved-overlay.png",
+    "familyDiff": "review-results/tower-6/family-diff-overlay.png",
+    "result": "review-results/tower-6/result.json"
+  },
+  {
+    "tower": 7,
+    "familyId": "COS-F02",
+    "accepted": 24,
+    "rejected": 2,
+    "sourceOverlay": "review-results/tower-7/window-review.png",
+    "registrationOverlay": "review-results/tower-7/approved-overlay.png",
+    "familyDiff": "review-results/tower-7/family-diff-overlay.png",
+    "result": "review-results/tower-7/result.json"
+  },
+  {
+    "tower": 8,
+    "familyId": "COS-F04",
+    "accepted": 31,
+    "rejected": 5,
+    "sourceOverlay": "review-results/tower-8/window-review.png",
+    "registrationOverlay": "review-results/tower-8/approved-overlay.png",
+    "familyDiff": "review-results/tower-8/family-diff-overlay.png",
+    "result": "review-results/tower-8/result.json"
+  },
+  {
+    "tower": 9,
+    "familyId": "COS-F01",
+    "accepted": 25,
+    "rejected": 7,
+    "sourceOverlay": "review-results/tower-9/window-review.png",
+    "registrationOverlay": "review-results/tower-9/approved-overlay.png",
+    "familyDiff": "review-results/tower-9/family-diff-overlay.png",
+    "result": "review-results/tower-9/result.json"
+  },
+  {
+    "tower": 10,
+    "familyId": "COS-F01",
+    "accepted": 23,
+    "rejected": 9,
+    "sourceOverlay": "review-results/tower-10/window-review.png",
+    "registrationOverlay": "review-results/tower-10/approved-overlay.png",
+    "familyDiff": "review-results/tower-10/family-diff-overlay.png",
+    "result": "review-results/tower-10/result.json"
+  },
+  {
+    "tower": 11,
+    "familyId": "COS-F02",
+    "accepted": 23,
+    "rejected": 3,
+    "sourceOverlay": "review-results/tower-11/window-review.png",
+    "registrationOverlay": "review-results/tower-11/approved-overlay.png",
+    "familyDiff": "review-results/tower-11/family-diff-overlay.png",
+    "result": "review-results/tower-11/result.json"
+  },
+  {
+    "tower": 12,
+    "familyId": "COS-F02",
+    "accepted": 23,
+    "rejected": 3,
+    "sourceOverlay": "review-results/tower-12/window-review.png",
+    "registrationOverlay": "review-results/tower-12/approved-overlay.png",
+    "familyDiff": "review-results/tower-12/family-diff-overlay.png",
+    "result": "review-results/tower-12/result.json"
+  },
+  {
+    "tower": 13,
+    "familyId": "COS-F03",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-13/window-review.png",
+    "registrationOverlay": "review-results/tower-13/approved-overlay.png",
+    "familyDiff": "review-results/tower-13/family-diff-overlay.png",
+    "result": "review-results/tower-13/result.json"
+  },
+  {
+    "tower": 14,
+    "familyId": "COS-F03",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-14/window-review.png",
+    "registrationOverlay": "review-results/tower-14/approved-overlay.png",
+    "familyDiff": "review-results/tower-14/family-diff-overlay.png",
+    "result": "review-results/tower-14/result.json"
+  },
+  {
+    "tower": 15,
+    "familyId": "COS-F03",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-15/window-review.png",
+    "registrationOverlay": "review-results/tower-15/approved-overlay.png",
+    "familyDiff": "review-results/tower-15/family-diff-overlay.png",
+    "result": "review-results/tower-15/result.json"
+  },
+  {
+    "tower": 16,
+    "familyId": "COS-F05",
+    "accepted": 23,
+    "rejected": 5,
+    "sourceOverlay": "review-results/tower-16/window-review.png",
+    "registrationOverlay": "review-results/tower-16/approved-overlay.png",
+    "familyDiff": "review-results/tower-16/family-diff-overlay.png",
+    "result": "review-results/tower-16/result.json"
+  },
+  {
+    "tower": 17,
+    "familyId": "COS-F05",
+    "accepted": 22,
+    "rejected": 6,
+    "sourceOverlay": "review-results/tower-17/window-review.png",
+    "registrationOverlay": "review-results/tower-17/approved-overlay.png",
+    "familyDiff": "review-results/tower-17/family-diff-overlay.png",
+    "result": "review-results/tower-17/result.json"
+  },
+  {
+    "tower": 18,
+    "familyId": "COS-F06",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-18/window-review.png",
+    "registrationOverlay": "review-results/tower-18/approved-overlay.png",
+    "familyDiff": "review-results/tower-18/family-diff-overlay.png",
+    "result": "review-results/tower-18/result.json"
+  },
+  {
+    "tower": 19,
+    "familyId": "COS-F07",
+    "accepted": 32,
+    "rejected": 4,
+    "sourceOverlay": "review-results/tower-19/window-review.png",
+    "registrationOverlay": "review-results/tower-19/approved-overlay.png",
+    "familyDiff": "review-results/tower-19/family-diff-overlay.png",
+    "result": "review-results/tower-19/result.json"
+  },
+  {
+    "tower": 20,
+    "familyId": "COS-F05",
+    "accepted": 22,
+    "rejected": 6,
+    "sourceOverlay": "review-results/tower-20/window-review.png",
+    "registrationOverlay": "review-results/tower-20/approved-overlay.png",
+    "familyDiff": "review-results/tower-20/family-diff-overlay.png",
+    "result": "review-results/tower-20/result.json"
+  },
+  {
+    "tower": 21,
+    "familyId": "COS-F05",
+    "accepted": 21,
+    "rejected": 7,
+    "sourceOverlay": "review-results/tower-21/window-review.png",
+    "registrationOverlay": "review-results/tower-21/approved-overlay.png",
+    "familyDiff": "review-results/tower-21/family-diff-overlay.png",
+    "result": "review-results/tower-21/result.json"
+  },
+  {
+    "tower": 22,
+    "familyId": "COS-F06",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-22/window-review.png",
+    "registrationOverlay": "review-results/tower-22/approved-overlay.png",
+    "familyDiff": "review-results/tower-22/family-diff-overlay.png",
+    "result": "review-results/tower-22/result.json"
+  },
+  {
+    "tower": 23,
+    "familyId": "COS-F05",
+    "accepted": 23,
+    "rejected": 5,
+    "sourceOverlay": "review-results/tower-23/window-review.png",
+    "registrationOverlay": "review-results/tower-23/approved-overlay.png",
+    "familyDiff": "review-results/tower-23/family-diff-overlay.png",
+    "result": "review-results/tower-23/result.json"
+  },
+  {
+    "tower": 24,
+    "familyId": "COS-F08",
+    "accepted": 32,
+    "rejected": 4,
+    "sourceOverlay": "review-results/tower-24/window-review.png",
+    "registrationOverlay": "review-results/tower-24/approved-overlay.png",
+    "familyDiff": "review-results/tower-24/family-diff-overlay.png",
+    "result": "review-results/tower-24/result.json"
+  },
+  {
+    "tower": 25,
+    "familyId": "COS-F09",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-25/window-review.png",
+    "registrationOverlay": "review-results/tower-25/approved-overlay.png",
+    "familyDiff": "review-results/tower-25/family-diff-overlay.png",
+    "result": "review-results/tower-25/result.json"
+  },
+  {
+    "tower": 26,
+    "familyId": "COS-F08",
+    "accepted": 31,
+    "rejected": 5,
+    "sourceOverlay": "review-results/tower-26/window-review.png",
+    "registrationOverlay": "review-results/tower-26/approved-overlay.png",
+    "familyDiff": "review-results/tower-26/family-diff-overlay.png",
+    "result": "review-results/tower-26/result.json"
+  },
+  {
+    "tower": 27,
+    "familyId": "COS-F10",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-27/window-review.png",
+    "registrationOverlay": "review-results/tower-27/approved-overlay.png",
+    "familyDiff": "review-results/tower-27/family-diff-overlay.png",
+    "result": "review-results/tower-27/result.json"
+  },
+  {
+    "tower": 28,
+    "familyId": "COS-F10",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-28/window-review.png",
+    "registrationOverlay": "review-results/tower-28/approved-overlay.png",
+    "familyDiff": "review-results/tower-28/family-diff-overlay.png",
+    "result": "review-results/tower-28/result.json"
+  },
+  {
+    "tower": 29,
+    "familyId": "COS-F07",
+    "accepted": 32,
+    "rejected": 4,
+    "sourceOverlay": "review-results/tower-29/window-review.png",
+    "registrationOverlay": "review-results/tower-29/approved-overlay.png",
+    "familyDiff": "review-results/tower-29/family-diff-overlay.png",
+    "result": "review-results/tower-29/result.json"
+  },
+  {
+    "tower": 30,
+    "familyId": "COS-F08",
+    "accepted": 31,
+    "rejected": 5,
+    "sourceOverlay": "review-results/tower-30/window-review.png",
+    "registrationOverlay": "review-results/tower-30/approved-overlay.png",
+    "familyDiff": "review-results/tower-30/family-diff-overlay.png",
+    "result": "review-results/tower-30/result.json"
+  },
+  {
+    "tower": 31,
+    "familyId": "COS-F08",
+    "accepted": 32,
+    "rejected": 4,
+    "sourceOverlay": "review-results/tower-31/window-review.png",
+    "registrationOverlay": "review-results/tower-31/approved-overlay.png",
+    "familyDiff": "review-results/tower-31/family-diff-overlay.png",
+    "result": "review-results/tower-31/result.json"
+  },
+  {
+    "tower": 32,
+    "familyId": "COS-F08",
+    "accepted": 32,
+    "rejected": 4,
+    "sourceOverlay": "review-results/tower-32/window-review.png",
+    "registrationOverlay": "review-results/tower-32/approved-overlay.png",
+    "familyDiff": "review-results/tower-32/family-diff-overlay.png",
+    "result": "review-results/tower-32/result.json"
+  },
+  {
+    "tower": 33,
+    "familyId": "COS-F03",
+    "accepted": 20,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-33/window-review.png",
+    "registrationOverlay": "review-results/tower-33/approved-overlay.png",
+    "familyDiff": "review-results/tower-33/family-diff-overlay.png",
+    "result": "review-results/tower-33/result.json"
+  },
+  {
+    "tower": 34,
+    "familyId": "COS-F13",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-34/window-review.png",
+    "registrationOverlay": "review-results/tower-34/approved-overlay.png",
+    "familyDiff": "review-results/tower-34/family-diff-overlay.png",
+    "result": "review-results/tower-34/result.json"
+  },
+  {
+    "tower": 35,
+    "familyId": "COS-F13",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-35/window-review.png",
+    "registrationOverlay": "review-results/tower-35/approved-overlay.png",
+    "familyDiff": "review-results/tower-35/family-diff-overlay.png",
+    "result": "review-results/tower-35/result.json"
+  },
+  {
+    "tower": 36,
+    "familyId": "COS-F14",
+    "accepted": 28,
+    "rejected": 4,
+    "sourceOverlay": "review-results/tower-36/window-review.png",
+    "registrationOverlay": "review-results/tower-36/approved-overlay.png",
+    "familyDiff": "review-results/tower-36/family-diff-overlay.png",
+    "result": "review-results/tower-36/result.json"
+  },
+  {
+    "tower": 37,
+    "familyId": "COS-F11",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-37/window-review.png",
+    "registrationOverlay": "review-results/tower-37/approved-overlay.png",
+    "familyDiff": "review-results/tower-37/family-diff-overlay.png",
+    "result": "review-results/tower-37/result.json"
+  },
+  {
+    "tower": 38,
+    "familyId": "COS-F11",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-38/window-review.png",
+    "registrationOverlay": "review-results/tower-38/approved-overlay.png",
+    "familyDiff": "review-results/tower-38/family-diff-overlay.png",
+    "result": "review-results/tower-38/result.json"
+  },
+  {
+    "tower": 39,
+    "familyId": "COS-F11",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-39/window-review.png",
+    "registrationOverlay": "review-results/tower-39/approved-overlay.png",
+    "familyDiff": "review-results/tower-39/family-diff-overlay.png",
+    "result": "review-results/tower-39/result.json"
+  },
+  {
+    "tower": 40,
+    "familyId": "COS-F11",
+    "accepted": 23,
+    "rejected": 1,
+    "sourceOverlay": "review-results/tower-40/window-review.png",
+    "registrationOverlay": "review-results/tower-40/approved-overlay.png",
+    "familyDiff": "review-results/tower-40/family-diff-overlay.png",
+    "result": "review-results/tower-40/result.json"
+  },
+  {
+    "tower": 41,
+    "familyId": "COS-F11",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-41/window-review.png",
+    "registrationOverlay": "review-results/tower-41/approved-overlay.png",
+    "familyDiff": "review-results/tower-41/family-diff-overlay.png",
+    "result": "review-results/tower-41/result.json"
+  },
+  {
+    "tower": 42,
+    "familyId": "COS-F12",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-42/window-review.png",
+    "registrationOverlay": "review-results/tower-42/approved-overlay.png",
+    "familyDiff": "review-results/tower-42/family-diff-overlay.png",
+    "result": "review-results/tower-42/result.json"
+  },
+  {
+    "tower": 43,
+    "familyId": "COS-F12",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-43/window-review.png",
+    "registrationOverlay": "review-results/tower-43/approved-overlay.png",
+    "familyDiff": "review-results/tower-43/family-diff-overlay.png",
+    "result": "review-results/tower-43/result.json"
+  },
+  {
+    "tower": 44,
+    "familyId": "COS-F12",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-44/window-review.png",
+    "registrationOverlay": "review-results/tower-44/approved-overlay.png",
+    "familyDiff": "review-results/tower-44/family-diff-overlay.png",
+    "result": "review-results/tower-44/result.json"
+  },
+  {
+    "tower": 45,
+    "familyId": "COS-F12",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-45/window-review.png",
+    "registrationOverlay": "review-results/tower-45/approved-overlay.png",
+    "familyDiff": "review-results/tower-45/family-diff-overlay.png",
+    "result": "review-results/tower-45/result.json"
+  },
+  {
+    "tower": 46,
+    "familyId": "COS-F11",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-46/window-review.png",
+    "registrationOverlay": "review-results/tower-46/approved-overlay.png",
+    "familyDiff": "review-results/tower-46/family-diff-overlay.png",
+    "result": "review-results/tower-46/result.json"
+  },
+  {
+    "tower": 47,
+    "familyId": "COS-F11",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-47/window-review.png",
+    "registrationOverlay": "review-results/tower-47/approved-overlay.png",
+    "familyDiff": "review-results/tower-47/family-diff-overlay.png",
+    "result": "review-results/tower-47/result.json"
+  },
+  {
+    "tower": 48,
+    "familyId": "COS-F11",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-48/window-review.png",
+    "registrationOverlay": "review-results/tower-48/approved-overlay.png",
+    "familyDiff": "review-results/tower-48/family-diff-overlay.png",
+    "result": "review-results/tower-48/result.json"
+  },
+  {
+    "tower": 49,
+    "familyId": "COS-F12",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-49/window-review.png",
+    "registrationOverlay": "review-results/tower-49/approved-overlay.png",
+    "familyDiff": "review-results/tower-49/family-diff-overlay.png",
+    "result": "review-results/tower-49/result.json"
+  },
+  {
+    "tower": 50,
+    "familyId": "COS-F12",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-50/window-review.png",
+    "registrationOverlay": "review-results/tower-50/approved-overlay.png",
+    "familyDiff": "review-results/tower-50/family-diff-overlay.png",
+    "result": "review-results/tower-50/result.json"
+  },
+  {
+    "tower": 51,
+    "familyId": "COS-F12",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-51/window-review.png",
+    "registrationOverlay": "review-results/tower-51/approved-overlay.png",
+    "familyDiff": "review-results/tower-51/family-diff-overlay.png",
+    "result": "review-results/tower-51/result.json"
+  },
+  {
+    "tower": 52,
+    "familyId": "COS-F12",
+    "accepted": 24,
+    "rejected": 0,
+    "sourceOverlay": "review-results/tower-52/window-review.png",
+    "registrationOverlay": "review-results/tower-52/approved-overlay.png",
+    "familyDiff": "review-results/tower-52/family-diff-overlay.png",
+    "result": "review-results/tower-52/result.json"
+  }
+]

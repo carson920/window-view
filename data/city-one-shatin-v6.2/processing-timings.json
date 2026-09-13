@@ -1,0 +1,257 @@
+{
+  "processingSeconds": 22.42827716699685,
+  "perTower": [
+    {
+      "tower": 1,
+      "seconds": 1.077443083995604
+    },
+    {
+      "tower": 2,
+      "seconds": 0.7386864170111949
+    },
+    {
+      "tower": 3,
+      "seconds": 0.7641093330021249
+    },
+    {
+      "tower": 4,
+      "seconds": 0.2793352090084227
+    },
+    {
+      "tower": 5,
+      "seconds": 0.2061383330001263
+    },
+    {
+      "tower": 6,
+      "seconds": 0.2057138750096783
+    },
+    {
+      "tower": 7,
+      "seconds": 1.1024039159965469
+    },
+    {
+      "tower": 8,
+      "seconds": 0.39554283299366944
+    },
+    {
+      "tower": 9,
+      "seconds": 0.7554217089927988
+    },
+    {
+      "tower": 10,
+      "seconds": 0.786469541999395
+    },
+    {
+      "tower": 11,
+      "seconds": 0.7659429170016665
+    },
+    {
+      "tower": 12,
+      "seconds": 0.7133235419896664
+    },
+    {
+      "tower": 13,
+      "seconds": 0.205755582996062
+    },
+    {
+      "tower": 14,
+      "seconds": 0.2060002920043189
+    },
+    {
+      "tower": 15,
+      "seconds": 0.2062813329976052
+    },
+    {
+      "tower": 16,
+      "seconds": 1.0640220420027617
+    },
+    {
+      "tower": 17,
+      "seconds": 0.7284267920040293
+    },
+    {
+      "tower": 18,
+      "seconds": 1.0069161249994067
+    },
+    {
+      "tower": 19,
+      "seconds": 0.3686116669996409
+    },
+    {
+      "tower": 20,
+      "seconds": 0.7459225830098148
+    },
+    {
+      "tower": 21,
+      "seconds": 0.8321152499993332
+    },
+    {
+      "tower": 22,
+      "seconds": 0.7115399169997545
+    },
+    {
+      "tower": 23,
+      "seconds": 0.747868209000444
+    },
+    {
+      "tower": 24,
+      "seconds": 0.2798636250081472
+    },
+    {
+      "tower": 25,
+      "seconds": 0.277870082994923
+    },
+    {
+      "tower": 26,
+      "seconds": 0.29010733400355093
+    },
+    {
+      "tower": 27,
+      "seconds": 0.26616816699970514
+    },
+    {
+      "tower": 28,
+      "seconds": 0.2644359170080861
+    },
+    {
+      "tower": 29,
+      "seconds": 0.27463891700608656
+    },
+    {
+      "tower": 30,
+      "seconds": 0.3717731250071665
+    },
+    {
+      "tower": 31,
+      "seconds": 0.28338299998722505
+    },
+    {
+      "tower": 32,
+      "seconds": 0.27459666700451635
+    },
+    {
+      "tower": 33,
+      "seconds": 0.201691624999512
+    },
+    {
+      "tower": 34,
+      "seconds": 0.3152413749921834
+    },
+    {
+      "tower": 35,
+      "seconds": 0.22834549999970477
+    },
+    {
+      "tower": 36,
+      "seconds": 0.3764567499893019
+    },
+    {
+      "tower": 37,
+      "seconds": 0.3401005420018919
+    },
+    {
+      "tower": 38,
+      "seconds": 0.25486879200616386
+    },
+    {
+      "tower": 39,
+      "seconds": 0.2428758750029374
+    },
+    {
+      "tower": 40,
+      "seconds": 0.2436382500018226
+    },
+    {
+      "tower": 41,
+      "seconds": 0.24420891699264757
+    },
+    {
+      "tower": 42,
+      "seconds": 0.3434517919959035
+    },
+    {
+      "tower": 43,
+      "seconds": 0.24059912499797065
+    },
+    {
+      "tower": 44,
+      "seconds": 0.25040912500116974
+    },
+    {
+      "tower": 45,
+      "seconds": 0.24067795800510794
+    },
+    {
+      "tower": 46,
+      "seconds": 0.2428578330000164
+    },
+    {
+      "tower": 47,
+      "seconds": 0.2414800000115065
+    },
+    {
+      "tower": 48,
+      "seconds": 0.2426389169995673
+    },
+    {
+      "tower": 49,
+      "seconds": 0.24078408400237095
+    },
+    {
+      "tower": 50,
+      "seconds": 0.23791104200063273
+    },
+    {
+      "tower": 51,
+      "seconds": 0.24904662500193808
+    },
+    {
+      "tower": 52,
+      "seconds": 0.2429545000049984
+    }
+  ],
+  "notes": "Source-fetch, preparation and trace rendering timed separately. Human/visual inspection time not retroactively invented.",
+  "stages": [
+    {
+      "stage": "source-cache-intake",
+      "seconds": 0.6958146660035709,
+      "status": "reused-and-hash-checked"
+    },
+    {
+      "stage": "source-parsing-and-family-verification",
+      "seconds": 14.214344332998735
+    },
+    {
+      "stage": "canonical-trace-artifact-generation",
+      "seconds": 2.046578125009546
+    },
+    {
+      "stage": "visual-source-review",
+      "seconds": null,
+      "status": "completed; duration not instrumented"
+    },
+    {
+      "stage": "registration",
+      "seconds": 0,
+      "status": "52 prior transforms reused unchanged; no optimizer run"
+    },
+    {
+      "stage": "inheritance-window-normal-qa-and-review-rendering",
+      "seconds": 22.42827716699685
+    },
+    {
+      "stage": "final-audit-and-registration-callouts",
+      "seconds": 2.6351112499978626
+    },
+    {
+      "stage": "tests",
+      "seconds": 1.296301833,
+      "status": "pass"
+    },
+    {
+      "stage": "build",
+      "status": "pass",
+      "durationSource": "build.log"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 2,
+  "autoApproved": true,
+  "presetFile": "window-samples/window-pattern-presets.json",
+  "items": [
+    {
+      "id": "builtin-city-one-bay-closeup",
+      "path": "window-samples/city-one-projected-bay-closeup.png",
+      "name": "City One projected bay close-up",
+      "scope": "estate",
+      "target": "city-one-shatin",
+      "approved": true,
+      "sourceType": "user-provided-reference",
+      "presetId": "projected-bay-front",
+      "patternClass": "projected-bay-front",
+      "representationClass": "bay-window-face",
+      "polarity": "positive",
+      "traceRule": "Recognize this polygonal projection as a bay-window module; trace the primary outward viewing face, not the whole outline.",
+      "note": "User-provided example of the City One bay-window symbol."
+    },
+    {
+      "id": "u-1789321392806-kwsyj5",
+      "path": "window-samples/u-1789321392806-kwsyj5.png",
+      "name": "pasted-sample.png",
+      "type": "image/png",
+      "scope": "estate",
+      "target": "city-one-shatin",
+      "approved": true,
+      "addedAt": "2026-09-13T17:43:12.806Z",
+      "sourceType": "user-uploaded",
+      "presetId": "straight-sill",
+      "patternClass": "straight-sill",
+      "representationClass": "sill-line",
+      "polarity": "positive",
+      "traceRule": "Trace the explicit visible glazing/sill segment exactly as drawn on the source plan."
+    },
+    {
+      "id": "u-1789321451497-a6z0fr",
+      "path": "window-samples/u-1789321451497-a6z0fr.png",
+      "name": "clipboard-sample.png",
+      "type": "image/png",
+      "scope": "estate",
+      "target": "city-one-shatin",
+      "approved": true,
+      "addedAt": "2026-09-13T17:44:11.497Z",
+      "sourceType": "user-uploaded",
+      "presetId": "straight-sill",
+      "patternClass": "straight-sill",
+      "representationClass": "sill-line",
+      "polarity": "positive",
+      "traceRule": "Trace the explicit visible glazing/sill segment exactly as drawn on the source plan."
+    },
+    {
+      "id": "u-1789321486812-3gxjal",
+      "path": "window-samples/u-1789321486812-3gxjal.png",
+      "name": "clipboard-sample.png",
+      "type": "image/png",
+      "scope": "estate",
+      "target": "city-one-shatin",
+      "approved": true,
+      "addedAt": "2026-09-13T17:44:46.812Z",
+      "sourceType": "user-uploaded",
+      "presetId": "straight-sill",
+      "patternClass": "straight-sill",
+      "representationClass": "sill-line",
+      "polarity": "positive",
+      "traceRule": "Trace the explicit visible glazing/sill segment exactly as drawn on the source plan."
+    }
+  ]
+}

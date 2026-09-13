@@ -1,0 +1,888 @@
+{
+  "schemaVersion": 10,
+  "estate": {
+    "id": "city-one-shatin",
+    "nameZh": "沙田第一城",
+    "nameEn": "City One Shatin",
+    "blocks": 52,
+    "blockIds": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52"
+    ],
+    "phaseCount": 7,
+    "phases": {
+      "Phase 1": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "Phase 2": [
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23"
+      ],
+      "Phase 3": [
+        "29",
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "Phase 4": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "Phase 5": [
+        "27",
+        "28",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52"
+      ],
+      "Phase 6": [
+        "24",
+        "25",
+        "26"
+      ],
+      "Phase 7": [
+        "34",
+        "35",
+        "36"
+      ]
+    },
+    "location": "Sha Tin, Hong Kong",
+    "address": "4 Tak Lee Street, Sha Tin, Hong Kong"
+  },
+  "estateStatus": "approved",
+  "processingStatus": "pending",
+  "primaryFloorPlanSource": {
+    "setId": "28hse-city-one-52",
+    "provider": "28Hse",
+    "title": "28Hse · complete City One Shatin 52-tower typical-floor set",
+    "sourcePage": "https://www.28hse.com/estate/detail/city-one-shatin-4080",
+    "coverageCount": 52,
+    "sourceSheets": 52,
+    "grouping": "tower-specific URLs with pre-grouped family candidates",
+    "items": [
+      {
+        "id": "H-1-typ",
+        "label": "Tower 1 · 1–27F typical plan",
+        "blocks": [
+          "1"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222750443122_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222750443122_thumb.jpg"
+      },
+      {
+        "id": "H-2-typ",
+        "label": "Tower 2 · 1–27F typical plan",
+        "blocks": [
+          "2"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222756917298_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222756917298_thumb.jpg"
+      },
+      {
+        "id": "H-3-typ",
+        "label": "Tower 3 · 1–27F typical plan",
+        "blocks": [
+          "3"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222804324619_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222804324619_thumb.jpg"
+      },
+      {
+        "id": "H-4-typ",
+        "label": "Tower 4 · 1–27F typical plan",
+        "blocks": [
+          "4"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222902896877_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222902896877_thumb.jpg"
+      },
+      {
+        "id": "H-5-typ",
+        "label": "Tower 5 · 1–27F typical plan",
+        "blocks": [
+          "5"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222903759725_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222903759725_thumb.jpg"
+      },
+      {
+        "id": "H-6-typ",
+        "label": "Tower 6 · 1–27F typical plan",
+        "blocks": [
+          "6"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222732399393_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222732399393_thumb.jpg"
+      },
+      {
+        "id": "H-7-typ",
+        "label": "Tower 7 · 1–33F typical plan",
+        "blocks": [
+          "7"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–33F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222811946389_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222811946389_thumb.jpg"
+      },
+      {
+        "id": "H-8-typ",
+        "label": "Tower 8 · 1–30F typical plan",
+        "blocks": [
+          "8"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194736748736_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194736748736_thumb.jpg"
+      },
+      {
+        "id": "H-9-typ",
+        "label": "Tower 9 · 1–30F typical plan",
+        "blocks": [
+          "9"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222817749922_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222817749922_thumb.jpg"
+      },
+      {
+        "id": "H-10-typ",
+        "label": "Tower 10 · 1–30F typical plan",
+        "blocks": [
+          "10"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222704652311_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222704652311_thumb.jpg"
+      },
+      {
+        "id": "H-11-typ",
+        "label": "Tower 11 · 1–33F typical plan",
+        "blocks": [
+          "11"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–33F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222823151763_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222823151763_thumb.jpg"
+      },
+      {
+        "id": "H-12-typ",
+        "label": "Tower 12 · 1–33F typical plan",
+        "blocks": [
+          "12"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–33F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222711467333_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222711467333_thumb.jpg"
+      },
+      {
+        "id": "H-13-typ",
+        "label": "Tower 13 · 1–27F typical plan",
+        "blocks": [
+          "13"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222905544219_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222905544219_thumb.jpg"
+      },
+      {
+        "id": "H-14-typ",
+        "label": "Tower 14 · 1–27F typical plan",
+        "blocks": [
+          "14"
+        ],
+        "phase": "Phase 1",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222733934891_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222733934891_thumb.jpg"
+      },
+      {
+        "id": "H-15-typ",
+        "label": "Tower 15 · 1–27F typical plan",
+        "blocks": [
+          "15"
+        ],
+        "phase": "Phase 2",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194740598822_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194740598822_thumb.jpg"
+      },
+      {
+        "id": "H-16-typ",
+        "label": "Tower 16 · 1–30F typical plan",
+        "blocks": [
+          "16"
+        ],
+        "phase": "Phase 2",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222830856816_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222830856816_thumb.jpg"
+      },
+      {
+        "id": "H-17-typ",
+        "label": "Tower 17 · 1–27F typical plan",
+        "blocks": [
+          "17"
+        ],
+        "phase": "Phase 2",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222836714786_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222836714786_thumb.jpg"
+      },
+      {
+        "id": "H-18-typ",
+        "label": "Tower 18 · 1–33F typical plan",
+        "blocks": [
+          "18"
+        ],
+        "phase": "Phase 2",
+        "floorCoverage": "1–33F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222843415919_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222843415919_thumb.jpg"
+      },
+      {
+        "id": "H-19-typ",
+        "label": "Tower 19 · 1–30F typical plan",
+        "blocks": [
+          "19"
+        ],
+        "phase": "Phase 2",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194741916771_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194741916771_thumb.jpg"
+      },
+      {
+        "id": "H-20-typ",
+        "label": "Tower 20 · 1–27F typical plan",
+        "blocks": [
+          "20"
+        ],
+        "phase": "Phase 2",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222849285448_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222849285448_thumb.jpg"
+      },
+      {
+        "id": "H-21-typ",
+        "label": "Tower 21 · 1–30F typical plan",
+        "blocks": [
+          "21"
+        ],
+        "phase": "Phase 2",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222855653391_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222855653391_thumb.jpg"
+      },
+      {
+        "id": "H-22-typ",
+        "label": "Tower 22 · 1–33F typical plan",
+        "blocks": [
+          "22"
+        ],
+        "phase": "Phase 2",
+        "floorCoverage": "1–33F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222724627395_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222724627395_thumb.jpg"
+      },
+      {
+        "id": "H-23-typ",
+        "label": "Tower 23 · 1–27F typical plan",
+        "blocks": [
+          "23"
+        ],
+        "phase": "Phase 2",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222718286627_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222718286627_thumb.jpg"
+      },
+      {
+        "id": "H-29-typ",
+        "label": "Tower 29 · 1–30F typical plan",
+        "blocks": [
+          "29"
+        ],
+        "phase": "Phase 3",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194747159643_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194747159643_thumb.jpg"
+      },
+      {
+        "id": "H-30-typ",
+        "label": "Tower 30 · 1–30F typical plan",
+        "blocks": [
+          "30"
+        ],
+        "phase": "Phase 3",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222910225537_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222910225537_thumb.jpg"
+      },
+      {
+        "id": "H-31-typ",
+        "label": "Tower 31 · 1–30F typical plan",
+        "blocks": [
+          "31"
+        ],
+        "phase": "Phase 3",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222912935266_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222912935266_thumb.jpg"
+      },
+      {
+        "id": "H-32-typ",
+        "label": "Tower 32 · 1–30F typical plan",
+        "blocks": [
+          "32"
+        ],
+        "phase": "Phase 3",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222739424946_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222739424946_thumb.jpg"
+      },
+      {
+        "id": "H-33-typ",
+        "label": "Tower 33 · 1–27F typical plan",
+        "blocks": [
+          "33"
+        ],
+        "phase": "Phase 3",
+        "floorCoverage": "1–27F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_thumb.jpg"
+      },
+      {
+        "id": "H-37-typ",
+        "label": "Tower 37 · 3–32F typical plan",
+        "blocks": [
+          "37"
+        ],
+        "phase": "Phase 4",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222915933751_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222915933751_thumb.jpg"
+      },
+      {
+        "id": "H-38-typ",
+        "label": "Tower 38 · 3–32F typical plan",
+        "blocks": [
+          "38"
+        ],
+        "phase": "Phase 4",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222918412598_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222918412598_thumb.jpg"
+      },
+      {
+        "id": "H-39-typ",
+        "label": "Tower 39 · 3–32F typical plan",
+        "blocks": [
+          "39"
+        ],
+        "phase": "Phase 4",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222920449911_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222920449911_thumb.jpg"
+      },
+      {
+        "id": "H-40-typ",
+        "label": "Tower 40 · 3–32F typical plan",
+        "blocks": [
+          "40"
+        ],
+        "phase": "Phase 4",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222922533154_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222922533154_thumb.jpg"
+      },
+      {
+        "id": "H-41-typ",
+        "label": "Tower 41 · 3–32F typical plan",
+        "blocks": [
+          "41"
+        ],
+        "phase": "Phase 4",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222743851834_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222743851834_thumb.jpg"
+      },
+      {
+        "id": "H-42-typ",
+        "label": "Tower 42 · 3–32F typical plan",
+        "blocks": [
+          "42"
+        ],
+        "phase": "Phase 4",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222924229258_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222924229258_thumb.jpg"
+      },
+      {
+        "id": "H-43-typ",
+        "label": "Tower 43 · 3–32F typical plan",
+        "blocks": [
+          "43"
+        ],
+        "phase": "Phase 4",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222926755464_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222926755464_thumb.jpg"
+      },
+      {
+        "id": "H-44-typ",
+        "label": "Tower 44 · 3–32F typical plan",
+        "blocks": [
+          "44"
+        ],
+        "phase": "Phase 4",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222928899243_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222928899243_thumb.jpg"
+      },
+      {
+        "id": "H-45-typ",
+        "label": "Tower 45 · 3–32F typical plan",
+        "blocks": [
+          "45"
+        ],
+        "phase": "Phase 4",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222745146113_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222745146113_thumb.jpg"
+      },
+      {
+        "id": "H-27-typ",
+        "label": "Tower 27 · 1–28F typical plan",
+        "blocks": [
+          "27"
+        ],
+        "phase": "Phase 5",
+        "floorCoverage": "1–28F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222908581147_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222908581147_thumb.jpg"
+      },
+      {
+        "id": "H-28-typ",
+        "label": "Tower 28 · 1–28F typical plan",
+        "blocks": [
+          "28"
+        ],
+        "phase": "Phase 5",
+        "floorCoverage": "1–28F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222738747912_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222738747912_thumb.jpg"
+      },
+      {
+        "id": "H-46-typ",
+        "label": "Tower 46 · 3–32F typical plan",
+        "blocks": [
+          "46"
+        ],
+        "phase": "Phase 5",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222930113833_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222930113833_thumb.jpg"
+      },
+      {
+        "id": "H-47-typ",
+        "label": "Tower 47 · 3–32F typical plan",
+        "blocks": [
+          "47"
+        ],
+        "phase": "Phase 5",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222932295898_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222932295898_thumb.jpg"
+      },
+      {
+        "id": "H-48-typ",
+        "label": "Tower 48 · 3–32F typical plan",
+        "blocks": [
+          "48"
+        ],
+        "phase": "Phase 5",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222747682863_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222747682863_thumb.jpg"
+      },
+      {
+        "id": "H-49-typ",
+        "label": "Tower 49 · 3–32F typical plan",
+        "blocks": [
+          "49"
+        ],
+        "phase": "Phase 5",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222934756225_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222934756225_thumb.jpg"
+      },
+      {
+        "id": "H-50-typ",
+        "label": "Tower 50 · 3–32F typical plan",
+        "blocks": [
+          "50"
+        ],
+        "phase": "Phase 5",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222936564261_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222936564261_thumb.jpg"
+      },
+      {
+        "id": "H-51-typ",
+        "label": "Tower 51 · 3–32F typical plan",
+        "blocks": [
+          "51"
+        ],
+        "phase": "Phase 5",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222938552585_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222938552585_thumb.jpg"
+      },
+      {
+        "id": "H-52-typ",
+        "label": "Tower 52 · 3–32F typical plan",
+        "blocks": [
+          "52"
+        ],
+        "phase": "Phase 5",
+        "floorCoverage": "3–32F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222748411532_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222748411532_thumb.jpg"
+      },
+      {
+        "id": "H-24-typ",
+        "label": "Tower 24 · 1–30F typical plan",
+        "blocks": [
+          "24"
+        ],
+        "phase": "Phase 6",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222906679794_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222906679794_thumb.jpg"
+      },
+      {
+        "id": "H-25-typ",
+        "label": "Tower 25 · 1–30F typical plan",
+        "blocks": [
+          "25"
+        ],
+        "phase": "Phase 6",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194745131149_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194745131149_thumb.jpg"
+      },
+      {
+        "id": "H-26-typ",
+        "label": "Tower 26 · 1–30F typical plan",
+        "blocks": [
+          "26"
+        ],
+        "phase": "Phase 6",
+        "floorCoverage": "1–30F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222736728194_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222736728194_thumb.jpg"
+      },
+      {
+        "id": "H-34-typ",
+        "label": "Tower 34 · 3–36F typical plan",
+        "blocks": [
+          "34"
+        ],
+        "phase": "Phase 7",
+        "floorCoverage": "3–36F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222913244592_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222913244592_thumb.jpg"
+      },
+      {
+        "id": "H-35-typ",
+        "label": "Tower 35 · 3–36F typical plan",
+        "blocks": [
+          "35"
+        ],
+        "phase": "Phase 7",
+        "floorCoverage": "3–36F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222741761851_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231121222741761851_thumb.jpg"
+      },
+      {
+        "id": "H-36-typ",
+        "label": "Tower 36 · 3–35F typical plan",
+        "blocks": [
+          "36"
+        ],
+        "phase": "Phase 7",
+        "floorCoverage": "3–35F",
+        "planRole": "typical",
+        "previewUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194755257636_large.jpg",
+        "thumbUrl": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194755257636_thumb.jpg"
+      }
+    ],
+    "preAnalysis": {
+      "rank": 1,
+      "verdict": "BEST COMPLETE CURRENT SET",
+      "detailSuitability": "high",
+      "reviewBurden": "family-first",
+      "why": "The estate page exposes one mapped typical-floor image for every one of the 52 residential towers, including floor ranges. Many plan sheets explicitly name the blocks sharing that archetype.",
+      "caution": "The provider contains at least one conflicting cross-block claim (16/21 appear on two different archetype sheets). Use the tower-specific URL assigned to each tower as the current primary record; family grouping remains candidate-only until deterministic target-image verification."
+    }
+  },
+  "orientationPolicy": {
+    "mode": "explicit-source-direction; user Centaline images auto-approved",
+    "currentPackageUserOrientationImages": 0,
+    "rules": [
+      "If user-provided Centaline/Centamap screenshots are present, treat them as approved and authoritative immediately; do not ask for approval.",
+      "If no user screenshot is present, use explicit north arrows/compass and flat labels on the approved primary plan as source semantics. Do not solve orientation from footprint geometry.",
+      "A later user-provided Centaline screenshot overrides or corroborates provider compass semantics without a second approval step."
+    ]
+  },
+  "layoutFamiliesFile": "layout-families.json",
+  "rules": {
+    "userProvidedOrientationAutoApproved": true,
+    "approvalUiRequired": false,
+    "userUploadMeansApproved": true,
+    "approvedOrientationIsAuthoritative": true,
+    "preserveApprovedHandedness": true,
+    "neverReflectApprovedTowerPlan": true,
+    "doNotEnumerateAlternateRotations": true,
+    "doNotInferOrientationFromFootprintWhenExplicitDirectionExists": true,
+    "allowOnlySingleTransformConsistentWithSourceDirections": true,
+    "geometryFitIsSubordinateToSourceSemantics": true,
+    "onOrientationGeometryConflict": "needs-review",
+    "familyReuseMandatoryWhenCandidateVerifies": true,
+    "doNotIndependentlyRetraceVerifiedFamilyMembers": true,
+    "allowFlatLevelReuse": true,
+    "allowRoomLevelExceptionRetrace": true,
+    "officialFootprintRole": "ground/building placement support, not high-floor facade truth",
+    "localWindowFootprintMismatchCannotAloneFailWholeTower": true,
+    "wholeTowerFailureRequires": [
+      "wrong-building/CSUID",
+      "orientation-or-handedness-invalid",
+      "tower-level-transform-fail",
+      "broad-multi-facade-mismatch"
+    ],
+    "specialOrUnsupportedFloorMustNotFallbackToTypical": true,
+    "sourceAndProxyGeometryMustRemainSeparate": true,
+    "generateApprovedOverlayForEveryProcessedTower": true,
+    "generateFamilyDiffOverlayForEveryInheritedMember": true,
+    "stopOnUnresolvedAmbiguity": true,
+    "userProvidedCentalineOrCentamapIsApprovedImmediately": true,
+    "reflectionForbidden": true,
+    "doNotEnumerateAlternateRotationsWhenApprovedOrientationExists": true,
+    "geometryFittingSubordinateToSourceSemantics": true,
+    "localWindowQaFailureDoesNotFailWholeTower": true,
+    "wholeTowerFailureRequiresTowerLevelFatalIssue": true,
+    "specialFloorMustNotFallbackToTypical": true
+  },
+  "requiredOutputs": [
+    "processing-report.json",
+    "needs-review.json",
+    "processing-timings.json",
+    "processing.log",
+    "validation-summary.json",
+    "family-verification.json",
+    "review-index.json",
+    "canonical-snap-report.json"
+  ],
+  "requiredReviewArtifacts": [
+    "per-tower approved-overlay.png",
+    "per-inherited-member family-diff-overlay.png",
+    "window-review.png when windows are traced or changed"
+  ],
+  "timingStages": [
+    "source-fetch",
+    "plan-parse",
+    "family-verify",
+    "canonical-window-trace",
+    "inherit-transform",
+    "exception-retrace",
+    "orientation-apply",
+    "footprint-match",
+    "geospatial-transform",
+    "validation",
+    "output-write",
+    "total"
+  ],
+  "canonicalAnnotations": {
+    "file": "canonical-annotations.json",
+    "status": "provided-needs-pixel-snap",
+    "familyCount": 14,
+    "windowPretraceCount": 336,
+    "coordinateSpace": "normalized-full-source-image",
+    "reviewHtml": "review/canonical-annotation-review.html",
+    "contract": "review-spec/CANONICAL-ANNOTATION-CONTRACT.md"
+  },
+  "orientationSources": [],
+  "sourceIntakePolicy": {
+    "userSuppliedImagesAutoApproved": true,
+    "approvalButtonRequired": false,
+    "allowedTypes": [
+      "Centaline",
+      "Centamap",
+      "Other"
+    ],
+    "purpose": "authoritative orientation / stack identity / handedness anchor; not metric geometry"
+  },
+  "canonicalWindowTracing": {
+    "required": true,
+    "familyCount": 14,
+    "traceFile": "canonical-window-traces.json",
+    "method": "manual visual transcription of actual glazing/sill lines, matching the South Horizons annotateSouthHorizons.py workflow",
+    "roomCentreProxyForbidden": true,
+    "facadeGuessForbidden": true,
+    "officialFootprintInferenceForbidden": true,
+    "traceCanonicalOnceThenReuse": true,
+    "inheritOnlyAfterTargetSourceOverlayPass": true,
+    "retraceOnlyChangedFlatOrRoom": true
+  },
+  "instruction": "Read START-HERE-ASTRA.md first. Reuse the existing family grouping as candidates. Trace ONLY the 14 canonical plans using actual visible glazing/sill lines, then verify and inherit to family members. Do not use the rejected v2/v3 semantic proxies. User-supplied Centaline/Centamap images are authoritative and auto-approved for orientation."
+}

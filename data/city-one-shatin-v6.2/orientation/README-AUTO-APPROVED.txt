@@ -1,0 +1,1 @@
+Place approved user-provided orientation images here. More than one image is allowed. These are auto-approved and should not require a separate approval flow.

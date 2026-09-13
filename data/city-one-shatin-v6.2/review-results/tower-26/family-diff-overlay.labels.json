@@ -1,0 +1,694 @@
+{
+  "imageSize": [
+    1541,
+    1825
+  ],
+  "padding": 240,
+  "labels": [
+    {
+      "flat": "E",
+      "room": "living",
+      "text": "E living",
+      "box": [
+        428.0,
+        523.5,
+        502.0,
+        553.5
+      ],
+      "windowMidpoint": [
+        525.0,
+        538.5
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "F",
+      "room": "living",
+      "text": "F living",
+      "box": [
+        1026.5,
+        523.5,
+        1099.5,
+        553.5
+      ],
+      "windowMidpoint": [
+        1003.0,
+        538.5
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "flat": "B",
+      "room": "living",
+      "text": "B living",
+      "box": [
+        432.0,
+        1057.0,
+        506.0,
+        1087.0
+      ],
+      "windowMidpoint": [
+        529.0,
+        1072.0
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "A",
+      "room": "living",
+      "text": "A living",
+      "box": [
+        1027.5,
+        1057.0,
+        1100.5,
+        1087.0
+      ],
+      "windowMidpoint": [
+        1004.0,
+        1072.0
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "flat": "D",
+      "room": "living",
+      "text": "D living",
+      "box": [
+        339.5,
+        525.0,
+        414.5,
+        555.0
+      ],
+      "windowMidpoint": [
+        477.0,
+        600.0
+      ],
+      "outwardNormal": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "flat": "G",
+      "room": "living",
+      "text": "G living",
+      "box": [
+        1111.0,
+        524.0,
+        1187.0,
+        554.0
+      ],
+      "windowMidpoint": [
+        1049.0,
+        599.0
+      ],
+      "outwardNormal": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "flat": "C",
+      "room": "living",
+      "text": "C living",
+      "box": [
+        339.5,
+        1056.0,
+        414.5,
+        1086.0
+      ],
+      "windowMidpoint": [
+        477.0,
+        1011.0
+      ],
+      "outwardNormal": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "flat": "H",
+      "room": "living",
+      "text": "H living",
+      "box": [
+        1111.5,
+        1055.0,
+        1186.5,
+        1085.0
+      ],
+      "windowMidpoint": [
+        1049.0,
+        1010.0
+      ],
+      "outwardNormal": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "flat": "E",
+      "room": "bedroom-3",
+      "text": "E bed-3",
+      "box": [
+        603.0,
+        221.0,
+        682.0,
+        251.0
+      ],
+      "windowMidpoint": [
+        642.5,
+        296.0
+      ],
+      "outwardNormal": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "flat": "F",
+      "room": "bedroom-3",
+      "text": "F bed-3",
+      "box": [
+        847.5,
+        221.0,
+        925.5,
+        251.0
+      ],
+      "windowMidpoint": [
+        886.5,
+        296.0
+      ],
+      "outwardNormal": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "flat": "B",
+      "room": "bedroom-3",
+      "text": "B bed-3",
+      "box": [
+        604.0,
+        1353.0,
+        683.0,
+        1383.0
+      ],
+      "windowMidpoint": [
+        643.5,
+        1308.0
+      ],
+      "outwardNormal": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "flat": "A",
+      "room": "bedroom-3",
+      "text": "A bed-3",
+      "box": [
+        851.0,
+        1353.0,
+        929.0,
+        1383.0
+      ],
+      "windowMidpoint": [
+        890.0,
+        1308.0
+      ],
+      "outwardNormal": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "flat": "E",
+      "room": "bedroom-3-side",
+      "text": "E bed-3-side",
+      "box": [
+        696.0,
+        258.0,
+        814.0,
+        288.0
+      ],
+      "windowMidpoint": [
+        695.0,
+        373.0
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "flat": "F",
+      "room": "bedroom-3-side",
+      "text": "F bed-3-side",
+      "box": [
+        553.5,
+        258.0,
+        670.5,
+        288.0
+      ],
+      "windowMidpoint": [
+        832.0,
+        373.0
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "B",
+      "room": "bedroom-3-side",
+      "text": "B bed-3-side",
+      "box": [
+        697.0,
+        1330.5,
+        815.0,
+        1360.5
+      ],
+      "windowMidpoint": [
+        696.0,
+        1245.5
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "flat": "A",
+      "room": "bedroom-3-side",
+      "text": "A bed-3-side",
+      "box": [
+        474.5,
+        1330.5,
+        591.5,
+        1360.5
+      ],
+      "windowMidpoint": [
+        833.0,
+        1245.5
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "D",
+      "room": "bedroom-1",
+      "text": "D bed-1",
+      "box": [
+        237.0,
+        502.0,
+        317.0,
+        532.0
+      ],
+      "windowMidpoint": [
+        377.0,
+        577.0
+      ],
+      "outwardNormal": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "flat": "G",
+      "room": "bedroom-1",
+      "text": "G bed-1",
+      "box": [
+        1208.5,
+        502.0,
+        1289.5,
+        532.0
+      ],
+      "windowMidpoint": [
+        1149.0,
+        577.0
+      ],
+      "outwardNormal": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "flat": "C",
+      "room": "bedroom-1",
+      "text": "C bed-1",
+      "box": [
+        237.0,
+        1079.0,
+        317.0,
+        1109.0
+      ],
+      "windowMidpoint": [
+        377.0,
+        1034.0
+      ],
+      "outwardNormal": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "flat": "H",
+      "room": "bedroom-1",
+      "text": "H bed-1",
+      "box": [
+        1209.0,
+        1079.0,
+        1289.0,
+        1109.0
+      ],
+      "windowMidpoint": [
+        1149.0,
+        1034.0
+      ],
+      "outwardNormal": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "flat": "D",
+      "room": "bedroom-2",
+      "text": "D bed-2",
+      "box": [
+        221.0,
+        669.5,
+        301.0,
+        699.5
+      ],
+      "windowMidpoint": [
+        321.0,
+        684.5
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "G",
+      "room": "bedroom-2",
+      "text": "G bed-2",
+      "box": [
+        1224.5,
+        669.5,
+        1305.5,
+        699.5
+      ],
+      "windowMidpoint": [
+        1205.0,
+        684.5
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "flat": "C",
+      "room": "bedroom-2",
+      "text": "C bed-2",
+      "box": [
+        221.0,
+        911.5,
+        301.0,
+        941.5
+      ],
+      "windowMidpoint": [
+        321.0,
+        926.5
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "H",
+      "room": "bedroom-2",
+      "text": "H bed-2",
+      "box": [
+        1225.0,
+        911.5,
+        1305.0,
+        941.5
+      ],
+      "windowMidpoint": [
+        1205.0,
+        926.5
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "flat": "D",
+      "room": "bedroom-2-side",
+      "text": "D bed-2-side",
+      "box": [
+        316.5,
+        802.0,
+        435.5,
+        832.0
+      ],
+      "windowMidpoint": [
+        376.0,
+        757.0
+      ],
+      "outwardNormal": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "flat": "G",
+      "room": "bedroom-2-side",
+      "text": "G bed-2-side",
+      "box": [
+        1090.0,
+        802.0,
+        1210.0,
+        832.0
+      ],
+      "windowMidpoint": [
+        1150.0,
+        757.0
+      ],
+      "outwardNormal": [
+        -0.0,
+        1.0
+      ]
+    },
+    {
+      "flat": "C",
+      "room": "bedroom-2-side",
+      "text": "C bed-2-side",
+      "box": [
+        217.0,
+        719.0,
+        336.0,
+        749.0
+      ],
+      "windowMidpoint": [
+        376.5,
+        854.0
+      ],
+      "outwardNormal": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "flat": "H",
+      "room": "bedroom-2-side",
+      "text": "H bed-2-side",
+      "box": [
+        1090.5,
+        759.0,
+        1209.5,
+        789.0
+      ],
+      "windowMidpoint": [
+        1150.0,
+        854.0
+      ],
+      "outwardNormal": [
+        0.0,
+        -1.0
+      ]
+    },
+    {
+      "flat": "E",
+      "room": "bedroom-1",
+      "text": "E bed-1",
+      "box": [
+        364.5,
+        347.0,
+        443.5,
+        377.0
+      ],
+      "windowMidpoint": [
+        464.0,
+        362.0
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "E",
+      "room": "bedroom-2",
+      "text": "E bed-2",
+      "box": [
+        364.5,
+        398.5,
+        443.5,
+        428.5
+      ],
+      "windowMidpoint": [
+        464.0,
+        413.5
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "F",
+      "room": "bedroom-1",
+      "text": "F bed-1",
+      "box": [
+        1086.0,
+        345.5,
+        1164.0,
+        375.5
+      ],
+      "windowMidpoint": [
+        1065.0,
+        360.5
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "flat": "F",
+      "room": "bedroom-2",
+      "text": "F bed-2",
+      "box": [
+        1086.0,
+        396.0,
+        1164.0,
+        426.0
+      ],
+      "windowMidpoint": [
+        1065.0,
+        411.0
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "flat": "B",
+      "room": "bedroom-1",
+      "text": "B bed-1",
+      "box": [
+        367.5,
+        1178.5,
+        446.5,
+        1208.5
+      ],
+      "windowMidpoint": [
+        467.0,
+        1193.5
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "B",
+      "room": "bedroom-2",
+      "text": "B bed-2",
+      "box": [
+        367.5,
+        1229.5,
+        446.5,
+        1259.5
+      ],
+      "windowMidpoint": [
+        467.0,
+        1244.5
+      ],
+      "outwardNormal": [
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "flat": "A",
+      "room": "bedroom-1",
+      "text": "A bed-1",
+      "box": [
+        1089.0,
+        1177.5,
+        1167.0,
+        1207.5
+      ],
+      "windowMidpoint": [
+        1068.0,
+        1192.5
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    },
+    {
+      "flat": "A",
+      "room": "bedroom-2",
+      "text": "A bed-2",
+      "box": [
+        1089.0,
+        1228.0,
+        1167.0,
+        1258.0
+      ],
+      "windowMidpoint": [
+        1068.0,
+        1243.0
+      ],
+      "outwardNormal": [
+        1.0,
+        -0.0
+      ]
+    }
+  ],
+  "collisionCount": 0
+}

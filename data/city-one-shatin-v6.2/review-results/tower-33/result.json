@@ -1,0 +1,2888 @@
+{
+  "tower": 33,
+  "buildingCsuid": "3923927389T20050430",
+  "transform": {
+    "rotationDegrees": 45,
+    "reflected": false,
+    "scaleMetresPerCanvasPixel": 0.025789631420022743,
+    "translationMetres": [
+      -18.83045794899502,
+      -3.3294278940239184
+    ],
+    "rmsMetres": 0.2646485512909032,
+    "method": "Single approved screenshot angle held constant; symmetric boundary distance optimizes uniform scale + east/north translation only"
+  },
+  "origin": [
+    114.20570633899658,
+    22.385753600293835
+  ],
+  "factor": [
+    102980.5448092588,
+    110735.51452765129
+  ],
+  "annotation": {
+    "rooms": {
+      "A": [
+        [
+          "living-side",
+          [
+            762.0,
+            630.0
+          ],
+          [
+            762.0,
+            662.0
+          ],
+          [
+            784.0,
+            646.0
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            1028.0,
+            495.0
+          ],
+          [
+            1057.0,
+            495.0
+          ],
+          [
+            1042.5,
+            517.0
+          ]
+        ],
+        [
+          "living",
+          [
+            809.0,
+            754.0
+          ],
+          [
+            849.0,
+            754.0
+          ],
+          [
+            829.0,
+            709.0
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            1051.0,
+            747.0
+          ],
+          [
+            1079.0,
+            747.0
+          ],
+          [
+            1065.0,
+            702.0
+          ]
+        ],
+        [
+          "bedroom-3",
+          [
+            902.0,
+            747.0
+          ],
+          [
+            930.0,
+            747.0
+          ],
+          [
+            916.0,
+            702.0
+          ]
+        ]
+      ],
+      "B": [
+        [
+          "living-side",
+          [
+            453.0,
+            630.0
+          ],
+          [
+            453.0,
+            662.0
+          ],
+          [
+            431.0,
+            646.0
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            153.0,
+            495.0
+          ],
+          [
+            185.0,
+            495.0
+          ],
+          [
+            169.0,
+            517.0
+          ]
+        ],
+        [
+          "living",
+          [
+            371.0,
+            754.0
+          ],
+          [
+            410.0,
+            754.0
+          ],
+          [
+            390.5,
+            709.0
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            130.0,
+            747.0
+          ],
+          [
+            157.0,
+            747.0
+          ],
+          [
+            143.5,
+            702.0
+          ]
+        ],
+        [
+          "bedroom-3",
+          [
+            283.0,
+            747.0
+          ],
+          [
+            310.0,
+            747.0
+          ],
+          [
+            296.5,
+            702.0
+          ]
+        ]
+      ],
+      "C": [
+        [
+          "living-side",
+          [
+            448.0,
+            170.0
+          ],
+          [
+            448.0,
+            202.0
+          ],
+          [
+            426.0,
+            186.0
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            154.0,
+            347.0
+          ],
+          [
+            185.0,
+            347.0
+          ],
+          [
+            169.5,
+            325.0
+          ]
+        ],
+        [
+          "living",
+          [
+            367.0,
+            75.0
+          ],
+          [
+            407.0,
+            75.0
+          ],
+          [
+            387.0,
+            120.0
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            129.0,
+            94.0
+          ],
+          [
+            156.0,
+            94.0
+          ],
+          [
+            142.5,
+            139.0
+          ]
+        ],
+        [
+          "bedroom-3",
+          [
+            284.0,
+            94.0
+          ],
+          [
+            310.0,
+            94.0
+          ],
+          [
+            297.0,
+            139.0
+          ]
+        ]
+      ],
+      "D": [
+        [
+          "living-side",
+          [
+            765.0,
+            170.0
+          ],
+          [
+            765.0,
+            202.0
+          ],
+          [
+            787.0,
+            186.0
+          ]
+        ],
+        [
+          "bedroom-1",
+          [
+            1037.0,
+            347.0
+          ],
+          [
+            1067.0,
+            347.0
+          ],
+          [
+            1052.0,
+            325.0
+          ]
+        ],
+        [
+          "living",
+          [
+            810.0,
+            75.0
+          ],
+          [
+            849.0,
+            75.0
+          ],
+          [
+            829.5,
+            120.0
+          ]
+        ],
+        [
+          "bedroom-2",
+          [
+            1058.0,
+            94.0
+          ],
+          [
+            1084.0,
+            94.0
+          ],
+          [
+            1071.0,
+            139.0
+          ]
+        ],
+        [
+          "bedroom-3",
+          [
+            905.0,
+            94.0
+          ],
+          [
+            931.0,
+            94.0
+          ],
+          [
+            918.0,
+            139.0
+          ]
+        ]
+      ]
+    },
+    "outline": [
+      [
+        75,
+        112
+      ],
+      [
+        75,
+        282
+      ],
+      [
+        78,
+        283
+      ],
+      [
+        78,
+        351
+      ],
+      [
+        170,
+        352
+      ],
+      [
+        171,
+        348
+      ],
+      [
+        180,
+        348
+      ],
+      [
+        184,
+        352
+      ],
+      [
+        203,
+        352
+      ],
+      [
+        205,
+        348
+      ],
+      [
+        209,
+        348
+      ],
+      [
+        211,
+        352
+      ],
+      [
+        289,
+        353
+      ],
+      [
+        288,
+        491
+      ],
+      [
+        88,
+        491
+      ],
+      [
+        88,
+        731
+      ],
+      [
+        116,
+        731
+      ],
+      [
+        119,
+        738
+      ],
+      [
+        130,
+        751
+      ],
+      [
+        153,
+        751
+      ],
+      [
+        154,
+        748
+      ],
+      [
+        163,
+        751
+      ],
+      [
+        175,
+        739
+      ],
+      [
+        178,
+        731
+      ],
+      [
+        272,
+        731
+      ],
+      [
+        275,
+        739
+      ],
+      [
+        286,
+        751
+      ],
+      [
+        311,
+        751
+      ],
+      [
+        312,
+        748
+      ],
+      [
+        316,
+        748
+      ],
+      [
+        319,
+        752
+      ],
+      [
+        335,
+        731
+      ],
+      [
+        349,
+        731
+      ],
+      [
+        350,
+        737
+      ],
+      [
+        373,
+        756
+      ],
+      [
+        418,
+        756
+      ],
+      [
+        442,
+        736
+      ],
+      [
+        443,
+        731
+      ],
+      [
+        456,
+        731
+      ],
+      [
+        456,
+        634
+      ],
+      [
+        458,
+        619
+      ],
+      [
+        756,
+        619
+      ],
+      [
+        758,
+        634
+      ],
+      [
+        758,
+        731
+      ],
+      [
+        771,
+        731
+      ],
+      [
+        772,
+        736
+      ],
+      [
+        795,
+        756
+      ],
+      [
+        842,
+        756
+      ],
+      [
+        865,
+        736
+      ],
+      [
+        866,
+        731
+      ],
+      [
+        879,
+        731
+      ],
+      [
+        894,
+        751
+      ],
+      [
+        896,
+        748
+      ],
+      [
+        927,
+        748
+      ],
+      [
+        928,
+        751
+      ],
+      [
+        940,
+        737
+      ],
+      [
+        942,
+        731
+      ],
+      [
+        1036,
+        731
+      ],
+      [
+        1038,
+        737
+      ],
+      [
+        1051,
+        751
+      ],
+      [
+        1052,
+        748
+      ],
+      [
+        1082,
+        748
+      ],
+      [
+        1084,
+        751
+      ],
+      [
+        1095,
+        738
+      ],
+      [
+        1098,
+        731
+      ],
+      [
+        1127,
+        730
+      ],
+      [
+        1126,
+        491
+      ],
+      [
+        925,
+        491
+      ],
+      [
+        924,
+        353
+      ],
+      [
+        1002,
+        352
+      ],
+      [
+        1004,
+        348
+      ],
+      [
+        1008,
+        348
+      ],
+      [
+        1010,
+        352
+      ],
+      [
+        1029,
+        352
+      ],
+      [
+        1033,
+        348
+      ],
+      [
+        1042,
+        348
+      ],
+      [
+        1043,
+        352
+      ],
+      [
+        1135,
+        351
+      ],
+      [
+        1136,
+        112
+      ],
+      [
+        1105,
+        112
+      ],
+      [
+        1094,
+        96
+      ],
+      [
+        1087,
+        90
+      ],
+      [
+        1057,
+        90
+      ],
+      [
+        1040,
+        107
+      ],
+      [
+        1038,
+        112
+      ],
+      [
+        947,
+        112
+      ],
+      [
+        946,
+        108
+      ],
+      [
+        932,
+        91
+      ],
+      [
+        898,
+        91
+      ],
+      [
+        886,
+        105
+      ],
+      [
+        883,
+        112
+      ],
+      [
+        872,
+        112
+      ],
+      [
+        871,
+        108
+      ],
+      [
+        871,
+        118
+      ],
+      [
+        866,
+        119
+      ],
+      [
+        863,
+        96
+      ],
+      [
+        867,
+        95
+      ],
+      [
+        862,
+        88
+      ],
+      [
+        861,
+        92
+      ],
+      [
+        856,
+        91
+      ],
+      [
+        856,
+        87
+      ],
+      [
+        860,
+        86
+      ],
+      [
+        850,
+        73
+      ],
+      [
+        850,
+        79
+      ],
+      [
+        804,
+        79
+      ],
+      [
+        785,
+        102
+      ],
+      [
+        784,
+        120
+      ],
+      [
+        778,
+        118
+      ],
+      [
+        778,
+        99
+      ],
+      [
+        784,
+        92
+      ],
+      [
+        777,
+        101
+      ],
+      [
+        776,
+        112
+      ],
+      [
+        761,
+        112
+      ],
+      [
+        760,
+        258
+      ],
+      [
+        453,
+        258
+      ],
+      [
+        452,
+        112
+      ],
+      [
+        437,
+        112
+      ],
+      [
+        436,
+        101
+      ],
+      [
+        429,
+        92
+      ],
+      [
+        435,
+        99
+      ],
+      [
+        435,
+        118
+      ],
+      [
+        429,
+        120
+      ],
+      [
+        428,
+        102
+      ],
+      [
+        409,
+        79
+      ],
+      [
+        363,
+        79
+      ],
+      [
+        363,
+        73
+      ],
+      [
+        353,
+        86
+      ],
+      [
+        357,
+        87
+      ],
+      [
+        357,
+        91
+      ],
+      [
+        352,
+        92
+      ],
+      [
+        351,
+        88
+      ],
+      [
+        346,
+        95
+      ],
+      [
+        350,
+        96
+      ],
+      [
+        347,
+        118
+      ],
+      [
+        342,
+        117
+      ],
+      [
+        342,
+        108
+      ],
+      [
+        341,
+        112
+      ],
+      [
+        330,
+        112
+      ],
+      [
+        327,
+        105
+      ],
+      [
+        315,
+        91
+      ],
+      [
+        281,
+        91
+      ],
+      [
+        267,
+        108
+      ],
+      [
+        266,
+        112
+      ],
+      [
+        175,
+        112
+      ],
+      [
+        173,
+        107
+      ],
+      [
+        156,
+        90
+      ],
+      [
+        126,
+        90
+      ],
+      [
+        119,
+        96
+      ],
+      [
+        108,
+        112
+      ]
+    ],
+    "source": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+    "sourcePage": "https://www.28hse.com/estate/detail/city-one-shatin-4080",
+    "sourceId": "H-33-typ",
+    "sourceImageSize": [
+      1215,
+      1089
+    ],
+    "templateId": "COS-F03",
+    "extractionMethod": "Approved v6.2 glazing and projected-bay dominant straight faces; source endpoints retained, room-specific interior witnesses, no whole-bay perimeter or AC ledge substitution."
+  },
+  "orientationEvidence": {
+    "sourceFile": "orientation/u-1789269525652-jpv0zf.png",
+    "northUp": true,
+    "anchor": "D north; B south",
+    "fixedRotationDegrees": 45,
+    "method": "Visual semantic label correspondence; image pixels used for direction only"
+  },
+  "windows": [
+    {
+      "flat": "A",
+      "id": "living-side",
+      "lat": 22.385742636790383,
+      "lng": 114.20577281624057,
+      "cameraLat": 22.38573625124385,
+      "cameraLng": 114.20576594982921,
+      "heading": 225.00000000000006,
+      "projectedFacadeLat": 22.385743567613677,
+      "projectedFacadeLng": 114.20577381715968,
+      "facadeDistanceMeters": -0.14577034069538802,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405008,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          762.0,
+          630.0
+        ],
+        [
+          762.0,
+          662.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        784.0,
+        646.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          762.0,
+          630.0
+        ],
+        [
+          762.0,
+          662.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "A",
+      "id": "bedroom-1",
+      "lat": 22.385813696595097,
+      "lng": 114.20579574838776,
+      "cameraLat": 22.385820082141635,
+      "cameraLng": 114.20578888197642,
+      "heading": 315.0,
+      "projectedFacadeLat": 22.385813321686218,
+      "projectedFacadeLng": 114.20579615152923,
+      "facadeDistanceMeters": -0.05871210511214748,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912404986,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          1028.0,
+          495.0
+        ],
+        [
+          1057.0,
+          495.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        1042.5,
+        517.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          1028.0,
+          495.0
+        ],
+        [
+          1057.0,
+          495.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "A",
+      "id": "living",
+      "lat": 22.385735884873828,
+      "lng": 114.20580380562868,
+      "cameraLat": 22.385729499327294,
+      "cameraLng": 114.20581067204002,
+      "heading": 135.00000000000003,
+      "projectedFacadeLat": 22.38573997514782,
+      "projectedFacadeLng": 114.20579940733582,
+      "facadeDistanceMeters": -0.6405519039362889,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010246,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          809.0,
+          754.0
+        ],
+        [
+          849.0,
+          754.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        829.0,
+        709.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          809.0,
+          754.0
+        ],
+        [
+          849.0,
+          754.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "A",
+      "id": "bedroom-2",
+      "lat": 22.385775902330483,
+      "lng": 114.20584435745654,
+      "cameraLat": 22.385769516783945,
+      "cameraLng": 114.20585122386788,
+      "heading": 135.0,
+      "projectedFacadeLat": 22.385779036975197,
+      "projectedFacadeLng": 114.2058409867568,
+      "facadeDistanceMeters": -0.4908968557643759,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010264,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          1051.0,
+          747.0
+        ],
+        [
+          1079.0,
+          747.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        1065.0,
+        702.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          1051.0,
+          747.0
+        ],
+        [
+          1079.0,
+          747.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "A",
+      "id": "bedroom-3",
+      "lat": 22.38575136487764,
+      "lng": 114.20581797220609,
+      "cameraLat": 22.3857449793311,
+      "cameraLng": 114.20582483861743,
+      "heading": 135.0,
+      "projectedFacadeLat": 22.38575437505876,
+      "projectedFacadeLng": 114.2058147353427,
+      "facadeDistanceMeters": -0.4714054007073053,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.160533413901026,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          902.0,
+          747.0
+        ],
+        [
+          930.0,
+          747.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        916.0,
+        702.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          902.0,
+          747.0
+        ],
+        [
+          930.0,
+          747.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "living-side",
+      "lat": 22.385691750394887,
+      "lng": 114.20571809783527,
+      "cameraLat": 22.385698135941425,
+      "cameraLng": 114.20572496424661,
+      "heading": 45.00000000000004,
+      "projectedFacadeLat": 22.385691987940202,
+      "projectedFacadeLng": 114.20571835326898,
+      "facadeDistanceMeters": 0.03720046700688625,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405011,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          453.0,
+          630.0
+        ],
+        [
+          453.0,
+          662.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        431.0,
+        646.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          453.0,
+          630.0
+        ],
+        [
+          453.0,
+          662.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "bedroom-1",
+      "lat": 22.385669847836308,
+      "lng": 114.20564106707054,
+      "cameraLat": 22.385676233382846,
+      "cameraLng": 114.2056342006592,
+      "heading": 315.0,
+      "projectedFacadeLat": 22.385668130003488,
+      "projectedFacadeLng": 114.2056429142651,
+      "facadeDistanceMeters": -0.2690189178676975,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912404998,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          153.0,
+          495.0
+        ],
+        [
+          185.0,
+          495.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        169.0,
+        517.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          153.0,
+          495.0
+        ],
+        [
+          185.0,
+          495.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "living",
+      "lat": 22.385663672302876,
+      "lng": 114.20572615507618,
+      "cameraLat": 22.385657286756338,
+      "cameraLng": 114.20573302148753,
+      "heading": 135.00000000000009,
+      "projectedFacadeLat": 22.38566687633354,
+      "projectedFacadeLng": 114.20572270976537,
+      "facadeDistanceMeters": -0.5017629502174518,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010235,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          371.0,
+          754.0
+        ],
+        [
+          410.0,
+          754.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        390.5,
+        709.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          371.0,
+          754.0
+        ],
+        [
+          410.0,
+          754.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "bedroom-2",
+      "lat": 22.385624148888898,
+      "lng": 114.20568117619287,
+      "cameraLat": 22.38561776334236,
+      "cameraLng": 114.20568804260421,
+      "heading": 134.9999999999999,
+      "projectedFacadeLat": 22.385625769235226,
+      "projectedFacadeLng": 114.20567943382605,
+      "facadeDistanceMeters": -0.2537521760435927,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010244,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          130.0,
+          747.0
+        ],
+        [
+          157.0,
+          747.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        143.5,
+        702.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          130.0,
+          747.0
+        ],
+        [
+          157.0,
+          747.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "bedroom-3",
+      "lat": 22.385649345065307,
+      "lng": 114.20570826977219,
+      "cameraLat": 22.385642959518773,
+      "cameraLng": 114.20571513618353,
+      "heading": 134.9999999999998,
+      "projectedFacadeLat": 22.385651232336613,
+      "projectedFacadeLng": 114.20570624037956,
+      "facadeDistanceMeters": -0.2955536059940222,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010248,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          283.0,
+          747.0
+        ],
+        [
+          310.0,
+          747.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        296.5,
+        702.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          283.0,
+          747.0
+        ],
+        [
+          310.0,
+          747.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "living-side",
+      "lat": 22.385766680200554,
+      "lng": 114.20563575460402,
+      "cameraLat": 22.385773065747088,
+      "cameraLng": 114.20564262101536,
+      "heading": 44.99999999999996,
+      "projectedFacadeLat": 22.385767117346518,
+      "projectedFacadeLng": 114.20563622466933,
+      "facadeDistanceMeters": 0.06845866083911913,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          448.0,
+          170.0
+        ],
+        [
+          448.0,
+          202.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        426.0,
+        186.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          448.0,
+          170.0
+        ],
+        [
+          448.0,
+          202.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "bedroom-1",
+      "lat": 22.385694302948707,
+      "lng": 114.20561494744342,
+      "cameraLat": 22.385687917402173,
+      "cameraLng": 114.20562181385478,
+      "heading": 135.0,
+      "projectedFacadeLat": 22.385693190689995,
+      "projectedFacadeLng": 114.205616143461,
+      "facadeDistanceMeters": 0.17418379260208522,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405029,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          154.0,
+          347.0
+        ],
+        [
+          185.0,
+          347.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        169.5,
+        325.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          154.0,
+          347.0
+        ],
+        [
+          185.0,
+          347.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "living",
+      "lat": 22.385774914245133,
+      "lng": 114.20560529646256,
+      "cameraLat": 22.38578129979167,
+      "cameraLng": 114.20559843005121,
+      "heading": 314.99999999999994,
+      "projectedFacadeLat": 22.385768905535098,
+      "projectedFacadeLng": 114.20561175765965,
+      "facadeDistanceMeters": -0.940986022042277,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010215,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          367.0,
+          75.0
+        ],
+        [
+          407.0,
+          75.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        387.0,
+        120.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          367.0,
+          75.0
+        ],
+        [
+          407.0,
+          75.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "bedroom-2",
+      "lat": 22.385731520830202,
+      "lng": 114.20556536442245,
+      "cameraLat": 22.38573790637674,
+      "cameraLng": 114.2055584980111,
+      "heading": 315.0,
+      "projectedFacadeLat": 22.385728288053944,
+      "projectedFacadeLng": 114.20556884064355,
+      "facadeDistanceMeters": -0.5062646153259819,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010233,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          129.0,
+          94.0
+        ],
+        [
+          156.0,
+          94.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        142.5,
+        139.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          129.0,
+          94.0
+        ],
+        [
+          156.0,
+          94.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "bedroom-3",
+      "lat": 22.38575696402795,
+      "lng": 114.2055927236251,
+      "cameraLat": 22.385763349574486,
+      "cameraLng": 114.20558585721375,
+      "heading": 314.99999999999994,
+      "projectedFacadeLat": 22.385753954315042,
+      "projectedFacadeLng": 114.20559595998502,
+      "facadeDistanceMeters": -0.4713320766928159,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.160533413901024,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          284.0,
+          94.0
+        ],
+        [
+          310.0,
+          94.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        297.0,
+        139.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          284.0,
+          94.0
+        ],
+        [
+          310.0,
+          94.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "living-side",
+      "lat": 22.385818884043182,
+      "lng": 114.20569188966705,
+      "cameraLat": 22.385812498496648,
+      "cameraLng": 114.2056850232557,
+      "heading": 225.0,
+      "projectedFacadeLat": 22.385818446711717,
+      "projectedFacadeLng": 114.20569141940226,
+      "facadeDistanceMeters": 0.06848771082069201,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405011,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          765.0,
+          170.0
+        ],
+        [
+          765.0,
+          202.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        787.0,
+        186.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          765.0,
+          170.0
+        ],
+        [
+          765.0,
+          202.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "bedroom-1",
+      "lat": 22.38583963383552,
+      "lng": 114.2057712225006,
+      "cameraLat": 22.385833248288986,
+      "cameraLng": 114.20577808891194,
+      "heading": 135.0,
+      "projectedFacadeLat": 22.385839901254425,
+      "projectedFacadeLng": 114.20577093494367,
+      "facadeDistanceMeters": -0.041878780874947494,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912404998,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          1037.0,
+          347.0
+        ],
+        [
+          1067.0,
+          347.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        1052.0,
+        325.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          1037.0,
+          347.0
+        ],
+        [
+          1067.0,
+          347.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "living",
+      "lat": 22.385847785539653,
+      "lng": 114.20568365534392,
+      "cameraLat": 22.38585417108619,
+      "cameraLng": 114.20567678893258,
+      "heading": 314.99999999999994,
+      "projectedFacadeLat": 22.385842700233486,
+      "projectedFacadeLng": 114.20568912360005,
+      "facadeDistanceMeters": -0.7963775911998994,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010213,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          810.0,
+          75.0
+        ],
+        [
+          849.0,
+          75.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        829.5,
+        120.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          810.0,
+          75.0
+        ],
+        [
+          849.0,
+          75.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "bedroom-2",
+      "lat": 22.38588442703803,
+      "lng": 114.20572978526165,
+      "cameraLat": 22.385890812584567,
+      "cameraLng": 114.2057229188503,
+      "heading": 315.0,
+      "projectedFacadeLat": 22.385882894126457,
+      "projectedFacadeLng": 114.20573143360942,
+      "facadeDistanceMeters": -0.24005957274256456,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.160533413901025,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          1058.0,
+          94.0
+        ],
+        [
+          1084.0,
+          94.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        1071.0,
+        139.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          1058.0,
+          94.0
+        ],
+        [
+          1084.0,
+          94.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "bedroom-3",
+      "lat": 22.38585923086162,
+      "lng": 114.20570269168233,
+      "cameraLat": 22.385865616408154,
+      "cameraLng": 114.20569582527098,
+      "heading": 315.0000000000002,
+      "projectedFacadeLat": 22.385857429672527,
+      "projectedFacadeLng": 114.20570462851032,
+      "facadeDistanceMeters": -0.2820728161627169,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.160533413901025,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          905.0,
+          94.0
+        ],
+        [
+          931.0,
+          94.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        918.0,
+        139.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          905.0,
+          94.0
+        ],
+        [
+          931.0,
+          94.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    }
+  ],
+  "productionWindows": [
+    {
+      "flat": "A",
+      "id": "living-side",
+      "lat": 22.385742636790383,
+      "lng": 114.20577281624057,
+      "cameraLat": 22.38573625124385,
+      "cameraLng": 114.20576594982921,
+      "heading": 225.00000000000006,
+      "projectedFacadeLat": 22.385743567613677,
+      "projectedFacadeLng": 114.20577381715968,
+      "facadeDistanceMeters": -0.14577034069538802,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405008,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          762.0,
+          630.0
+        ],
+        [
+          762.0,
+          662.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        784.0,
+        646.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          762.0,
+          630.0
+        ],
+        [
+          762.0,
+          662.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "A",
+      "id": "bedroom-1",
+      "lat": 22.385813696595097,
+      "lng": 114.20579574838776,
+      "cameraLat": 22.385820082141635,
+      "cameraLng": 114.20578888197642,
+      "heading": 315.0,
+      "projectedFacadeLat": 22.385813321686218,
+      "projectedFacadeLng": 114.20579615152923,
+      "facadeDistanceMeters": -0.05871210511214748,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912404986,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          1028.0,
+          495.0
+        ],
+        [
+          1057.0,
+          495.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        1042.5,
+        517.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          1028.0,
+          495.0
+        ],
+        [
+          1057.0,
+          495.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "A",
+      "id": "living",
+      "lat": 22.385735884873828,
+      "lng": 114.20580380562868,
+      "cameraLat": 22.385729499327294,
+      "cameraLng": 114.20581067204002,
+      "heading": 135.00000000000003,
+      "projectedFacadeLat": 22.38573997514782,
+      "projectedFacadeLng": 114.20579940733582,
+      "facadeDistanceMeters": -0.6405519039362889,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010246,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          809.0,
+          754.0
+        ],
+        [
+          849.0,
+          754.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        829.0,
+        709.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          809.0,
+          754.0
+        ],
+        [
+          849.0,
+          754.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "A",
+      "id": "bedroom-2",
+      "lat": 22.385775902330483,
+      "lng": 114.20584435745654,
+      "cameraLat": 22.385769516783945,
+      "cameraLng": 114.20585122386788,
+      "heading": 135.0,
+      "projectedFacadeLat": 22.385779036975197,
+      "projectedFacadeLng": 114.2058409867568,
+      "facadeDistanceMeters": -0.4908968557643759,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010264,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          1051.0,
+          747.0
+        ],
+        [
+          1079.0,
+          747.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        1065.0,
+        702.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          1051.0,
+          747.0
+        ],
+        [
+          1079.0,
+          747.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "A",
+      "id": "bedroom-3",
+      "lat": 22.38575136487764,
+      "lng": 114.20581797220609,
+      "cameraLat": 22.3857449793311,
+      "cameraLng": 114.20582483861743,
+      "heading": 135.0,
+      "projectedFacadeLat": 22.38575437505876,
+      "projectedFacadeLng": 114.2058147353427,
+      "facadeDistanceMeters": -0.4714054007073053,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.160533413901026,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          902.0,
+          747.0
+        ],
+        [
+          930.0,
+          747.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        916.0,
+        702.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          902.0,
+          747.0
+        ],
+        [
+          930.0,
+          747.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "living-side",
+      "lat": 22.385691750394887,
+      "lng": 114.20571809783527,
+      "cameraLat": 22.385698135941425,
+      "cameraLng": 114.20572496424661,
+      "heading": 45.00000000000004,
+      "projectedFacadeLat": 22.385691987940202,
+      "projectedFacadeLng": 114.20571835326898,
+      "facadeDistanceMeters": 0.03720046700688625,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405011,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          453.0,
+          630.0
+        ],
+        [
+          453.0,
+          662.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        431.0,
+        646.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          453.0,
+          630.0
+        ],
+        [
+          453.0,
+          662.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "bedroom-1",
+      "lat": 22.385669847836308,
+      "lng": 114.20564106707054,
+      "cameraLat": 22.385676233382846,
+      "cameraLng": 114.2056342006592,
+      "heading": 315.0,
+      "projectedFacadeLat": 22.385668130003488,
+      "projectedFacadeLng": 114.2056429142651,
+      "facadeDistanceMeters": -0.2690189178676975,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912404998,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          153.0,
+          495.0
+        ],
+        [
+          185.0,
+          495.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        169.0,
+        517.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          153.0,
+          495.0
+        ],
+        [
+          185.0,
+          495.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "living",
+      "lat": 22.385663672302876,
+      "lng": 114.20572615507618,
+      "cameraLat": 22.385657286756338,
+      "cameraLng": 114.20573302148753,
+      "heading": 135.00000000000009,
+      "projectedFacadeLat": 22.38566687633354,
+      "projectedFacadeLng": 114.20572270976537,
+      "facadeDistanceMeters": -0.5017629502174518,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010235,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          371.0,
+          754.0
+        ],
+        [
+          410.0,
+          754.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        390.5,
+        709.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          371.0,
+          754.0
+        ],
+        [
+          410.0,
+          754.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "bedroom-2",
+      "lat": 22.385624148888898,
+      "lng": 114.20568117619287,
+      "cameraLat": 22.38561776334236,
+      "cameraLng": 114.20568804260421,
+      "heading": 134.9999999999999,
+      "projectedFacadeLat": 22.385625769235226,
+      "projectedFacadeLng": 114.20567943382605,
+      "facadeDistanceMeters": -0.2537521760435927,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010244,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          130.0,
+          747.0
+        ],
+        [
+          157.0,
+          747.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        143.5,
+        702.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          130.0,
+          747.0
+        ],
+        [
+          157.0,
+          747.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "B",
+      "id": "bedroom-3",
+      "lat": 22.385649345065307,
+      "lng": 114.20570826977219,
+      "cameraLat": 22.385642959518773,
+      "cameraLng": 114.20571513618353,
+      "heading": 134.9999999999998,
+      "projectedFacadeLat": 22.385651232336613,
+      "projectedFacadeLng": 114.20570624037956,
+      "facadeDistanceMeters": -0.2955536059940222,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010248,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          283.0,
+          747.0
+        ],
+        [
+          310.0,
+          747.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        296.5,
+        702.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          283.0,
+          747.0
+        ],
+        [
+          310.0,
+          747.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "living-side",
+      "lat": 22.385766680200554,
+      "lng": 114.20563575460402,
+      "cameraLat": 22.385773065747088,
+      "cameraLng": 114.20564262101536,
+      "heading": 44.99999999999996,
+      "projectedFacadeLat": 22.385767117346518,
+      "projectedFacadeLng": 114.20563622466933,
+      "facadeDistanceMeters": 0.06845866083911913,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          448.0,
+          170.0
+        ],
+        [
+          448.0,
+          202.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        426.0,
+        186.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          448.0,
+          170.0
+        ],
+        [
+          448.0,
+          202.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "bedroom-1",
+      "lat": 22.385694302948707,
+      "lng": 114.20561494744342,
+      "cameraLat": 22.385687917402173,
+      "cameraLng": 114.20562181385478,
+      "heading": 135.0,
+      "projectedFacadeLat": 22.385693190689995,
+      "projectedFacadeLng": 114.205616143461,
+      "facadeDistanceMeters": 0.17418379260208522,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405029,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          154.0,
+          347.0
+        ],
+        [
+          185.0,
+          347.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        169.5,
+        325.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          154.0,
+          347.0
+        ],
+        [
+          185.0,
+          347.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "living",
+      "lat": 22.385774914245133,
+      "lng": 114.20560529646256,
+      "cameraLat": 22.38578129979167,
+      "cameraLng": 114.20559843005121,
+      "heading": 314.99999999999994,
+      "projectedFacadeLat": 22.385768905535098,
+      "projectedFacadeLng": 114.20561175765965,
+      "facadeDistanceMeters": -0.940986022042277,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010215,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          367.0,
+          75.0
+        ],
+        [
+          407.0,
+          75.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        387.0,
+        120.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          367.0,
+          75.0
+        ],
+        [
+          407.0,
+          75.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "bedroom-2",
+      "lat": 22.385731520830202,
+      "lng": 114.20556536442245,
+      "cameraLat": 22.38573790637674,
+      "cameraLng": 114.2055584980111,
+      "heading": 315.0,
+      "projectedFacadeLat": 22.385728288053944,
+      "projectedFacadeLng": 114.20556884064355,
+      "facadeDistanceMeters": -0.5062646153259819,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010233,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          129.0,
+          94.0
+        ],
+        [
+          156.0,
+          94.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        142.5,
+        139.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          129.0,
+          94.0
+        ],
+        [
+          156.0,
+          94.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "C",
+      "id": "bedroom-3",
+      "lat": 22.38575696402795,
+      "lng": 114.2055927236251,
+      "cameraLat": 22.385763349574486,
+      "cameraLng": 114.20558585721375,
+      "heading": 314.99999999999994,
+      "projectedFacadeLat": 22.385753954315042,
+      "projectedFacadeLng": 114.20559595998502,
+      "facadeDistanceMeters": -0.4713320766928159,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.160533413901024,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          284.0,
+          94.0
+        ],
+        [
+          310.0,
+          94.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        297.0,
+        139.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          284.0,
+          94.0
+        ],
+        [
+          310.0,
+          94.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "living-side",
+      "lat": 22.385818884043182,
+      "lng": 114.20569188966705,
+      "cameraLat": 22.385812498496648,
+      "cameraLng": 114.2056850232557,
+      "heading": 225.0,
+      "projectedFacadeLat": 22.385818446711717,
+      "projectedFacadeLng": 114.20569141940226,
+      "facadeDistanceMeters": 0.06848771082069201,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912405011,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          765.0,
+          170.0
+        ],
+        [
+          765.0,
+          202.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        787.0,
+        186.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          765.0,
+          170.0
+        ],
+        [
+          765.0,
+          202.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "bedroom-1",
+      "lat": 22.38583963383552,
+      "lng": 114.2057712225006,
+      "cameraLat": 22.385833248288986,
+      "cameraLng": 114.20577808891194,
+      "heading": 135.0,
+      "projectedFacadeLat": 22.385839901254425,
+      "projectedFacadeLng": 114.20577093494367,
+      "facadeDistanceMeters": -0.041878780874947494,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -0.5673718912404998,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          1037.0,
+          347.0
+        ],
+        [
+          1067.0,
+          347.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        1052.0,
+        325.0
+      ],
+      "representationClass": "sill-line",
+      "recognitionEvidence": "u-1789321451497-a6z0fr",
+      "sourceExtentRole": "untrimmed visible straight glazing run",
+      "sourcePlanSegment": [
+        [
+          1037.0,
+          347.0
+        ],
+        [
+          1067.0,
+          347.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "living",
+      "lat": 22.385847785539653,
+      "lng": 114.20568365534392,
+      "cameraLat": 22.38585417108619,
+      "cameraLng": 114.20567678893258,
+      "heading": 314.99999999999994,
+      "projectedFacadeLat": 22.385842700233486,
+      "projectedFacadeLng": 114.20568912360005,
+      "facadeDistanceMeters": -0.7963775911998994,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.1605334139010213,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          810.0,
+          75.0
+        ],
+        [
+          849.0,
+          75.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        829.5,
+        120.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          810.0,
+          75.0
+        ],
+        [
+          849.0,
+          75.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "bedroom-2",
+      "lat": 22.38588442703803,
+      "lng": 114.20572978526165,
+      "cameraLat": 22.385890812584567,
+      "cameraLng": 114.2057229188503,
+      "heading": 315.0,
+      "projectedFacadeLat": 22.385882894126457,
+      "projectedFacadeLng": 114.20573143360942,
+      "facadeDistanceMeters": -0.24005957274256456,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.160533413901025,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          1058.0,
+          94.0
+        ],
+        [
+          1084.0,
+          94.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        1071.0,
+        139.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          1058.0,
+          94.0
+        ],
+        [
+          1084.0,
+          94.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    },
+    {
+      "flat": "D",
+      "id": "bedroom-3",
+      "lat": 22.38585923086162,
+      "lng": 114.20570269168233,
+      "cameraLat": 22.385865616408154,
+      "cameraLng": 114.20569582527098,
+      "heading": 315.0000000000002,
+      "projectedFacadeLat": 22.385857429672527,
+      "projectedFacadeLng": 114.20570462851032,
+      "facadeDistanceMeters": -0.2820728161627169,
+      "cameraOffsetMetres": 1,
+      "interiorNormalDot": -1.160533413901025,
+      "cameraOutside": true,
+      "windowVerified": true,
+      "georefVerified": true,
+      "confidence": "derived-source-registration",
+      "planSegment": [
+        [
+          905.0,
+          94.0
+        ],
+        [
+          931.0,
+          94.0
+        ]
+      ],
+      "qaErrors": [],
+      "interiorWitness": [
+        918.0,
+        139.0
+      ],
+      "representationClass": "bay-window-face",
+      "recognitionEvidence": "builtin-city-one-bay-closeup",
+      "sourceExtentRole": "primary viewing face of approved repeated bay module",
+      "sourcePlanSegment": [
+        [
+          905.0,
+          94.0
+        ],
+        [
+          931.0,
+          94.0
+        ]
+      ],
+      "sourceImage": "https://i1.28hse.com/estate_data/102/4080/FLOOR/4080_20231120194751696982_large.jpg",
+      "sourceSha256": "4a3f103194a06edd3b244da224690ed1ce3698eb83353c6eca9be9069865b1bf"
+    }
+  ],
+  "floors": [
+    1,
+    27
+  ],
+  "qa": {
+    "transformPass": true,
+    "acceptedWindows": 20,
+    "rejectedWindows": 0
+  },
+  "confidenceDimensions": {
+    "plan": "source glazing / approved bay-face visual review; window-level exclusions",
+    "horizontal": "independently-registered-to-LandsD",
+    "vertical": "building-average-estimate"
+  },
+  "registrationReusedUnchanged": true
+}

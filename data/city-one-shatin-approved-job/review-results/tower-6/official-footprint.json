@@ -1,0 +1,118 @@
+{
+  "attributes": {
+    "OBJECTID": 82083,
+    "Shape_Length": 121.47444542274326,
+    "Shape_Area": 340.9447744887847,
+    "GeoRefNo": "3889027705",
+    "DateCreate": 1114819200000,
+    "BuildingBlockType": "Tower",
+    "BuildingCSUID": "3889027705T20050430",
+    "BuildingID": 1102444563,
+    "Status": "Active",
+    "BuildingNameEN": "City One Shatin Block 6",
+    "BuildingNameTC": "沙田第一城第六座",
+    "BaseHeight": 5,
+    "TopHeight": 82.4,
+    "Storeys": 28,
+    "StoreysInBasement": null,
+    "DateStamp": 1596844800000
+  },
+  "geometry": {
+    "rings": [
+      [
+        [
+          114.20228618109385,
+          22.388471824293322
+        ],
+        [
+          114.20224403354435,
+          22.388509443023686
+        ],
+        [
+          114.2022782797074,
+          22.388542624790844
+        ],
+        [
+          114.20225033667441,
+          22.38856756244158
+        ],
+        [
+          114.2022165372854,
+          22.38853481406332
+        ],
+        [
+          114.20217445766207,
+          22.388572369551017
+        ],
+        [
+          114.20224021108588,
+          22.388636087595607
+        ],
+        [
+          114.20226024114419,
+          22.388618204024645
+        ],
+        [
+          114.20231306731307,
+          22.388669389713172
+        ],
+        [
+          114.20229354213036,
+          22.38868681265475
+        ],
+        [
+          114.20235929566057,
+          22.388750521619425
+        ],
+        [
+          114.20240072477182,
+          22.388713544140366
+        ],
+        [
+          114.2023623798686,
+          22.388676389619324
+        ],
+        [
+          114.2023913714961,
+          22.388650521640656
+        ],
+        [
+          114.20242940559913,
+          22.38868736916651
+        ],
+        [
+          114.20247044630702,
+          22.38865074392097
+        ],
+        [
+          114.20240468305913,
+          22.388587016941194
+        ],
+        [
+          114.20237822554586,
+          22.388610635923555
+        ],
+        [
+          114.20232345688115,
+          22.388557572214484
+        ],
+        [
+          114.20235012799736,
+          22.388533772596883
+        ],
+        [
+          114.20228618109385,
+          22.388471824293322
+        ]
+      ]
+    ]
+  },
+  "provenance": {
+    "source": "LandsD CSDI Building FSDT",
+    "queryUrl": "https://portal.csdi.gov.hk/server/rest/services/common/landsd_rcd_1637211194312_35158/MapServer/0/query?where=BuildingNameEN+LIKE+%27%25City+One%25%27&outFields=%2A&returnGeometry=true&outSR=4326&f=json",
+    "rawFile": "data/city-one-shatin-approved-job/official-query.raw.json",
+    "rawSha256": "e6231f56eb6ec597edf5325dff9149709f6c362360070ff768e1d8cbd1473c2e",
+    "outputCRS": "EPSG:4326",
+    "selectionRule": "unique exact City One Shatin Block N; relative north-up estate arrangement"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "sourceEndpointsPreserved": true,
+  "snappedToGovernmentPolygon": false,
+  "samplePixelsUsedAsCoordinates": false,
+  "method": "Trace source glazing or primary bay face; project facade separately; camera may offset outward within existing QA thresholds.",
+  "corrections": [
+    {
+      "family": "COS-F06",
+      "flats": [
+        "C",
+        "F"
+      ],
+      "room": "bedroom-1",
+      "reason": "Magnified source inspection tightened the visible glazing opening to exclude adjacent thick jamb; no government snapping."
+    }
+  ]
+}

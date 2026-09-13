@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "presets": [
+    {
+      "id": "straight-sill",
+      "label": "Straight sill / glazing line",
+      "polarity": "positive",
+      "representationClass": "sill-line",
+      "traceRule": "Trace the explicit visible glazing/sill segment exactly as drawn on the source plan."
+    },
+    {
+      "id": "projected-bay-front",
+      "label": "Projected bay — primary front face",
+      "polarity": "positive",
+      "representationClass": "bay-window-face",
+      "traceRule": "Recognize the whole projected bay module, then trace only its primary outward viewing face. Do not trace the whole structural outline."
+    },
+    {
+      "id": "corner-bay-primary-face",
+      "label": "Corner bay — primary viewing face",
+      "polarity": "positive",
+      "representationClass": "corner-bay-face",
+      "traceRule": "For an angled/corner bay, identify the room-facing bay module and trace the primary outward viewing face. Preserve secondary faces separately only when they materially represent another view direction."
+    },
+    {
+      "id": "multi-face-bay",
+      "label": "Multi-face bay window",
+      "polarity": "positive",
+      "representationClass": "multi-face-bay",
+      "traceRule": "Record each meaningful glazing face as a separate source segment when distinct view directions are required. Do not collapse the entire bay perimeter into one segment."
+    },
+    {
+      "id": "full-height-glazing",
+      "label": "Full-height glazing / picture window",
+      "polarity": "positive",
+      "representationClass": "full-height-glazing",
+      "traceRule": "Trace the glazing facade segment shown by the plan; do not substitute the room boundary or balcony edge."
+    },
+    {
+      "id": "balcony-door-glazing",
+      "label": "Balcony door / glazed opening",
+      "polarity": "positive",
+      "representationClass": "glazed-opening",
+      "traceRule": "Trace the actual glazed opening / door line used for the view direction, not the balcony outer parapet."
+    },
+    {
+      "id": "non-window-ledge",
+      "label": "Negative — ledge / sill projection only",
+      "polarity": "negative",
+      "representationClass": "non-window",
+      "traceRule": "This pattern is NOT sufficient evidence of a window. Do not publish a window from the projection alone unless another approved sample/source identifies the actual glazing face."
+    },
+    {
+      "id": "ac-platform",
+      "label": "Negative — AC platform",
+      "polarity": "negative",
+      "representationClass": "non-window",
+      "traceRule": "Do not classify AC platforms or service ledges as windows."
+    },
+    {
+      "id": "structural-projection",
+      "label": "Negative — structural projection",
+      "polarity": "negative",
+      "representationClass": "non-window",
+      "traceRule": "Do not classify a generic structural projection as glazing without source evidence."
+    },
+    {
+      "id": "custom",
+      "label": "Custom / other",
+      "polarity": "positive",
+      "representationClass": "custom",
+      "traceRule": "Use the user note and sample image as semantic guidance. Do not copy sample coordinates to target plans."
+    }
+  ]
+}

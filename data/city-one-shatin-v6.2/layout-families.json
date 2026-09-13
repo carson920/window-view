@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "status": "pre-grouped-candidates",
+  "estateId": "city-one-shatin",
+  "principle": "Candidate family grouping is a work accelerator, not permission to copy blindly. Verify positive-handed topology against each target source image before inheritance.",
+  "familyCount": 14,
+  "families": [
+    {
+      "familyId": "COS-F01",
+      "canonicalTower": "1",
+      "members": [
+        "1",
+        "2",
+        "3",
+        "9",
+        "10"
+      ],
+      "confidence": "high",
+      "evidence": "28Hse plan header explicitly says 第一型（第1·2·3·9·10座）",
+      "relationship": "provider-declared same archetype",
+      "reuseClass": "exact-candidate"
+    },
+    {
+      "familyId": "COS-F02",
+      "canonicalTower": "7",
+      "members": [
+        "7",
+        "11",
+        "12"
+      ],
+      "confidence": "high",
+      "evidence": "28Hse plan header explicitly says 第二型（第7·11·12座）",
+      "relationship": "provider-declared same archetype",
+      "reuseClass": "exact-candidate"
+    },
+    {
+      "familyId": "COS-F03",
+      "canonicalTower": "4",
+      "members": [
+        "4",
+        "5",
+        "6",
+        "13",
+        "14",
+        "15",
+        "33"
+      ],
+      "confidence": "medium-high",
+      "evidence": "Tower-specific source images show the same four-wing A-D topology and handedness. 28Hse explicitly groups 4-6 and 13-14; 15 and 33 visually match but are separately labelled.",
+      "relationship": "cross-source exact-looking candidate; deterministic verification required",
+      "reuseClass": "exact-looking-candidate"
+    },
+    {
+      "familyId": "COS-F04",
+      "canonicalTower": "8",
+      "members": [
+        "8"
+      ],
+      "confidence": "high",
+      "evidence": "Tower 8 source is structurally distinct in current primary set.",
+      "relationship": "independent",
+      "reuseClass": "independent"
+    },
+    {
+      "familyId": "COS-F05",
+      "canonicalTower": "16",
+      "members": [
+        "16",
+        "17",
+        "20",
+        "21",
+        "23"
+      ],
+      "confidence": "high",
+      "evidence": "28Hse purple plan header explicitly says 第一型（第16·17·20·21·23座）.",
+      "relationship": "provider-declared same archetype",
+      "reuseClass": "exact-candidate",
+      "warning": "Do not merge with COS-F07 merely because another 28Hse sheet also names 16/21; the current tower-specific source URLs conflict."
+    },
+    {
+      "familyId": "COS-F06",
+      "canonicalTower": "18",
+      "members": [
+        "18",
+        "22"
+      ],
+      "confidence": "high",
+      "evidence": "28Hse plan header explicitly says 第二型（第18·22座）.",
+      "relationship": "provider-declared same archetype",
+      "reuseClass": "exact-candidate"
+    },
+    {
+      "familyId": "COS-F07",
+      "canonicalTower": "19",
+      "members": [
+        "19",
+        "29"
+      ],
+      "confidence": "medium",
+      "evidence": "Current tower-specific source images for 19 and 29 are the same black/white topology. Their printed source label also mentions 16 and 21, conflicting with COS-F05 tower-specific images.",
+      "relationship": "source-conflict candidate; keep separated from COS-F05 until deterministic verification",
+      "reuseClass": "exact-candidate-with-source-conflict",
+      "warning": "Provider sheet claim overlaps COS-F05. Current assigned tower-specific source images win for pre-grouping; do not silently merge groups."
+    },
+    {
+      "familyId": "COS-F08",
+      "canonicalTower": "30",
+      "members": [
+        "24",
+        "26",
+        "30",
+        "31",
+        "32"
+      ],
+      "confidence": "high",
+      "evidence": "28Hse plan explicitly labels Block 24, Block 26, Block 30–32.",
+      "relationship": "provider-declared same topology",
+      "reuseClass": "exact-candidate"
+    },
+    {
+      "familyId": "COS-F09",
+      "canonicalTower": "25",
+      "members": [
+        "25"
+      ],
+      "confidence": "high",
+      "evidence": "Tower 25 source is a distinct paired four-flat layout in current primary set.",
+      "relationship": "independent",
+      "reuseClass": "independent"
+    },
+    {
+      "familyId": "COS-F10",
+      "canonicalTower": "27",
+      "members": [
+        "27",
+        "28"
+      ],
+      "confidence": "high",
+      "evidence": "28Hse plan explicitly labels Block 27 / Block 28.",
+      "relationship": "provider-declared same topology",
+      "reuseClass": "exact-candidate"
+    },
+    {
+      "familyId": "COS-F11",
+      "canonicalTower": "37",
+      "members": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "46",
+        "47",
+        "48"
+      ],
+      "confidence": "high",
+      "evidence": "28Hse plan explicitly labels Block 37–41 / Block 46–48.",
+      "relationship": "provider-declared same topology",
+      "reuseClass": "exact-candidate"
+    },
+    {
+      "familyId": "COS-F12",
+      "canonicalTower": "42",
+      "members": [
+        "42",
+        "43",
+        "44",
+        "45",
+        "49",
+        "50",
+        "51",
+        "52"
+      ],
+      "confidence": "high",
+      "evidence": "28Hse plan explicitly labels Block 42–45 / Block 49–52.",
+      "relationship": "provider-declared same topology",
+      "reuseClass": "exact-candidate"
+    },
+    {
+      "familyId": "COS-F13",
+      "canonicalTower": "34",
+      "members": [
+        "34",
+        "35"
+      ],
+      "confidence": "high",
+      "evidence": "28Hse plan explicitly labels Block 34 / Block 35.",
+      "relationship": "provider-declared same topology",
+      "reuseClass": "exact-candidate"
+    },
+    {
+      "familyId": "COS-F14",
+      "canonicalTower": "36",
+      "members": [
+        "36"
+      ],
+      "confidence": "high",
+      "evidence": "Tower 36 is structurally distinct in current primary set.",
+      "relationship": "independent",
+      "reuseClass": "independent"
+    }
+  ],
+  "verificationRules": {
+    "reflectionForbidden": true,
+    "alternateRotationSearchForbiddenWhenSourceOrientationExists": true,
+    "positiveHandedTransformRequired": true,
+    "verifyCoreTopology": true,
+    "verifyFlatLabelOrder": true,
+    "verifyPartyWalls": true,
+    "verifyFacadeCorners": true,
+    "verifyWindowBearingWalls": true,
+    "inheritOnlyAfterTargetOverlayPass": true,
+    "retraceOnlyChangedFlatsOrRooms": true,
+    "downgradeToNearFamilyOnLocalMismatch": true,
+    "downgradeToIndependentOnBroadMismatch": true
+  },
+  "requiredMemberStatuses": [
+    "canonical",
+    "inherited-verified",
+    "inherited-partial",
+    "independent",
+    "needs-review"
+  ]
+}

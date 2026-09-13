@@ -7,12 +7,12 @@ const data = JSON.parse(readFileSync(new URL('properties.json', root), 'utf8'));
 const pick = (object, keys) => Object.fromEntries(keys.filter(k => object[k] !== undefined).map(k => [k, object[k]]));
 export const catalog = {
   eyeHeight: data.eyeHeight, defaultEstateId: data.defaultEstateId,
-  estates: data.estates.filter(e => e.id.startsWith('kingswood-') || ['laguna-city','south-horizons'].includes(e.id)).map(e => ({...pick(e, ['id','nameTC','nameEN','synthetic','defaultBuildingId']), buildings:e.buildings.map(b => ({...pick(b,['id','nameTC','nameEN','floors','floorModel']), flats:b.flats.map(f => pick(f,['id','label']))}))}))
+  estates: data.estates.filter(e => e.id.startsWith('kingswood-') || ['laguna-city','south-horizons','city-one-shatin'].includes(e.id)).map(e => ({...pick(e, ['id','nameTC','nameEN','synthetic','defaultBuildingId']), buildings:e.buildings.map(b => ({...pick(b,['id','nameTC','nameEN','floors','floorModel']), flats:b.flats.map(f => pick(f,['id','label']))}))}))
 };
 const phases={'kingswood-locwood':1,'kingswood-sherwood':2,'kingswood-chestwood':3,'kingswood-lynwood':5,'kingswood-maywood':6,'kingswood-kenswood':7};
-const visibleEstate = id => id.startsWith('kingswood-') || ['laguna-city','south-horizons'].includes(id);
+const visibleEstate = id => id.startsWith('kingswood-') || ['laguna-city','south-horizons','city-one-shatin'].includes(id);
 function outline(estate, building) {
- const file=estate.id==='south-horizons'?`south-horizons-${building.id}/official-footprint.json`:estate.id==='laguna-city'?`laguna-${building.id}/official-footprint.json`:estate.id==='kingswood-chestwood'&&building.id==='tower-1'?'chestwood-tower-1-official-footprint.json':phases[estate.id]?`kingswood-footprints/phase-${phases[estate.id]}-${building.id}-official-footprint.json`:null;
+ const file=estate.id==='city-one-shatin'?(building.geometryFile?.replace(/^data\//,'')||`city-one-shatin-approved-job/review-results/${building.id}/official-footprint.json`):estate.id==='south-horizons'?`south-horizons-${building.id}/official-footprint.json`:estate.id==='laguna-city'?`laguna-${building.id}/official-footprint.json`:estate.id==='kingswood-chestwood'&&building.id==='tower-1'?'chestwood-tower-1-official-footprint.json':phases[estate.id]?`kingswood-footprints/phase-${phases[estate.id]}-${building.id}-official-footprint.json`:null;
  if(!file || !existsSync(new URL(file,root)))return null;
  return JSON.parse(readFileSync(new URL(file,root),'utf8')).geometry.rings[0];
 }

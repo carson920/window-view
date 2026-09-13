@@ -1,0 +1,33 @@
+Inspect the uploaded City One Shatin v6 ZIP directly. Read `START-HERE-ASTRA.md` first and treat it as the controlling workflow. Do not redo broad source discovery, family discovery, or already-valid tower transforms unless the current repo proves they are stale.
+
+WINDOW RECOGNITION
+- Trace the actual source-plan window/glazing representation.
+- Never derive a window from room centre, guessed facade, LandsD footprint, or symmetry alone.
+- Read `window-samples/window-pattern-presets.json` and all user-provided `window-samples/window-pattern-samples.json` items. These samples are approved semantic references; multiple samples may exist. Do not copy their coordinates.
+- City One contains projected and corner bay windows. If a room clearly terminates in a repeated bay-window module but a separate thin sill line is not visible at source resolution, do NOT automatically mark it unresolved. Classify the pattern using the approved samples/presets and trace the primary outward viewing face as `bay-window-face` or `corner-bay-face`.
+- For multi-face bays, preserve distinct glazing faces only when they represent materially different view directions. Never trace the entire bay/ledge outline as one window.
+- Respect negative samples. AC platforms, service ledges, and generic structural projections are not windows.
+
+FAMILY REUSE
+- Trace each canonical family once.
+- Verify members with positive-handed structural registration; reflection is forbidden.
+- Reuse canonical source-plan window segments only after a target-source family overlay confirms the same facade/window topology.
+- Keep every tower's official LandsD placement independent.
+- Retrace only changed flats/rooms. Do not independently redraw all 52 towers.
+
+LABELS / REVIEW IMAGES
+- Generated callout labels must be ENGLISH ONLY, e.g. `A living`, `B bed-1`, `C bay face`. The Chinese text already printed on the source plan remains untouched.
+- Do not place labels directly on top of window lines or room text when avoidable.
+- Prefer the outward side calculated from each room's interior witness.
+- Use leader lines and collision avoidance. Label boxes must not overlap each other; stagger along the tangent or increase offset until a free position is found.
+- If no clean position exists, put the callout farther outside the plan rather than stacking text on top of other labels.
+
+QA / PUBLICATION
+- Preserve original `sourcePlanSegment` endpoints and the room-specific interior witness.
+- Official footprint is downstream geospatial QA, not the source of window placement.
+- Keep window-level failures local. Do not suppress an otherwise valid tower because one room/window is unresolved.
+- Special/unmapped floors must remain explicit and must not silently inherit typical-floor cameras.
+- Regenerate canonical trace overlays, family-diff overlays, approved overlays, `needs-review.json`, processing counts, tests, and build outputs for affected families.
+- Report per family: canonical source-traced count, inherited-verified count, locally retraced count, unresolved count, QA-rejected count, and final production count.
+
+Do not claim a room/window is complete unless its source trace visibly sits on the approved source glazing or accepted bay-window viewing face.

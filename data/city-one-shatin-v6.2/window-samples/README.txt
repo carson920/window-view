@@ -1,0 +1,1 @@
+Place approved user-provided window sample images here. More than one image is allowed. See WINDOW-SAMPLE-GUIDE.md and window-pattern-samples.json.

@@ -1,0 +1,18 @@
+{
+  "estateFacts": [
+    {
+      "provider": "Centaline",
+      "url": "https://hk.centanet.com/estate/%E6%B2%99%E7%94%B0%E7%AC%AC%E4%B8%80%E5%9F%8E/3-xshnihsxht",
+      "use": "Estate identity / phase and tower count cross-check. Current page states 7 phases, 52 towers, 10,642 units."
+    }
+  ],
+  "floorPlanSources": [
+    {
+      "provider": "28Hse",
+      "url": "https://www.28hse.com/estate/detail/city-one-shatin-4080",
+      "role": "primary",
+      "note": "One mapped typical-floor image for every residential tower; explicit floor ranges and many provider-declared shared-block archetypes."
+    }
+  ],
+  "orientationPolicy": "User-provided Centaline/Centamap images are automatically approved. In their absence, explicit north arrows on the primary plans may establish orientation semantics; footprint geometry must never be used to discover an alternative orientation."
+}

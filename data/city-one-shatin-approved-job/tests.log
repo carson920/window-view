@@ -1,0 +1,514 @@
+
+> window-view-launcher@1.0.0 test
+> node --test
+
+TAP version 13
+# Subtest: City One: 52 towers independently registered with fixed approved handedness
+ok 1 - City One: 52 towers independently registered with fixed approved handedness
+  ---
+  duration_ms: 1.066125
+  ...
+# Subtest: City One: canonical family reuse has exact structural evidence and original endpoints
+ok 2 - City One: canonical family reuse has exact structural evidence and original endpoints
+  ---
+  duration_ms: 23.257292
+  ...
+# Subtest: City One: production counts reconcile; reviewed exclusions cannot leak
+ok 3 - City One: production counts reconcile; reviewed exclusions cannot leak
+  ---
+  duration_ms: 9.352417
+  ...
+# Subtest: City One: recomputed normals face away from room witness and cameras are outside
+ok 4 - City One: recomputed normals face away from room witness and cameras are outside
+  ---
+  duration_ms: 11.911459
+  ...
+# Subtest: City One: catalog, per-unit footprint and unsupported floors are explicit
+ok 5 - City One: catalog, per-unit footprint and unsupported floors are explicit
+  ---
+  duration_ms: 5.07
+  ...
+# Subtest: authentication, persistent quota, logout, origin and expiry
+ok 6 - authentication, persistent quota, logout, origin and expiry
+  ---
+  duration_ms: 422.960375
+  ...
+# Subtest: login attempts are throttled
+ok 7 - login attempts are throttled
+  ---
+  duration_ms: 381.066292
+  ...
+# Subtest: Tower 1 reflects the complete confirmed Tower 2 template onto its own footprint
+ok 8 - Tower 1 reflects the complete confirmed Tower 2 template onto its own footprint
+  ---
+  duration_ms: 20.325209
+  ...
+# Subtest: Small-bedroom numbering runs from near to far relative to living room
+ok 9 - Small-bedroom numbering runs from near to far relative to living room
+  ---
+  duration_ms: 0.402417
+  ...
+# Subtest: Reviewed sill lines determine bedroom directions without a blanket 90-degree rule
+ok 10 - Reviewed sill lines determine bedroom directions without a blanket 90-degree rule
+  ---
+  duration_ms: 0.327167
+  ...
+# Subtest: Tower 2 uses independent 2/4/6 labelled tracing and all eight stacks
+ok 11 - Tower 2 uses independent 2/4/6 labelled tracing and all eight stacks
+  ---
+  duration_ms: 0.3235
+  ...
+# Subtest: Tower 3 retains confirmed template and uses independent official placement
+ok 12 - Tower 3 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 4.501917
+  ...
+# Subtest: Tower 4 retains confirmed template and uses independent official placement
+ok 13 - Tower 4 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 2.039334
+  ...
+# Subtest: Tower 5 retains confirmed template and uses independent official placement
+ok 14 - Tower 5 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.0065
+  ...
+# Subtest: Tower 6 retains confirmed template and uses independent official placement
+ok 15 - Tower 6 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.158167
+  ...
+# Subtest: Laguna 2: correct variant, independent footprint, all room views and API
+ok 16 - Laguna 2: correct variant, independent footprint, all room views and API
+  ---
+  duration_ms: 7.221291
+  ...
+# Subtest: Laguna 3: correct variant, independent footprint, all room views and API
+ok 17 - Laguna 3: correct variant, independent footprint, all room views and API
+  ---
+  duration_ms: 3.530833
+  ...
+# Subtest: Laguna 4: correct variant, independent footprint, all room views and API
+ok 18 - Laguna 4: correct variant, independent footprint, all room views and API
+  ---
+  duration_ms: 3.495125
+  ...
+# Subtest: Approved package covers 38 distinct official towers without silently dropping failed jobs
+ok 19 - Approved package covers 38 distinct official towers without silently dropping failed jobs
+  ---
+  duration_ms: 1.720417
+  ...
+# Subtest: Laguna published floor ranges include Block 18 and the 24–26 1–26/F group
+ok 20 - Laguna published floor ranges include Block 18 and the 24–26 1–26/F group
+  ---
+  duration_ms: 0.215042
+  ...
+# Subtest: Approved Laguna 1: semantic placement, window tangent, official clearance and API
+ok 21 - Approved Laguna 1: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 4.331459
+  ...
+# Subtest: Approved Laguna 2: semantic placement, window tangent, official clearance and API
+ok 22 - Approved Laguna 2: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.361209
+  ...
+# Subtest: Approved Laguna 3: semantic placement, window tangent, official clearance and API
+ok 23 - Approved Laguna 3: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 4.900167
+  ...
+# Subtest: Approved Laguna 4: semantic placement, window tangent, official clearance and API
+ok 24 - Approved Laguna 4: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.921209
+  ...
+# Subtest: Approved Laguna 5: semantic placement, window tangent, official clearance and API
+ok 25 - Approved Laguna 5: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.231334
+  ...
+# Subtest: Approved Laguna 6: semantic placement, window tangent, official clearance and API
+ok 26 - Approved Laguna 6: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.047417
+  ...
+# Subtest: Approved Laguna 7: semantic placement, window tangent, official clearance and API
+ok 27 - Approved Laguna 7: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 3.090958
+  ...
+# Subtest: Approved Laguna 8: semantic placement, window tangent, official clearance and API
+ok 28 - Approved Laguna 8: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.548125
+  ...
+# Subtest: Approved Laguna 9: semantic placement, window tangent, official clearance and API
+ok 29 - Approved Laguna 9: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.885875
+  ...
+# Subtest: Approved Laguna 10: semantic placement, window tangent, official clearance and API
+ok 30 - Approved Laguna 10: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.137042
+  ...
+# Subtest: Approved Laguna 11: semantic placement, window tangent, official clearance and API
+ok 31 - Approved Laguna 11: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.77325
+  ...
+# Subtest: Approved Laguna 12: semantic placement, window tangent, official clearance and API
+ok 32 - Approved Laguna 12: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.122333
+  ...
+# Subtest: Approved Laguna 13: semantic placement, window tangent, official clearance and API
+ok 33 - Approved Laguna 13: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.142083
+  ...
+# Subtest: Approved Laguna 14: semantic placement, window tangent, official clearance and API
+ok 34 - Approved Laguna 14: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.710875
+  ...
+# Subtest: Approved Laguna 15: semantic placement, window tangent, official clearance and API
+ok 35 - Approved Laguna 15: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.931333
+  ...
+# Subtest: Approved Laguna 16: semantic placement, window tangent, official clearance and API
+ok 36 - Approved Laguna 16: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.696417
+  ...
+# Subtest: Approved Laguna 17: semantic placement, window tangent, official clearance and API
+ok 37 - Approved Laguna 17: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.059208
+  ...
+# Subtest: Approved Laguna 18: semantic placement, window tangent, official clearance and API
+ok 38 - Approved Laguna 18: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.117291
+  ...
+# Subtest: Approved Laguna 19: semantic placement, window tangent, official clearance and API
+ok 39 - Approved Laguna 19: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.743834
+  ...
+# Subtest: Approved Laguna 20: semantic placement, window tangent, official clearance and API
+ok 40 - Approved Laguna 20: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.053625
+  ...
+# Subtest: Approved Laguna 21: semantic placement, window tangent, official clearance and API
+ok 41 - Approved Laguna 21: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.487541
+  ...
+# Subtest: Approved Laguna 22: semantic placement, window tangent, official clearance and API
+ok 42 - Approved Laguna 22: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.721708
+  ...
+# Subtest: Approved Laguna 23: semantic placement, window tangent, official clearance and API
+ok 43 - Approved Laguna 23: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.242125
+  ...
+# Subtest: Approved Laguna 24: semantic placement, window tangent, official clearance and API
+ok 44 - Approved Laguna 24: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.526334
+  ...
+# Subtest: Approved Laguna 25: semantic placement, window tangent, official clearance and API
+ok 45 - Approved Laguna 25: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.709833
+  ...
+# Subtest: Approved Laguna 26: semantic placement, window tangent, official clearance and API
+ok 46 - Approved Laguna 26: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.316
+  ...
+# Subtest: Approved Laguna 27: semantic placement, window tangent, official clearance and API
+ok 47 - Approved Laguna 27: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.433375
+  ...
+# Subtest: Approved Laguna 28: semantic placement, window tangent, official clearance and API
+ok 48 - Approved Laguna 28: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.582042
+  ...
+# Subtest: Approved Laguna 29: semantic placement, window tangent, official clearance and API
+ok 49 - Approved Laguna 29: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.34325
+  ...
+# Subtest: Approved Laguna 30: semantic placement, window tangent, official clearance and API
+ok 50 - Approved Laguna 30: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 5.07025
+  ...
+# Subtest: Approved Laguna 31: semantic placement, window tangent, official clearance and API
+ok 51 - Approved Laguna 31: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.917583
+  ...
+# Subtest: Approved Laguna 32: semantic placement, window tangent, official clearance and API
+ok 52 - Approved Laguna 32: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.384
+  ...
+# Subtest: Approved Laguna 33: semantic placement, window tangent, official clearance and API
+ok 53 - Approved Laguna 33: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.469875
+  ...
+# Subtest: Approved Laguna 34: semantic placement, window tangent, official clearance and API
+ok 54 - Approved Laguna 34: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 2.179625
+  ...
+# Subtest: Approved Laguna 35: semantic placement, window tangent, official clearance and API
+ok 55 - Approved Laguna 35: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.99325
+  ...
+# Subtest: Approved Laguna 36: semantic placement, window tangent, official clearance and API
+ok 56 - Approved Laguna 36: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.302709
+  ...
+# Subtest: Approved Laguna 37: semantic placement, window tangent, official clearance and API
+ok 57 - Approved Laguna 37: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.241125
+  ...
+# Subtest: Approved Laguna 38: semantic placement, window tangent, official clearance and API
+ok 58 - Approved Laguna 38: semantic placement, window tangent, official clearance and API
+  ---
+  duration_ms: 1.33975
+  ...
+# Subtest: Inset variants and source-specific bedroom orientations are not collapsed
+ok 59 - Inset variants and source-specific bedroom orientations are not collapsed
+  ---
+  duration_ms: 5.035125
+  ...
+# Subtest: Laguna eight flats and 28 main room windows are published
+ok 60 - Laguna eight flats and 28 main room windows are published
+  ---
+  duration_ms: 2.048583
+  ...
+# Subtest: Laguna fit, outward normals and camera clearance pass
+ok 61 - Laguna fit, outward normals and camera clearance pass
+  ---
+  duration_ms: 0.263167
+  ...
+# Subtest: Corner bedroom views join both outer endpoints, not one pane
+ok 62 - Corner bedroom views join both outer endpoints, not one pane
+  ---
+  duration_ms: 0.868541
+  ...
+# Subtest: LandsD URL has ordered camera values and Chinese locale
+ok 63 - LandsD URL has ordered camera values and Chinese locale
+  ---
+  duration_ms: 1.156209
+  ...
+# Subtest: null, missing, strings, nonfinite and out-of-range cameras fail
+ok 64 - null, missing, strings, nonfinite and out-of-range cameras fail
+  ---
+  duration_ms: 0.762917
+  ...
+# Subtest: altitude formula requires verified real inputs; zero is valid
+ok 65 - altitude formula requires verified real inputs; zero is valid
+  ---
+  duration_ms: 0.171792
+  ...
+# Subtest: changing floor only changes altitude
+ok 66 - changing floor only changes altitude
+  ---
+  duration_ms: 1.385875
+  ...
+# Subtest: unresolved geometry and unverified real records are blocked
+ok 67 - unresolved geometry and unverified real records are blocked
+  ---
+  duration_ms: 0.173667
+  ...
+# Subtest: dependent filters stay within selected parents
+ok 68 - dependent filters stay within selected parents
+  ---
+  duration_ms: 0.190625
+  ...
+# Subtest: approved approximate YOHO view enables only the sourced 3/F height
+ok 69 - approved approximate YOHO view enables only the sourced 3/F height
+  ---
+  duration_ms: 0.654959
+  ...
+# Subtest: all six Kingswood first towers have eight distinct registered proxies and honestly estimated heights
+ok 70 - all six Kingswood first towers have eight distinct registered proxies and honestly estimated heights
+  ---
+  duration_ms: 3.283583
+  ...
+# Subtest: Chestwood G is a southeast-quadrant facade normal, not the old arbitrary bedroom edge
+ok 71 - Chestwood G is a southeast-quadrant facade normal, not the old arbitrary bedroom edge
+  ---
+  duration_ms: 0.512041
+  ...
+# Subtest: Tower 1 retains confirmed template and uses independent official placement
+ok 72 - Tower 1 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 4.460083
+  ...
+# Subtest: Tower 2 retains confirmed template and uses independent official placement
+ok 73 - Tower 2 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.793959
+  ...
+# Subtest: Tower 3 retains confirmed template and uses independent official placement
+ok 74 - Tower 3 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.013708
+  ...
+# Subtest: Tower 4 retains confirmed template and uses independent official placement
+ok 75 - Tower 4 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.511125
+  ...
+# Subtest: Tower 5 retains confirmed template and uses independent official placement
+ok 76 - Tower 5 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.777584
+  ...
+# Subtest: Tower 6 retains confirmed template and uses independent official placement
+ok 77 - Tower 6 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 0.999458
+  ...
+# Subtest: Tower 7 retains confirmed template and uses independent official placement
+ok 78 - Tower 7 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.162125
+  ...
+# Subtest: Tower 8 retains confirmed template and uses independent official placement
+ok 79 - Tower 8 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 0.753625
+  ...
+# Subtest: Tower 9 retains confirmed template and uses independent official placement
+ok 80 - Tower 9 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.208083
+  ...
+# Subtest: Tower 10 retains confirmed template and uses independent official placement
+ok 81 - Tower 10 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.1125
+  ...
+# Subtest: OSM centers every selected tower and assembles distinct adjacent tiles
+ok 82 - OSM centers every selected tower and assembles distinct adjacent tiles
+  ---
+  duration_ms: 4.482875
+  ...
+# Subtest: catalog contains selectors but no window geometry
+ok 83 - catalog contains selectors but no window geometry
+  ---
+  duration_ms: 1.822
+  ...
+# Subtest: unit API returns exactly the requested flat and rejects bulk requests
+ok 84 - unit API returns exactly the requested flat and rejects bulk requests
+  ---
+  duration_ms: 0.898625
+  ...
+# Subtest: production build does not copy private data or bundle a known coordinate
+ok 85 - production build does not copy private data or bundle a known coordinate
+  ---
+  duration_ms: 86.488417
+  ...
+# Subtest: locwood: all towers have independent geometry, correct template mapping and centered maps
+ok 86 - locwood: all towers have independent geometry, correct template mapping and centered maps
+  ---
+  duration_ms: 22.596208
+  ...
+# Subtest: maywood: all towers have independent geometry, correct template mapping and centered maps
+ok 87 - maywood: all towers have independent geometry, correct template mapping and centered maps
+  ---
+  duration_ms: 10.87725
+  ...
+# Subtest: kenswood: all towers have independent geometry, correct template mapping and centered maps
+ok 88 - kenswood: all towers have independent geometry, correct template mapping and centered maps
+  ---
+  duration_ms: 12.450333
+  ...
+# Subtest: estate review returns every published tower with all windows
+ok 89 - estate review returns every published tower with all windows
+  ---
+  duration_ms: 10.1875
+  ...
+# Subtest: Tower 1 retains confirmed template and uses independent official placement
+ok 90 - Tower 1 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 2.779958
+  ...
+# Subtest: Tower 2 retains confirmed template and uses independent official placement
+ok 91 - Tower 2 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 0.803625
+  ...
+# Subtest: Tower 3 retains confirmed template and uses independent official placement
+ok 92 - Tower 3 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 3.478042
+  ...
+# Subtest: Tower 4 retains confirmed template and uses independent official placement
+ok 93 - Tower 4 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 1.109667
+  ...
+# Subtest: Tower 5 retains confirmed template and uses independent official placement
+ok 94 - Tower 5 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 0.818875
+  ...
+# Subtest: Tower 6 retains confirmed template and uses independent official placement
+ok 95 - Tower 6 retains confirmed template and uses independent official placement
+  ---
+  duration_ms: 0.851667
+  ...
+# Subtest: South Horizons publishes exactly audited towers and their independently registered windows
+ok 96 - South Horizons publishes exactly audited towers and their independently registered windows
+  ---
+  duration_ms: 38.781084
+  ...
+# Subtest: South Horizons review, floor variants and catalog privacy remain consistent
+ok 97 - South Horizons review, floor variants and catalog privacy remain consistent
+  ---
+  duration_ms: 4.281417
+  ...
+# Subtest: production counts reconcile and reviewed exclusions cannot leak
+ok 98 - production counts reconcile and reviewed exclusions cannot leak
+  ---
+  duration_ms: 1.673458
+  ...
+# Subtest: each production window has valid identity, provenance, positive transform and correct source/proxy distinction
+ok 99 - each production window has valid identity, provenance, positive transform and correct source/proxy distinction
+  ---
+  duration_ms: 41.128833
+  ...
+# Subtest: special floors cannot select or obtain typical cameras, including API floor requests
+ok 100 - special floors cannot select or obtain typical cameras, including API floor requests
+  ---
+  duration_ms: 1.38075
+  ...
+1..100
+# tests 100
+# suites 0
+# pass 100
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 923.349584
