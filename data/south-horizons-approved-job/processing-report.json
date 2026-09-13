@@ -17,7 +17,6 @@
     "7",
     "8",
     "9",
-    "10",
     "11",
     "12",
     "13",
@@ -43,7 +42,7 @@
     "33",
     "33A"
   ],
-  "publishedWindows": 911,
+  "publishedWindows": 910,
   "withheldTowers": [
     {
       "tower": "1",
@@ -612,6 +611,11 @@
       "command": "npm test",
       "result": "92 passed, 0 failed",
       "log": "data/south-horizons-approved-job/tests.log"
+    },
+    {
+      "command": "npm run build && npm test (final integrity audit)",
+      "result": "build passed; 95 tests passed, 0 failed",
+      "log": "data/south-horizons-approved-job/integrity-tests.log"
     }
   ],
   "uiQa": {
@@ -629,16 +633,83 @@
   "timingLimitations": "Unrecorded historical stage times remain null. Recorded stage durations include I/O; no fabricated total wall time.",
   "filesChanged": [
     "data/properties.json",
-    "server/api.mjs",
-    "scripts/finalizeSouthHorizons.py",
-    "scripts/importSouthHorizons.mjs",
-    "tests/southHorizons.test.js",
     "data/south-horizons-approved-job/artifact-audit.json",
+    "data/south-horizons-approved-job/integrity-audit.json",
+    "data/south-horizons-approved-job/integrity-audit.md",
+    "data/south-horizons-approved-job/integrity-build.log",
+    "data/south-horizons-approved-job/integrity-tests.log",
     "data/south-horizons-approved-job/needs-review.json",
+    "data/south-horizons-approved-job/processing-report.json",
     "data/south-horizons-approved-job/processing-timings.json",
     "data/south-horizons-approved-job/processing.log",
     "data/south-horizons-approved-job/tests.log",
-    "data/south-horizons-approved-job/processing-report.json"
+    "scripts/annotateSouthHorizons.py",
+    "scripts/auditSouthHorizonsIntegrity.py",
+    "scripts/finalizeSouthHorizons.py",
+    "scripts/importSouthHorizons.mjs",
+    "server/api.mjs",
+    "src/main.js",
+    "tests/southHorizons.test.js",
+    "tests/southHorizonsIntegrity.test.js"
   ],
-  "generatedAt": "2026-09-12T17:41:08.316155+00:00"
+  "generatedAt": "2026-09-12T17:41:08.316155+00:00",
+  "towersRepresentedInProduction": [
+    "2",
+    "4",
+    "5",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "13A",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "23A",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "33A"
+  ],
+  "partiallyImported": [
+    {
+      "tower": "10",
+      "excludedWindows": [
+        {
+          "flat": "H",
+          "room": "master",
+          "reason": "Source crop clips west facade; trace x=3 pixels cannot establish physical window."
+        }
+      ]
+    }
+  ],
+  "productionCounts": {
+    "towers": 31,
+    "windows": 910,
+    "fullTypicalWindowCoverageTowers": 30,
+    "partialTowers": 1,
+    "fullyExcludedTowers": 3
+  },
+  "finalIntegrityAudit": "data/south-horizons-approved-job/integrity-audit.json",
+  "integrityFixes": [
+    "Excluded Tower 10/H/master crop-boundary trace",
+    "Preserved original living endpoints beside trimmed camera proxy segments",
+    "Enforced requested floor bounds in API; special floor returns explicit unavailable error"
+  ],
+  "integrityPreservation": "All 910 retained coordinates, headings and traced/proxy segments unchanged from HEAD; other estates unchanged."
 }

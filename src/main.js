@@ -88,7 +88,7 @@ async function loadUnit() {
   activeWindows=[];activeOutline=null;selectedWindowId=null;renderWindowButtons();$('osm-frame').replaceChildren();render();
   $('load-unit').disabled=true;$('load-unit').textContent='載入中…';
   loadStatus='載入所選單位 · Loading unit…';$('status').textContent=loadStatus;
-  const params=new URLSearchParams({estate:$('estate').value,building:$('building').value,flat:$('flat').value});
+  const params=new URLSearchParams({estate:$('estate').value,building:$('building').value,flat:$('flat').value,floor:$('floor').value});
   try {
     const response=await fetch('/api/unit?'+params);
     if(response.status===401){if(token===requestId)showLogin();return;}

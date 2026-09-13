@@ -24,12 +24,17 @@ export function lookup(path, params) {
   return {status:200,body:{estateId:estate.id,buildings:estate.buildings.map(b=>({id:b.id,nameTC:b.nameTC,nameEN:b.nameEN,outline:outline(estate,b),flats:b.flats.map(f=>({id:f.id,label:f.label,windows:f.windows.map(w=>pick(w,['id','nameTC','nameEN','latitude','longitude','heading','confidence','windowVerified','georefVerified']))}))}))}};
  }
  if(path!=='/api/unit')return {status:404,body:{error:'Not found'}};
- if([...params.keys()].some(k=>!['estate','building','flat'].includes(k)) || ['estate','building','flat'].some(k=>params.getAll(k).length!==1))return {status:400,body:{error:'Specify one estate, building and flat'}};
+ if([...params.keys()].some(k=>!['estate','building','flat','floor'].includes(k)) || params.getAll('floor').length>1 || ['estate','building','flat'].some(k=>params.getAll(k).length!==1))return {status:400,body:{error:'Specify one estate, building and flat'}};
  const estate=data.estates.find(e=>visibleEstate(e.id) && e.id===params.get('estate'));
  const building=estate?.buildings.find(b=>b.id===params.get('building'));
  const flat=building?.flats.find(f=>f.id===params.get('flat'));
  if(!flat)return {status:404,body:{error:'Unit not found'}};
- return {status:200,body:{estateId:estate.id,buildingId:building.id,flatId:flat.id,outline:outline(estate,building),windows:flat.windows.map(w=>pick(w,['id','nameTC','nameEN','latitude','longitude','heading','tilt','roll','confidence','windowVerified','georefVerified','allowApproximate','cameraOffsetMeters']))}};
+ if(params.has('floor')){
+  const floor=Number(params.get('floor')),range=building.floors;
+  if(params.get('floor')===''||!Number.isInteger(floor))return {status:400,body:{error:'Invalid floor'}};
+  if(!range||floor<range.min||floor>range.max||(range.excluded||[]).includes(floor))return {status:422,body:{error:'No window data for requested floor',code:'FLOOR_DATA_UNAVAILABLE'}};
+ }
+ return {status:200,body:{estateId:estate.id,buildingId:building.id,flatId:flat.id,floorApplicability:building.floors,outline:outline(estate,building),windows:flat.windows.map(w=>pick(w,['id','nameTC','nameEN','latitude','longitude','heading','tilt','roll','confidence','windowVerified','georefVerified','allowApproximate','cameraOffsetMeters']))}};
 }
 export async function api(req,res,next) {
  const url=new URL(req.url,'http://localhost');

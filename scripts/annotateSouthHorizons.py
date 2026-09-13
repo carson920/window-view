@@ -12,7 +12,8 @@ def build(t,record):
  for flats,d in zip(['AB','CD','EF','HG'],record['diagonals']):
   p1=np.array(d[:2],float);m=np.array(d[2:4],float);p2=np.array(d[4:],float)
   for f,l,r in [(flats[0],p1,m),(flats[1],m,p2)]:
-   # Trim masonry at the ends and at the party wall, retaining the glazing run.
+   # Camera proxy only: 6% is heuristic, not measured physical glazing extents.
+   # Original untrimmed endpoints remain in window-traces.json.
    delta=r-l;l=l+delta*.06;r=r-delta*.06;mid=(l+r)/2;core=np.array(a['canvas'])/2;interior=mid+(core-mid)*.25
    rooms[f].append(['living',l.tolist(),r.tolist(),interior.tolist()])
  for f,rows in record['beds'].items():

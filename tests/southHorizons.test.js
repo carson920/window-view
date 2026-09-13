@@ -35,5 +35,5 @@ test('South Horizons review, floor variants and catalog privacy remain consisten
   assert.ok(!JSON.stringify(e).includes('cameraLat'));
   const review=lookup('/api/estate-review',new URLSearchParams({estate:estate.id}));
   assert.equal(review.status,200);assert.equal(review.body.buildings.length,31);
-  assert.equal(review.body.buildings.flatMap(b=>b.flats).flatMap(f=>f.windows).length,911);
+  assert.equal(review.body.buildings.flatMap(b=>b.flats).flatMap(f=>f.windows).length,910);
 });

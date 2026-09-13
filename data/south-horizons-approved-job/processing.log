@@ -34,3 +34,5 @@ Tower 32: numerical=True publication=True windows=28 RMSE=0.3016;
 Tower 33: numerical=True publication=True windows=28 RMSE=0.2864; 
 Tower 33A: numerical=True publication=True windows=28 RMSE=0.3316; 
 2026-09-12T17:41:08.316155+00:00 Publication: 31 towers / 911 windows; existing 238 artifacts preserved; other estates unchanged. Build PASS; tests 92/92 PASS. UI Tower2->33A PASS. Withheld 1,3,6; special variants excluded.
+2026-09-12T17:53:14.662627+00:00 Final integrity audit: 31 towers / 910 windows; 30 full typical templates, Tower10 partial, 1/3/6 excluded. No transforms or traced endpoints modified.
+2026-09-12T17:54:50.369401+00:00 Final integrity build PASS, tests 95/95 PASS; all retained geometry and other estates unchanged.
